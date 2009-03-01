@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>sectionData</key>
+		<array>
+			<dict>
+				<key>orig</key>
+				<string>aloše</string>
+				<key>trans</key>
+				<string>alimenty</string>
+			</dict>
+			<dict>
+				<key>orig</key>
+				<string>ance</string>
+				<key>trans</key>
+				<string>drobný mince</string>
+			</dict>
+		</array>
+		<key>sectionName</key>
+		<string>A</string>
+	</dict>
+</array>
+</plist>

@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#define kSectionName @"sectionName"
+#define kSectionData @"sectionData"
+#define kOriginal    @"orig"
+#define kTranslation @"trans"
+
 @interface RootViewController : UITableViewController {
+	NSArray *_dataBySections;
 }
 
 @end

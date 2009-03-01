@@ -8,24 +8,29 @@
 
 #import "RootViewController.h"
 #import "HantecAppDelegate.h"
+#import "HDictionaryCell.h"
 
 
 @implementation RootViewController
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	
+	if (_dataBySections == nil) {
+		_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"dict" ofType:@"plist"]] retain];
+	}
 }
-*/
 
-/*
+
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
-*/
+
 /*
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -58,31 +63,39 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return [_dataBySections count];
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [[[_dataBySections objectAtIndex: section] objectForKey:kSectionData] count];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	return [[_dataBySections objectAtIndex: section] objectForKey:kSectionName];
 }
 
 
 // Customize the appearance of table view cells.
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {	
     static NSString *CellIdentifier = @"Cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    HDictionaryCell *cell = (HDictionaryCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+        UIViewController *tmpViewController = [[UIViewController alloc] initWithNibName:@"HDictionaryCell"
+																				 bundle:[NSBundle mainBundle]];
+		cell = (HDictionaryCell *)[tmpViewController view];
+		[tmpViewController release];
     }
     
-    // Set up the cell...
-
+	NSDictionary *dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
+	
+	cell.original.text = [dictionaryItem objectForKey:kOriginal];
+	cell.translation.text = [dictionaryItem objectForKey:kTranslation];
+		
     return cell;
 }
-
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
@@ -133,6 +146,8 @@
 
 
 - (void)dealloc {
+	[_dataBySections release];
+	
     [super dealloc];
 }
 
