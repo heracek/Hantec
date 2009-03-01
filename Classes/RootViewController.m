@@ -76,6 +76,16 @@
 	return [[_dataBySections objectAtIndex: section] objectForKey:kSectionName];
 }
 
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+	NSMutableArray *sections = [[NSMutableArray alloc] initWithCapacity:[_dataBySections count]];
+	
+	for (NSDictionary *sectionDict in _dataBySections) {
+		[sections addObject:[sectionDict objectForKey:kSectionName]];
+	}
+	
+	return [sections autorelease];
+}
+
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {	

@@ -19,6 +19,7 @@
 		6949C65D0F5AD90A00BCAA1E /* dict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6949C65C0F5AD90A00BCAA1E /* dict.plist */; };
 		6949C77D0F5AEA8F00BCAA1E /* HDictionaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */; };
 		6949C77F0F5AEAF200BCAA1E /* HDictionaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */; };
+		6949C8650F5B27A000BCAA1E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6949C8640F5B27A000BCAA1E /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		6949C77B0F5AEA8F00BCAA1E /* HDictionaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDictionaryCell.h; sourceTree = "<group>"; };
 		6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDictionaryCell.m; sourceTree = "<group>"; };
 		6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HDictionaryCell.xib; sourceTree = "<group>"; };
+		6949C8640F5B27A000BCAA1E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6949C8640F5B27A000BCAA1E /* Icon.png */,
 				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */,
@@ -176,6 +179,7 @@
 				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
 				6949C65D0F5AD90A00BCAA1E /* dict.plist in Resources */,
 				6949C77F0F5AEAF200BCAA1E /* HDictionaryCell.xib in Resources */,
+				6949C8650F5B27A000BCAA1E /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
