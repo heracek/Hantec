@@ -93,7 +93,7 @@
 	
 	cell.original.text = [dictionaryItem objectForKey:kOriginal];
 	cell.translation.text = [dictionaryItem objectForKey:kTranslation];
-		
+	
     return cell;
 }
 
