@@ -13,8 +13,17 @@
 #define kOriginal    @"orig"
 #define kTranslation @"trans"
 
-@interface RootViewController : UITableViewController {
+@interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+	IBOutlet UITableView *_tableView;
+	IBOutlet UISearchBar *_searchBar;
+	
 	NSArray *_dataBySections;
+	NSMutableArray *_filteredListContent; // the filtered content as a result of the search
+	bool _useFilteredList;
 }
+
+@property (nonatomic, retain) UITableView *tableView;
+@property (nonatomic, retain) UISearchBar *searchBar;
+
 
 @end

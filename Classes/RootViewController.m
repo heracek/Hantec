@@ -13,16 +13,23 @@
 
 @implementation RootViewController
 
+@synthesize tableView = _tableView;
+@synthesize searchBar = _searchBar;
+
+- (void)awakeFromNib {
+	_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"dict" ofType:@"plist"]] retain];
+	_filteredListContent = [[NSMutableArray alloc] init];
+	
+	_useFilteredList = NO;
+	
+	// don't get in the way of user typing
+	_searchBar.autocorrectionType = UITextAutocorrectionTypeNo;
+	_searchBar.autocapitalizationType = UITextAutocapitalizationTypeNone;
+	_searchBar.showsCancelButton = NO;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-	
-	if (_dataBySections == nil) {
-		_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"dict" ofType:@"plist"]] retain];
-	}
 }
 
 
@@ -64,20 +71,36 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	if (_useFilteredList) {
+		return 1;
+	}
+	
     return [_dataBySections count];
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	if (_useFilteredList) {
+		return [_filteredListContent count];
+	}
+	
     return [[[_dataBySections objectAtIndex: section] objectForKey:kSectionData] count];
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	if (_useFilteredList) {
+		return @"";
+	}
+	
 	return [[_dataBySections objectAtIndex: section] objectForKey:kSectionName];
 }
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+	if (_useFilteredList) {
+		return [NSArray array];
+	}
+	
 	NSMutableArray *sections = [[NSMutableArray alloc] initWithCapacity:[_dataBySections count]];
 	
 	for (NSDictionary *sectionDict in _dataBySections) {
@@ -99,8 +122,14 @@
 		cell = (HDictionaryCell *)[[[tmpViewController view] retain] autorelease];
 		[tmpViewController release];
     }
-    
-	NSDictionary *dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
+	
+    NSDictionary *dictionaryItem;
+	if (_useFilteredList) {
+		dictionaryItem = [_filteredListContent objectAtIndex: indexPath.row];
+	} else {
+		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
+	}
+	
 	
 	cell.original.text = [dictionaryItem objectForKey:kOriginal];
 	cell.translation.text = [dictionaryItem objectForKey:kTranslation];
@@ -162,6 +191,59 @@
     [super dealloc];
 }
 
+#pragma mark UISearchBarDelegate
+
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
+	_searchBar.showsCancelButton = YES;
+}
+
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
+	_searchBar.showsCancelButton = NO;
+}
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+	[_filteredListContent removeAllObjects];
+	
+	if ([searchText length] == 0) {
+		_useFilteredList = NO;
+		[_tableView reloadData];
+		return;
+	}
+	
+	_useFilteredList = YES;
+	
+	NSDictionary *section;
+	NSDictionary *dictionaryItem;
+	NSString *cellTitle;
+	for (section in _dataBySections) {
+		for (dictionaryItem in [section objectForKey:kSectionData]) {
+			cellTitle = [dictionaryItem objectForKey:kOriginal];
+			
+			NSComparisonResult result = [cellTitle compare:searchText
+												   options:NSCaseInsensitiveSearch|NSDiacriticInsensitiveSearch
+													 range:NSMakeRange(0, [searchText length])];
+			
+			if (result == NSOrderedSame) {
+				[_filteredListContent addObject:dictionaryItem];
+			}
+		}
+	}
+	
+	[_tableView reloadData];
+}
+
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
+	[_filteredListContent removeAllObjects];
+	_useFilteredList = NO;
+	
+	[_tableView reloadData];
+	[_searchBar resignFirstResponder];
+	_searchBar.text = @"";
+}
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+	[searchBar resignFirstResponder];
+}
+
 
 @end
-

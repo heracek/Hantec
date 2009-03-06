@@ -13,13 +13,13 @@
 @implementation HantecAppDelegate
 
 @synthesize window;
-@synthesize navigationController;
+@synthesize rootViewController;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	
 	// Configure and show the window
-	[window addSubview:[navigationController view]];
+	[window addSubview:[rootViewController view]];
 	[window makeKeyAndVisible];
 }
 
@@ -30,7 +30,7 @@
 
 
 - (void)dealloc {
-	[navigationController release];
+	[rootViewController release];
 	[window release];
 	[super dealloc];
 }
