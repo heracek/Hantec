@@ -2,7 +2,7 @@ A
     aloše ~ alimenty
     ance ~ drobný mince
     ánunk ~ vědomost, znalost
-    Augec ~ Lužánky ( brněnský park )
+    Augec ~ Lužánky (brněnský park)
     augle ~ oči
     aus ~ ven, pryč
 B
@@ -18,7 +18,7 @@ B
     bas ~ autobus
     basa ~ zásobník na nápoje
     baštit ~ jíst
-    bástr ~ Bystrc ( část Brna )
+    bástr ~ Bystrc (část Brna)
     baterka ~ modřina pod okem, oko
     baterky ~ oči
     bauch ~ břicho
@@ -40,7 +40,7 @@ B
     biflovat ~ učit se
     bimz ~ chleba
     blajchec ~ Na Bělidle
-    Blajkec ~ Modřice ( část Brna )
+    Blajkec ~ Modřice (část Brna)
     blato na hřišti (mít...) ~ posrat se
     blča ~ polévka
     Blekfild ~ Černá pole (Část Brna)
@@ -105,7 +105,7 @@ C
     cédák ~ koupaliště
     céprat ~ plýtvat vodou
     cech ~ útrata, účet
-    cemr ~ účet, zadek, záda ( kříž )
+    cemr ~ účet, zadek, záda (kříž)
     cetl ~ potvrzení
     cicmat se ~ líbat se, mazlit se
     cibule ~ hodinky
@@ -136,7 +136,7 @@ C
     čechrovat ~ pít pivo
     čechrovat bahno ~ pít pivo
     červ ~ červené víno
-    Červeňák ~ červený kostel na Joštové ulici ( taky Cihlák)
+    Červeňák ~ červený kostel na Joštové ulici (taky Cihlák)
     činoglař ~ špatně placený manuální pracovník
     čmajznout ~ úkrást
     čočky ~ brýle
@@ -163,7 +163,7 @@ D
     dávat majzla ~ dávat pozor
     debrecinka ~ děvče
     dečmen ~ deka
-    dederón ~ němec ( vzniklo z DDR )
+    dederón ~ němec (vzniklo z DDR)
     dejchat ~ žít
     deka ~ zatažená obloha, zápach, dlouhé vlasy
     dekl ~ poklop, víko, dlouhé vlasy, klobouk
@@ -172,7 +172,7 @@ D
     desatero ~ pivo 10%
     desítka ~ pivo 10%
     dlabat ~ jíst
-    dlabat ( na něco nebo na někoho ) ~ nestarat se o něco
+    dlabat (na něco nebo na někoho) ~ nestarat se o něco
     dlachnit ~ mačkat, osahávat
     Dobrák ~ koupaliště na ulici Dobrovského
     dohantýrovat ~ domluvit
@@ -276,7 +276,7 @@ F
     flusat ~ plivat
     fofr ~ rychle!
     foršus ~ záloha, zástava
-    fošna ~  žena s malým poprsím ( "plochá")
+    fošna ~  žena s malým poprsím ("plochá")
     fošnové hmyz ~ diskotéka
     fotr ~ táta
     fógl ~ pták, kluk (malý)
@@ -307,7 +307,7 @@ G
     gebír ~ právo
     gébiš ~ zadek
     gecnót ~ jídlo
-    Gelbec ~ Žlutý kopec ( část Brna )
+    Gelbec ~ Žlutý kopec (část Brna)
     giňál ~ chleba
     glajze ~ koleje
     glét ~ úřední listina
@@ -602,7 +602,7 @@ L
 M
 
     machl ~ zavřeno
-    Majlont ~ Maloměřice ( část Brna )
+    Majlont ~ Maloměřice (část Brna)
     makačka na budku ~ těžký přemýšlení
     malér ~ průšvih, nepříjemnost
     malíčkový záležitosti ~ jednoduchá věc
@@ -622,7 +622,7 @@ M
     moráč ~ morový sloup
     morgoš ~ cikán
     módr ~ hlad
-    MonteBu ~ Kraví hora ( část Brna )
+    MonteBu ~ Kraví hora (část Brna)
     mrdník ~ nepořádek
     muklica ~ opak fišála
     mutra ~ matka
@@ -651,7 +651,7 @@ N
 O
 
     olšovky ~ nohy
-    Oltec ~ Staré Brno ( část Brna )
+    Oltec ~ Staré Brno (část Brna)
     oplodnit ~ zapálit
     oplodnit kóřku ~ zapálit cigaretu
     origoš ~ originální
@@ -660,7 +660,7 @@ O
 
 P
 
-    Padovec ~ bufet Padovec ( naproti role ( budova hlavního nádraží ))
+    Padovec ~ bufet Padovec (naproti role (budova hlavního nádraží))
     pajtlovat ~ krást
     pakl ~ velké množství
     pali ~ pryč
@@ -707,7 +707,7 @@ P
     prodrbat ~ promarnit, utratit
     prolátnót ~ prozradit
     Prágl ~ Praha
-    Prigl ~ Brněnská přehrada ( z německého Brückl )
+    Prigl ~ Brněnská přehrada (z německého Brückl)
     pugét ~ kytice
     pudřenka ~ popelník
 
@@ -722,7 +722,7 @@ R
     repete ~ jěště jednou, znovu
     retich ~ záchod
     répat~ pošťuchovat, napadat
-    Rivec ~ Riviéra ( koupaliště na Svratce )
+    Rivec ~ Riviéra (koupaliště na Svratce)
     rola ~ nádraží
     rolaři ~ nádražní flákači
     rovnoběžka ~ rovně
@@ -792,7 +792,7 @@ S
     šlajzna ~ žízeň
     šlehy ~ písně, řeči
     šlic ~ díra, rýha , drážka
-    šlinda ~ klouzačka ( namrzlá silnice, chodník )
+    šlinda ~ klouzačka (namrzlá silnice, chodník)
     šlofík ~ spánek
     šlofčit ~ spát
     šlohnót ~ ukrást
@@ -823,13 +823,13 @@ S
     šponovat ~ napínat
     šponung ~ napětí
     špórovat ~ šetřit
-    Šrajbec ~ Pisárky ( část Brna )
+    Šrajbec ~ Pisárky (část Brna)
     šrajtofla ~ peněženka
     šropi ~ děti
     šrotit se ~ učit se
     štaca ~ zastávka, cíl, pozastavení
     štace ~ zastávka, cíl, pozastavení
-    štatl ~ město ( jeho centrum )
+    štatl ~ město (jeho centrum)
     štatlař ~ městský flákač
     štatlit ~ jít
     štengrovat ~ provokovat
@@ -838,7 +838,7 @@ S
     štricla ~ hlava
     štricna ~ bochník (chleba)
     štyngec ~ smrad
-    šuflata ~ boty ( polobotky )
+    šuflata ~ boty (polobotky)
     šufle ~ ženský pohlavní orgán
     šuft ~ nadávka
     šukat ~ souložit
@@ -905,7 +905,7 @@ V
     věžák ~ vysoká sklenice na pivo (0,5l) bez ucha, vícepatrový úzký dům
     vidla ~ krádež
     vingl ~ roh, uhelnik,L-profil
-    Vincky ~ Vinohrady ( brněnské sídliště)
+    Vincky ~ Vinohrady (brněnské sídliště)
     viset ~ dlužit
     vo tym žádná ~ to je bez řečí
     vodkráglovat ~ zavraždit
@@ -918,7 +918,7 @@ V
     vosolit ~ bouchnout, zmlátit, přidat rychlost
     vošplóchnót se ~ umýt se
     vrany ~ peníze
-    vrkat ~ (na koc) laškovat
+    vrkat (na koc) ~ laškovat
     všecko kóřit ~ všechno znát
     vtruknout ~ vstoupit, přijít, vtrhnout
     vybořit ~ pomilovat
@@ -984,8 +984,8 @@ Z
     žaba ~ malé děvče
     žabka ~ malé děvče
     žabák ~ zanedbaná vodní nádrž
-    žabiny ~ Žabovřesky ( část Brna )
+    žabiny ~ Žabovřesky (část Brna)
     žampec ~ žampion
     židlochovice ~ místo na sezení
     žgryndy ~ blbé řeči
-    žluťák ~ Žlutý kopec ( část Brna )
+    žluťák ~ Žlutý kopec (část Brna)

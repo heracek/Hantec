@@ -20,6 +20,11 @@
 		6949C77D0F5AEA8F00BCAA1E /* HDictionaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */; };
 		6949C77F0F5AEAF200BCAA1E /* HDictionaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */; };
 		6949C8650F5B27A000BCAA1E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6949C8640F5B27A000BCAA1E /* Icon.png */; };
+		69D32AEA0F61490600222632 /* z-hantecu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D32AE90F61490600222632 /* z-hantecu.png */; };
+		69D32AF90F6176EA00222632 /* do-hantecu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D32AF80F6176EA00222632 /* do-hantecu.png */; };
+		69D32B440F617E3F00222632 /* FromOriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D32B430F617E3F00222632 /* FromOriginalViewController.m */; };
+		69D32B470F617E4900222632 /* ToOriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D32B460F617E4900222632 /* ToOriginalViewController.m */; };
+		69D32B740F62803100222632 /* dict-reverse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69D32B730F62803100222632 /* dict-reverse.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,13 @@
 		6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDictionaryCell.m; sourceTree = "<group>"; };
 		6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HDictionaryCell.xib; sourceTree = "<group>"; };
 		6949C8640F5B27A000BCAA1E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		69D32AE90F61490600222632 /* z-hantecu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "z-hantecu.png"; path = "images/z-hantecu.png"; sourceTree = "<group>"; };
+		69D32AF80F6176EA00222632 /* do-hantecu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "do-hantecu.png"; path = "images/do-hantecu.png"; sourceTree = "<group>"; };
+		69D32B420F617E3F00222632 /* FromOriginalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromOriginalViewController.h; sourceTree = "<group>"; };
+		69D32B430F617E3F00222632 /* FromOriginalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromOriginalViewController.m; sourceTree = "<group>"; };
+		69D32B450F617E4900222632 /* ToOriginalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToOriginalViewController.h; sourceTree = "<group>"; };
+		69D32B460F617E4900222632 /* ToOriginalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToOriginalViewController.m; sourceTree = "<group>"; };
+		69D32B730F62803100222632 /* dict-reverse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dict-reverse.plist"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +82,10 @@
 				1D3623250D0F684500981E51 /* HantecAppDelegate.m */,
 				6949C77B0F5AEA8F00BCAA1E /* HDictionaryCell.h */,
 				6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */,
+				69D32B420F617E3F00222632 /* FromOriginalViewController.h */,
+				69D32B430F617E3F00222632 /* FromOriginalViewController.m */,
+				69D32B450F617E4900222632 /* ToOriginalViewController.h */,
+				69D32B460F617E4900222632 /* ToOriginalViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -106,12 +122,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				69D32AE70F6148C200222632 /* images */,
 				6949C8640F5B27A000BCAA1E /* Icon.png */,
 				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				6949C65C0F5AD90A00BCAA1E /* dict.plist */,
+				69D32B730F62803100222632 /* dict-reverse.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -124,6 +142,15 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69D32AE70F6148C200222632 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				69D32AF80F6176EA00222632 /* do-hantecu.png */,
+				69D32AE90F61490600222632 /* z-hantecu.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +207,9 @@
 				6949C65D0F5AD90A00BCAA1E /* dict.plist in Resources */,
 				6949C77F0F5AEAF200BCAA1E /* HDictionaryCell.xib in Resources */,
 				6949C8650F5B27A000BCAA1E /* Icon.png in Resources */,
+				69D32AEA0F61490600222632 /* z-hantecu.png in Resources */,
+				69D32AF90F6176EA00222632 /* do-hantecu.png in Resources */,
+				69D32B740F62803100222632 /* dict-reverse.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +225,8 @@
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				6949C6590F5AC1DC00BCAA1E /* HDictionaryItem.m in Sources */,
 				6949C77D0F5AEA8F00BCAA1E /* HDictionaryCell.m in Sources */,
+				69D32B440F617E3F00222632 /* FromOriginalViewController.m in Sources */,
+				69D32B470F617E4900222632 /* ToOriginalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

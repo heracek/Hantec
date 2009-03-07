@@ -14,8 +14,10 @@
 #define kTranslation @"trans"
 
 @interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+	bool _isFromOriginalDict;
 	IBOutlet UITableView *_tableView;
 	IBOutlet UISearchBar *_searchBar;
+	IBOutlet UITabBar *_tabBar;
 	
 	NSArray *_dataBySections;
 	NSMutableArray *_filteredListContent; // the filtered content as a result of the search
@@ -24,6 +26,7 @@
 
 @property (nonatomic, retain) UITableView *tableView;
 @property (nonatomic, retain) UISearchBar *searchBar;
+@property (nonatomic, retain) UITabBar *tabBar;
 
 
 @end

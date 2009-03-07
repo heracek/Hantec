@@ -15,11 +15,18 @@
 
 @synthesize tableView = _tableView;
 @synthesize searchBar = _searchBar;
+@synthesize tabBar = _tabBar;
 
 - (void)awakeFromNib {
-	_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"dict" ofType:@"plist"]] retain];
-	_filteredListContent = [[NSMutableArray alloc] init];
+	NSString *dictFileName;
+	if (_isFromOriginalDict) {
+		dictFileName = @"dict";
+	} else {
+		dictFileName = @"dict-reverse";
+	}
+	_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:dictFileName ofType:@"plist"]] retain];
 	
+	_filteredListContent = [[NSMutableArray alloc] init];
 	_useFilteredList = NO;
 	
 	// don't get in the way of user typing

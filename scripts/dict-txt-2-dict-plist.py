@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from xml.sax.saxutils import XMLGenerator
-
 from StringIO import StringIO
+import sys
 
 '''
 <?xml version="1.0" encoding="UTF-8"?>
@@ -34,10 +34,10 @@ from StringIO import StringIO
 '''
 
 class main(object):
-    def __init__(self):
+    def __init__(self, f):
         stream = StringIO()
         
-        self.input = open('dict.txt');
+        self.input = f
         
         self.xml = XMLGenerator(stream, 'UTF-8')
         self.xml.startDocument()
@@ -145,17 +145,8 @@ class main(object):
         self.xml.ignorableWhitespace('\n' + ' ' * 4 * level)
     
 if __name__ == '__main__':
-    main()
-
-
-
-
-
-
-
-
-
-
-
-
-
+    if len(sys.argv) == 2 and sys.argv[1] == '-s':
+        f = sys.stdin
+    else:
+        f = open('../dict.txt')
+    main(f)
