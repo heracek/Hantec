@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HDictionaryCell.h"
 
 #define kSectionName @"sectionName"
 #define kSectionData @"sectionData"
@@ -18,6 +19,7 @@
 	IBOutlet UITableView *_tableView;
 	IBOutlet UISearchBar *_searchBar;
 	IBOutlet UITabBar *_tabBar;
+	IBOutlet HDictionaryCell *_cell;
 	
 	NSArray *_dataBySections;
 	NSMutableArray *_filteredListContent; // the filtered content as a result of the search

@@ -11,8 +11,10 @@
 
 @implementation HDictionaryCell
 
-@synthesize original = _original;
-@synthesize translation = _translation;
+- (void)setCellOriginal:(NSString *)originalText andTranslation:(NSString *)translationText {
+	_original.text = originalText;
+	_translation.text = translationText;
+}
 
 //- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier {
 //    if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) {

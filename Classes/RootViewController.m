@@ -120,14 +120,11 @@
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {	
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"HDictionaryCell";
     
-    HDictionaryCell *cell = (HDictionaryCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        UIViewController *tmpViewController = [[UIViewController alloc] initWithNibName:@"HDictionaryCell"
-																				 bundle:[NSBundle mainBundle]];
-		cell = (HDictionaryCell *)[[[tmpViewController view] retain] autorelease];
-		[tmpViewController release];
+    _cell = (HDictionaryCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (_cell == nil) {
+		[[NSBundle mainBundle] loadNibNamed:@"HDictionaryCell" owner:self options:nil];
     }
 	
     NSDictionary *dictionaryItem;
@@ -137,11 +134,10 @@
 		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
 	}
 	
+	[_cell setCellOriginal:[dictionaryItem objectForKey:kOriginal]
+			andTranslation:[dictionaryItem objectForKey:kTranslation]];
 	
-	cell.original.text = [dictionaryItem objectForKey:kOriginal];
-	cell.translation.text = [dictionaryItem objectForKey:kTranslation];
-	
-    return cell;
+	return _cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

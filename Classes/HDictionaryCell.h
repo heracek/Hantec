@@ -10,11 +10,10 @@
 
 
 @interface HDictionaryCell : UITableViewCell {
-	UILabel *_original;
-	UILabel *_translation;
+	IBOutlet UILabel *_original;
+	IBOutlet UILabel *_translation;
 }
 
-@property (nonatomic, retain) IBOutlet UILabel *original;
-@property (nonatomic, retain) IBOutlet UILabel *translation;
+- (void)setCellOriginal:(NSString *)originalText andTranslation:(NSString *)translationText;
 
 @end
