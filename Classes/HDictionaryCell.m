@@ -11,7 +11,30 @@
 
 @implementation HDictionaryCell
 
-- (void)setCellOriginal:(NSString *)originalText andTranslation:(NSString *)translationText {
+- (void)setCellOriginal:(NSString *)originalText translation:(NSString *)translationText andCellWidht:(CGFloat) cellWidth {
+	CGFloat originalWidth = cellWidth - 30;
+	CGFloat translationWidth = cellWidth - 40;
+	
+	
+	CGSize originalConstrainedToSize = {originalWidth, 20000.0f};
+	CGSize sizeOfOriginal = [originalText sizeWithFont:[UIFont systemFontOfSize:17.0f]
+									 constrainedToSize:originalConstrainedToSize
+										 lineBreakMode:UILineBreakModeWordWrap];
+	
+	CGSize translationConstrainedToSize = {translationWidth, 20000.0f};
+	CGSize sizeOfTranslation = [translationText sizeWithFont:[UIFont systemFontOfSize:17.0f]
+										   constrainedToSize:translationConstrainedToSize
+											   lineBreakMode:UILineBreakModeWordWrap];
+	
+	CGRect cellFrame = CGRectMake(0, 0, cellWidth, sizeOfOriginal.height + sizeOfTranslation.height + 3);
+	
+	CGRect originalRect = CGRectMake(10, 0, originalWidth, sizeOfOriginal.height);
+	CGRect translationRect = CGRectMake(20, sizeOfOriginal.height, translationWidth, sizeOfTranslation.height);
+	
+	[self setFrame:cellFrame];
+	[_original setFrame:originalRect];
+	[_translation setFrame:translationRect];
+	
 	_original.text = originalText;
 	_translation.text = translationText;
 }

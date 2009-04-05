@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "HDictionaryCell.h"
+#import "HDWordOfTheDay.h"
 
 #define kSectionName @"sectionName"
 #define kSectionData @"sectionData"
 #define kOriginal    @"orig"
 #define kTranslation @"trans"
 
-@interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, HWordOfTheDayDataSource> {
 	bool _isFromOriginalDict;
 	IBOutlet UITableView *_tableView;
 	IBOutlet UISearchBar *_searchBar;

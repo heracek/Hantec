@@ -14,6 +14,6 @@
 	IBOutlet UILabel *_translation;
 }
 
-- (void)setCellOriginal:(NSString *)originalText andTranslation:(NSString *)translationText;
+- (void)setCellOriginal:(NSString *)originalText translation:(NSString *)translationText andCellWidht:(CGFloat) cellWidth;
 
 @end

@@ -15,6 +15,7 @@
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		69054C8A0F88FD5B00E52EE3 /* HTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69054C890F88FD5B00E52EE3 /* HTabBarController.m */; };
 		6949C6590F5AC1DC00BCAA1E /* HDictionaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949C6580F5AC1DC00BCAA1E /* HDictionaryItem.m */; };
 		6949C65D0F5AD90A00BCAA1E /* dict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6949C65C0F5AD90A00BCAA1E /* dict.plist */; };
 		6949C77D0F5AEA8F00BCAA1E /* HDictionaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */; };
@@ -25,6 +26,7 @@
 		69D32B440F617E3F00222632 /* FromOriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D32B430F617E3F00222632 /* FromOriginalViewController.m */; };
 		69D32B470F617E4900222632 /* ToOriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D32B460F617E4900222632 /* ToOriginalViewController.m */; };
 		69D32B740F62803100222632 /* dict-reverse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69D32B730F62803100222632 /* dict-reverse.plist */; };
+		69DD23DE0F7D31A4007E9EE5 /* HDWordOfTheDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD23DD0F7D31A4007E9EE5 /* HDWordOfTheDay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69054C880F88FD5B00E52EE3 /* HTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTabBarController.h; sourceTree = "<group>"; };
+		69054C890F88FD5B00E52EE3 /* HTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTabBarController.m; sourceTree = "<group>"; };
 		6949C6570F5AC1DC00BCAA1E /* HDictionaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDictionaryItem.h; sourceTree = "<group>"; };
 		6949C6580F5AC1DC00BCAA1E /* HDictionaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDictionaryItem.m; sourceTree = "<group>"; };
 		6949C65C0F5AD90A00BCAA1E /* dict.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = dict.plist; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		69D32B450F617E4900222632 /* ToOriginalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToOriginalViewController.h; sourceTree = "<group>"; };
 		69D32B460F617E4900222632 /* ToOriginalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToOriginalViewController.m; sourceTree = "<group>"; };
 		69D32B730F62803100222632 /* dict-reverse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dict-reverse.plist"; sourceTree = "<group>"; };
+		69DD23DC0F7D31A4007E9EE5 /* HDWordOfTheDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWordOfTheDay.h; sourceTree = "<group>"; };
+		69DD23DD0F7D31A4007E9EE5 /* HDWordOfTheDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWordOfTheDay.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +92,10 @@
 				69D32B430F617E3F00222632 /* FromOriginalViewController.m */,
 				69D32B450F617E4900222632 /* ToOriginalViewController.h */,
 				69D32B460F617E4900222632 /* ToOriginalViewController.m */,
+				69DD23DC0F7D31A4007E9EE5 /* HDWordOfTheDay.h */,
+				69DD23DD0F7D31A4007E9EE5 /* HDWordOfTheDay.m */,
+				69054C880F88FD5B00E52EE3 /* HTabBarController.h */,
+				69054C890F88FD5B00E52EE3 /* HTabBarController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -227,6 +237,8 @@
 				6949C77D0F5AEA8F00BCAA1E /* HDictionaryCell.m in Sources */,
 				69D32B440F617E3F00222632 /* FromOriginalViewController.m in Sources */,
 				69D32B470F617E4900222632 /* ToOriginalViewController.m in Sources */,
+				69DD23DE0F7D31A4007E9EE5 /* HDWordOfTheDay.m in Sources */,
+				69054C8A0F88FD5B00E52EE3 /* HTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

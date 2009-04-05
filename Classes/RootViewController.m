@@ -117,11 +117,44 @@
 	return [sections autorelease];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+	CGRect bounds = [UIScreen mainScreen].bounds;
+	CGFloat cellWidth = (UIInterfaceOrientationIsPortrait(self.interfaceOrientation)) ? bounds.size.width : bounds.size.height;
+	NSDictionary *dictionaryItem;
+	if (_useFilteredList) {
+		dictionaryItem = [_filteredListContent objectAtIndex: indexPath.row];
+	} else {
+		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
+		cellWidth -= 30;
+	}
+	
+	NSString *originalText = [dictionaryItem objectForKey:kOriginal];
+	NSString *translationText = [dictionaryItem objectForKey:kTranslation];
+	
+	CGFloat originalWidth = cellWidth - 30;
+	CGFloat translationWidth = cellWidth - 40;
+	
+	
+	CGSize originalConstrainedToSize = {originalWidth, 20000.0f};
+	CGSize sizeOfOriginal = [originalText sizeWithFont:[UIFont systemFontOfSize:17.0f]
+									 constrainedToSize:originalConstrainedToSize
+										 lineBreakMode:UILineBreakModeWordWrap];
+	
+	CGSize translationConstrainedToSize = {translationWidth, 20000.0f};
+	CGSize sizeOfTranslation = [translationText sizeWithFont:[UIFont systemFontOfSize:17.0f]
+										   constrainedToSize:translationConstrainedToSize
+											   lineBreakMode:UILineBreakModeWordWrap];
+	
+	return sizeOfOriginal.height + sizeOfTranslation.height + 3;
+}
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {	
     static NSString *CellIdentifier = @"HDictionaryCell";
-    
+    CGFloat width = 0;
+	CGRect bounds = [UIScreen mainScreen].bounds;
+	CGFloat cellWidth = (UIInterfaceOrientationIsPortrait(self.interfaceOrientation)) ? bounds.size.width : bounds.size.height;
+	
     _cell = (HDictionaryCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (_cell == nil) {
 		[[NSBundle mainBundle] loadNibNamed:@"HDictionaryCell" owner:self options:nil];
@@ -132,10 +165,12 @@
 		dictionaryItem = [_filteredListContent objectAtIndex: indexPath.row];
 	} else {
 		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
+		cellWidth -= 30;
 	}
 	
 	[_cell setCellOriginal:[dictionaryItem objectForKey:kOriginal]
-			andTranslation:[dictionaryItem objectForKey:kTranslation]];
+			   translation:[dictionaryItem objectForKey:kTranslation]
+			  andCellWidht:cellWidth];
 	
 	return _cell;
 }
@@ -248,5 +283,34 @@
 	[searchBar resignFirstResponder];
 }
 
+#pragma mark HWordOfTheDayDataSource methods
+
+- (NSDictionary *)getWordOfTheDay {
+	NSDictionary *wordOfTheDay;
+	NSInteger totalNumOfWords = 0;
+	for (NSDictionary *section in _dataBySections) {
+		totalNumOfWords += [[section objectForKey:kSectionData] count];
+	}
+	
+	NSInteger absoluteIndexOfWordOfTheDay = arc4random() % totalNumOfWords;
+	NSInteger wordsPassed = 0;
+	for (NSDictionary *section in _dataBySections) {
+		NSArray *wordsInSection = [section objectForKey:kSectionData];
+		
+		if (absoluteIndexOfWordOfTheDay >= wordsPassed &&
+			absoluteIndexOfWordOfTheDay < wordsPassed + [wordsInSection count]) {
+			wordOfTheDay = [wordsInSection objectAtIndex:absoluteIndexOfWordOfTheDay - wordsPassed];
+			break;
+		}
+		
+		wordsPassed += [wordsInSection count];
+	}
+	
+	//dictionaryItem = [NSMutableDictionary dictionaryWithCapacity:2];
+	//[dictionaryItem setValue:@"pětibába" forKey:@"original"];
+	//[dictionaryItem setValue:@"500,- Kč" forKey:@"translation"];
+	
+	return wordOfTheDay;
+}
 
 @end
