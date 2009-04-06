@@ -35,40 +35,12 @@
 	_searchBar.showsCancelButton = NO;
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-
-
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-	[super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-	[super viewDidDisappear:animated];
-}
-*/
-
-
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations
 	//return (interfaceOrientation == UIInterfaceOrientationPortrait);
 	return YES;
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
@@ -125,7 +97,7 @@
 		dictionaryItem = [_filteredListContent objectAtIndex: indexPath.row];
 	} else {
 		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
-		cellWidth -= 30;
+		cellWidth -= 40;
 	}
 	
 	NSString *originalText = [dictionaryItem objectForKey:kOriginal];
@@ -137,21 +109,25 @@
 	
 	CGSize originalConstrainedToSize = {originalWidth, 20000.0f};
 	CGSize sizeOfOriginal = [originalText sizeWithFont:[UIFont systemFontOfSize:17.0f]
-									 constrainedToSize:originalConstrainedToSize
-										 lineBreakMode:UILineBreakModeWordWrap];
+									 constrainedToSize:originalConstrainedToSize];
 	
 	CGSize translationConstrainedToSize = {translationWidth, 20000.0f};
 	CGSize sizeOfTranslation = [translationText sizeWithFont:[UIFont systemFontOfSize:17.0f]
-										   constrainedToSize:translationConstrainedToSize
-											   lineBreakMode:UILineBreakModeWordWrap];
+										   constrainedToSize:translationConstrainedToSize];
 	
-	return sizeOfOriginal.height + sizeOfTranslation.height + 3;
+	
+	CGFloat additionaHeight = 0;
+	if (_selectRowIndexPath != nil &&
+		_selectRowIndexPath.section == indexPath.section &&
+		_selectRowIndexPath.row == indexPath.row) {
+		additionaHeight = 10;
+	}
+	return sizeOfOriginal.height + sizeOfTranslation.height + 3 + additionaHeight;
 }
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {	
     static NSString *CellIdentifier = @"HDictionaryCell";
-    CGFloat width = 0;
 	CGRect bounds = [UIScreen mainScreen].bounds;
 	CGFloat cellWidth = (UIInterfaceOrientationIsPortrait(self.interfaceOrientation)) ? bounds.size.width : bounds.size.height;
 	
@@ -165,63 +141,22 @@
 		dictionaryItem = [_filteredListContent objectAtIndex: indexPath.row];
 	} else {
 		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
-		cellWidth -= 30;
+		cellWidth -= 40;
 	}
 	
 	[_cell setCellOriginal:[dictionaryItem objectForKey:kOriginal]
 			   translation:[dictionaryItem objectForKey:kTranslation]
-			  andCellWidht:cellWidth];
+				 cellWidht:cellWidth
+				 andIsEven:indexPath.row % 2];
+	
+	//#BD D5 FC
+	_cell.backgroundColor = [UIColor colorWithRed:0xBD / 256.
+											green:0xD5 / 256.
+											 blue:0xFC / 256.
+											alpha:0.5];
 	
 	return _cell;
 }
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
-	// [self.navigationController pushViewController:anotherViewController];
-	// [anotherViewController release];
-}
-
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
 
 - (void)dealloc {
 	[_dataBySections release];
@@ -305,10 +240,6 @@
 		
 		wordsPassed += [wordsInSection count];
 	}
-	
-	//dictionaryItem = [NSMutableDictionary dictionaryWithCapacity:2];
-	//[dictionaryItem setValue:@"pětibába" forKey:@"original"];
-	//[dictionaryItem setValue:@"500,- Kč" forKey:@"translation"];
 	
 	return wordOfTheDay;
 }

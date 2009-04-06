@@ -22,6 +22,8 @@
 	IBOutlet UITabBar *_tabBar;
 	IBOutlet HDictionaryCell *_cell;
 	
+	NSIndexPath *_selectRowIndexPath;
+	
 	NSArray *_dataBySections;
 	NSMutableArray *_filteredListContent; // the filtered content as a result of the search
 	bool _useFilteredList;

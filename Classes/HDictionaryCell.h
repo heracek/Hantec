@@ -13,7 +13,14 @@
 	IBOutlet UILabel *_original;
 	IBOutlet UILabel *_translation;
 }
+- (void)setCellOriginal:(NSString *)originalText translation:(NSString *)translationText cellWidht:(CGFloat)cellWidth andIsEven:(BOOL)isEven;
 
-- (void)setCellOriginal:(NSString *)originalText translation:(NSString *)translationText andCellWidht:(CGFloat) cellWidth;
+@end
+
+
+@interface CustomCellBackgroundView : UIView {
+    UIColor *_fillColor;
+}
+@property(nonatomic, retain) UIColor *fillColor;
 
 @end
