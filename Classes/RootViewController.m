@@ -108,7 +108,7 @@
 	
 	
 	CGSize originalConstrainedToSize = {originalWidth, 20000.0f};
-	CGSize sizeOfOriginal = [originalText sizeWithFont:[UIFont systemFontOfSize:17.0f]
+	CGSize sizeOfOriginal = [originalText sizeWithFont:[UIFont boldSystemFontOfSize:17.0f]
 									 constrainedToSize:originalConstrainedToSize];
 	
 	CGSize translationConstrainedToSize = {translationWidth, 20000.0f};
@@ -164,14 +164,30 @@
     [super dealloc];
 }
 
+- (void)hideIndexAndMoveTableUp:(BOOL)hide {
+	CGRect rect = self.tableView.frame;
+	rect.size.height += (hide) ? -167 : +167;
+	
+	UITableView *tableView = self.tableView;
+	//[UIView beginAnimations:nil context:nil];
+	[tableView setIndexHidden:hide animated:YES];
+	//[UIView commitAnimations];
+	[UIView beginAnimations:nil context:nil];
+	[UIView setAnimationDuration:0.5];
+	self.tableView.frame = rect;
+	[UIView commitAnimations];
+}
+
 #pragma mark UISearchBarDelegate
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
 	_searchBar.showsCancelButton = YES;
+	[self hideIndexAndMoveTableUp:YES];
 }
 
 - (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
 	_searchBar.showsCancelButton = NO;
+	[self hideIndexAndMoveTableUp:NO];
 }
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {

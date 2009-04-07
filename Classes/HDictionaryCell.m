@@ -13,8 +13,6 @@
 // self.backgroundView = [[CustomCellBackgroundView alloc] initWithFrame:self.frame];
 
 - (void)awakeFromNib {
-	NSLog(@"awakeFromNib");
-	
 	self.backgroundView = [[[CustomCellBackgroundView alloc] initWithFrame:self.frame] autorelease];
 }
 
@@ -23,7 +21,7 @@
 	CGFloat translationWidth = cellWidth - 40;
 	
 	CGSize originalConstrainedToSize = {originalWidth, 20000.0f};
-	CGSize sizeOfOriginal = [originalText sizeWithFont:[UIFont systemFontOfSize:17.0f]
+	CGSize sizeOfOriginal = [originalText sizeWithFont:[UIFont boldSystemFontOfSize:17.0f]
 									 constrainedToSize:originalConstrainedToSize];
 	
 	CGSize translationConstrainedToSize = {translationWidth, 20000.0f};
@@ -38,16 +36,21 @@
 	_original.text = originalText;
 	_translation.text = translationText;
 	
-	NSLog(@"contentView: %f", self.contentView.frame.size.width);
-	
 	UIColor *color;
 	if (isEven) {
-		color = [UIColor colorWithRed:0xEE / 256.
-								green:0xF3 / 256.
-								 blue:0xFD / 256.
+//		color = [UIColor colorWithRed:0xEE / 256.
+//								green:0xF3 / 256.
+//								 blue:0xFD / 256.
+//								alpha:1.0];
+		color = [UIColor colorWithRed:0xBF / 256.
+								green:0xBF / 256.
+								 blue:0xBF / 256.
 								alpha:1.0];
 	} else {
-		color = [UIColor whiteColor];
+		color = [UIColor colorWithRed:0xDF / 256.
+								green:0xDF / 256.
+								 blue:0xDF / 256.
+								alpha:1.0];
 	}
 	
 	CustomCellBackgroundView *backgroundView = (CustomCellBackgroundView *)self.backgroundView;
