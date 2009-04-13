@@ -17,6 +17,8 @@
 @protocol HFavouritesDataSource
 @required
 - (void)addToFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict;
+- (void)removeFromFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict;
+- (BOOL)isInFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict;
 @end
 
 @protocol HWordOfTheDayDataSource

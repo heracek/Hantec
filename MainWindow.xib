@@ -8,7 +8,6 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="72"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -50,7 +49,7 @@
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUIViewController" key="IBUISelectedViewController" id="930996951">
 					<object class="IBUIView" key="IBUIView" id="666043050">
-						<reference key="NSNextResponder"/>
+						<nil key="NSNextResponder"/>
 						<int key="NSvFlags">274</int>
 						<object class="NSMutableArray" key="NSSubviews">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -166,7 +165,6 @@
 							</object>
 						</object>
 						<string key="NSFrameSize">{320, 411}</string>
-						<reference key="NSSuperview"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC44MzQ2Nzc0NgA</bytes>
@@ -175,7 +173,6 @@
 					</object>
 					<object class="IBUITabBarItem" key="IBUITabBarItem" id="174596670">
 						<string key="IBUITitle">Slovo dne</string>
-						<reference key="IBUITabBar"/>
 					</object>
 					<reference key="IBUIParentViewController" ref="276717946"/>
 					<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -235,7 +232,6 @@
 								<string key="NSClassName">NSImage</string>
 								<string key="NSResourceName">z-hantecu.png</string>
 							</object>
-							<reference key="IBUITabBar"/>
 						</object>
 						<reference key="IBUIParentViewController" ref="276717946"/>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -288,7 +284,6 @@
 								<string key="NSClassName">NSImage</string>
 								<string key="NSResourceName">do-hantecu.png</string>
 							</object>
-							<reference key="IBUITabBar"/>
 						</object>
 						<reference key="IBUIParentViewController" ref="276717946"/>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -337,7 +332,6 @@
 						</object>
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="677837604">
 							<int key="IBUISystemItemIdentifier">1</int>
-							<reference key="IBUITabBar"/>
 						</object>
 						<reference key="IBUIParentViewController" ref="276717946"/>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -587,12 +581,20 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">addToFavourites:</string>
+						<string key="label">addToOrRemoveFromFavourites:</string>
 						<reference key="source" ref="695363735"/>
 						<reference key="destination" ref="930996951"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">114</int>
+					<int key="connectionID">116</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">_addToOrRemoveFromFavourites</string>
+						<reference key="source" ref="930996951"/>
+						<reference key="destination" ref="695363735"/>
+					</object>
+					<int key="connectionID">117</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -921,7 +923,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">114</int>
+			<int key="maxID">117</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -949,7 +951,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>addToFavourites:</string>
+							<string>addToOrRemoveFromFavourites:</string>
 							<string>nextWordAction:</string>
 							<string>showTranslationAction:</string>
 						</object>
@@ -964,6 +966,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>_addToOrRemoveFromFavourites</string>
 							<string>_favouritesDataSource</string>
 							<string>_next</string>
 							<string>_original</string>
@@ -973,6 +976,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIButton</string>
 							<string>NSObject</string>
 							<string>UIButton</string>
 							<string>UILabel</string>

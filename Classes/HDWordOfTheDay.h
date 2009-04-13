@@ -14,6 +14,7 @@
 	IBOutlet UITextView *_translation;
 	IBOutlet UIButton *_showTranslation;
 	IBOutlet UIButton *_next;
+	IBOutlet UIButton *_addToOrRemoveFromFavourites;
 	IBOutlet NSObject<HWordOfTheDayDataSource> *_wordOfTheDayDataSource;
 	IBOutlet NSObject<HFavouritesDataSource> *_favouritesDataSource;
 	
@@ -22,7 +23,7 @@
 
 - (IBAction)showTranslationAction:(id)sender;
 - (IBAction)nextWordAction:(id)sender;
-- (IBAction)addToFavourites:(id)sender;
+- (IBAction)addToOrRemoveFromFavourites:(id)sender;
 - (void)loadNextDictionaryItem;
 
 @end

@@ -48,23 +48,22 @@
 	NSMutableArray *sectionData = [section objectForKey:kSectionData];
 	
 	NSString *originalToAdd = [dictItem objectForKey:kOriginal];
-	NSRange stringComparationRange = NSMakeRange(0, [originalToAdd length]);
+	NSUInteger originalToAddLength = [originalToAdd length];
 	NSComparisonResult result;
 	BOOL foundPlaceToInsertNewFavourite = NO;
 	for (NSInteger index = 0; index < [sectionData count]; index++) {
 		NSDictionary *comparedDictItem = [sectionData objectAtIndex:index];
-		result = [originalToAdd compare:[comparedDictItem valueForKey:kOriginal]
+		NSString *comparedDictItemOriginal = [comparedDictItem valueForKey:kOriginal];
+		result = [originalToAdd compare:comparedDictItemOriginal
 								options:NSCaseInsensitiveSearch|NSForcedOrderingSearch
-								  range:stringComparationRange
+								  range:NSMakeRange(0, MAX(originalToAddLength, [comparedDictItemOriginal length]))
 								 locale:_sortingLocale];
 		
 		if (result == NSOrderedAscending) {
-			NSLog(@"NSOrderedAscending");
 			foundPlaceToInsertNewFavourite = YES;
 			[sectionData insertObject:dictItem atIndex:index];
 			break;
 		} else if (result == NSOrderedSame) {
-			NSLog(@"NSOrderedSame");
 			foundPlaceToInsertNewFavourite = YES;
 			[sectionData replaceObjectAtIndex:index withObject:dictItem];
 			break;
@@ -77,6 +76,55 @@
 	
 	[self saveFavouritesToFile];
 	[self.tableView reloadData];
+}
+
+- (void)removeFromFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict {
+	NSMutableDictionary *section = [_dataBySections objectAtIndex:(isOriginalDict) ? 0 : 1];
+	NSMutableArray *sectionData = [section objectForKey:kSectionData];
+	
+	NSString *originalToFind = [dictItem objectForKey:kOriginal];
+	NSUInteger originalToFindLength = [originalToFind length];
+	NSComparisonResult result;
+	for (NSInteger index = 0; index < [sectionData count]; index++) {
+		NSDictionary *comparedDictItem = [sectionData objectAtIndex:index];
+		NSString *comparedDictItemOriginal = [comparedDictItem valueForKey:kOriginal];
+		result = [originalToFind compare:comparedDictItemOriginal
+								 options:NSCaseInsensitiveSearch|NSForcedOrderingSearch
+								   range:NSMakeRange(0, MAX(originalToFindLength, [comparedDictItemOriginal length]))
+								  locale:_sortingLocale];
+		
+		if (result == NSOrderedSame) {
+			[sectionData removeObjectAtIndex:index];
+		}
+	}
+	
+	[self saveFavouritesToFile];
+	[self.tableView reloadData];
+}
+
+- (BOOL)isInFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict {
+	NSMutableDictionary *section = [_dataBySections objectAtIndex:(isOriginalDict) ? 0 : 1];
+	NSMutableArray *sectionData = [section objectForKey:kSectionData];
+	
+	NSString *originalToFind = [dictItem objectForKey:kOriginal];
+	NSUInteger originalToFindLength = [originalToFind length];
+	NSComparisonResult result;
+	for (NSInteger index = 0; index < [sectionData count]; index++) {
+		NSDictionary *comparedDictItem = [sectionData objectAtIndex:index];
+		NSString *comparedDictItemOriginal = [comparedDictItem valueForKey:kOriginal];
+		result = [originalToFind compare:comparedDictItemOriginal
+								 options:NSCaseInsensitiveSearch|NSForcedOrderingSearch
+								   range:NSMakeRange(0, MAX(originalToFindLength, [comparedDictItemOriginal length]))
+								  locale:_sortingLocale];
+		
+		if (result == NSOrderedAscending) {
+			return NO;
+		} else if (result == NSOrderedSame) {
+			return YES;
+		}
+	}
+	
+	return NO;
 }
 
 @end

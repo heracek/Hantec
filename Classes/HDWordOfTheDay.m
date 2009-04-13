@@ -66,6 +66,19 @@
     [super dealloc];
 }
 
+- (void)setStateOfAddToFavouritesWithIsInFavourites:(BOOL)isInFavourites {
+	if (isInFavourites) {
+		_addToOrRemoveFromFavourites.alpha = 1;
+	} else {
+		_addToOrRemoveFromFavourites.alpha = 0.5;
+	}
+}
+
+- (void)autosetStateOfAddToFavourites {
+	BOOL isInFavourites = [_favouritesDataSource isInFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+	[self setStateOfAddToFavouritesWithIsInFavourites:isInFavourites];
+}
+
 - (IBAction)showTranslationAction:(id)sender {
 	_translation.text = [_actualDictionaryItem valueForKey:kTranslation];
 }
@@ -76,8 +89,15 @@
 	_translation.text = @"";
 }
 
-- (IBAction)addToFavourites:(id)sender {
-	[_favouritesDataSource addToFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+- (IBAction)addToOrRemoveFromFavourites:(id)sender {
+	BOOL isInFavourites = [_favouritesDataSource isInFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+	if (isInFavourites) {
+		[_favouritesDataSource removeFromFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+	} else {
+		[_favouritesDataSource addToFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+	}
+	
+	[self setStateOfAddToFavouritesWithIsInFavourites: ! isInFavourites];
 }
 
 - (void)loadNextDictionaryItem {
@@ -86,6 +106,7 @@
 	}
 	
 	_actualDictionaryItem = [[_wordOfTheDayDataSource getWordOfTheDay] retain];
+	[self autosetStateOfAddToFavourites];
 }
 
 @end
