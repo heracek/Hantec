@@ -21,6 +21,7 @@
 		6949C77F0F5AEAF200BCAA1E /* HDictionaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */; };
 		6949C8650F5B27A000BCAA1E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6949C8640F5B27A000BCAA1E /* Icon.png */; };
 		6985EF0A0F93C52E0006C9FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6985EF090F93C52E0006C9FE /* Default.png */; };
+		6985EF370F93CA020006C9FE /* oblibene.png in Resources */ = {isa = PBXBuildFile; fileRef = 6985EF360F93CA020006C9FE /* oblibene.png */; };
 		69D32AEA0F61490600222632 /* z-hantecu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D32AE90F61490600222632 /* z-hantecu.png */; };
 		69D32AF90F6176EA00222632 /* do-hantecu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D32AF80F6176EA00222632 /* do-hantecu.png */; };
 		69D32B440F617E3F00222632 /* FromOriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D32B430F617E3F00222632 /* FromOriginalViewController.m */; };
@@ -52,6 +53,7 @@
 		6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HDictionaryCell.xib; sourceTree = "<group>"; };
 		6949C8640F5B27A000BCAA1E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		6985EF090F93C52E0006C9FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6985EF360F93CA020006C9FE /* oblibene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oblibene.png; path = images/oblibene.png; sourceTree = "<group>"; };
 		69D32AE90F61490600222632 /* z-hantecu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "z-hantecu.png"; path = "images/z-hantecu.png"; sourceTree = "<group>"; };
 		69D32AF80F6176EA00222632 /* do-hantecu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "do-hantecu.png"; path = "images/do-hantecu.png"; sourceTree = "<group>"; };
 		69D32B420F617E3F00222632 /* FromOriginalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromOriginalViewController.h; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			children = (
 				69D32AF80F6176EA00222632 /* do-hantecu.png */,
 				69D32AE90F61490600222632 /* z-hantecu.png */,
+				6985EF360F93CA020006C9FE /* oblibene.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				69D32B740F62803100222632 /* dict-reverse.plist in Resources */,
 				69E0E37B0F924A7700F9BA99 /* empty-favourites.plist in Resources */,
 				6985EF0A0F93C52E0006C9FE /* Default.png in Resources */,
+				6985EF370F93CA020006C9FE /* oblibene.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
