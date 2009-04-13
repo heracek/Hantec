@@ -8,25 +8,37 @@
 
 #import <UIKit/UIKit.h>
 #import "HDictionaryCell.h"
-#import "HDWordOfTheDay.h"
 
 #define kSectionName @"sectionName"
 #define kSectionData @"sectionData"
 #define kOriginal    @"orig"
 #define kTranslation @"trans"
 
+@protocol HFavouritesDataSource
+@required
+- (void)addToFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict;
+@end
+
+@protocol HWordOfTheDayDataSource
+@required
+- (NSDictionary *)getWordOfTheDay;
+@end
+
+
 @interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, HWordOfTheDayDataSource> {
-	bool _isFromOriginalDict;
+	BOOL _isFromOriginalDict;
 	IBOutlet UITableView *_tableView;
 	IBOutlet UISearchBar *_searchBar;
 	IBOutlet UITabBar *_tabBar;
 	IBOutlet HDictionaryCell *_cell;
+	IBOutlet NSObject<HFavouritesDataSource> *_favouritesDataSource;
 	
 	NSIndexPath *_selectRowIndexPath;
 	
 	NSArray *_dataBySections;
 	NSMutableArray *_filteredListContent; // the filtered content as a result of the search
-	bool _useFilteredList;
+	BOOL _useFilteredList;
+	BOOL _showSectionIndex;
 }
 
 @property (nonatomic, retain) UITableView *tableView;

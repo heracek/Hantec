@@ -12,7 +12,9 @@
 @implementation ToOriginalViewController
 
 - (void)awakeFromNib {
-	_isFromOriginalDict = NO;
+	NSString *dictFileName = @"dict-reverse";
+	_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:dictFileName ofType:@"plist"]] retain];
+	
 	[super awakeFromNib];
 }
 

@@ -7,14 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@protocol HWordOfTheDayDataSource<NSObject>
-
-@required
-
-- (NSDictionary *)getWordOfTheDay;
-
-@end
+#import "RootViewController.h"
 
 @interface HDWordOfTheDay : UIViewController {
 	IBOutlet UILabel *_original;
@@ -22,12 +15,14 @@
 	IBOutlet UIButton *_showTranslation;
 	IBOutlet UIButton *_next;
 	IBOutlet NSObject<HWordOfTheDayDataSource> *_wordOfTheDayDataSource;
+	IBOutlet NSObject<HFavouritesDataSource> *_favouritesDataSource;
 	
 	NSDictionary *_actualDictionaryItem;
 }
 
 - (IBAction)showTranslationAction:(id)sender;
 - (IBAction)nextWordAction:(id)sender;
+- (IBAction)addToFavourites:(id)sender;
 - (void)loadNextDictionaryItem;
 
 @end

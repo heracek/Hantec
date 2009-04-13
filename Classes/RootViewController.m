@@ -18,16 +18,9 @@
 @synthesize tabBar = _tabBar;
 
 - (void)awakeFromNib {
-	NSString *dictFileName;
-	if (_isFromOriginalDict) {
-		dictFileName = @"dict";
-	} else {
-		dictFileName = @"dict-reverse";
-	}
-	_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:dictFileName ofType:@"plist"]] retain];
-	
 	_filteredListContent = [[NSMutableArray alloc] init];
 	_useFilteredList = NO;
+	_showSectionIndex = YES;
 	
 	// don't get in the way of user typing
 	_searchBar.autocorrectionType = UITextAutocorrectionTypeNo;
@@ -76,7 +69,7 @@
 }
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
-	if (_useFilteredList) {
+	if (_useFilteredList || _showSectionIndex == NO) {
 		return [NSArray array];
 	}
 	
@@ -97,7 +90,9 @@
 		dictionaryItem = [_filteredListContent objectAtIndex: indexPath.row];
 	} else {
 		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
-		cellWidth -= 40;
+		if (_showSectionIndex) {
+			cellWidth -= 40;
+		}
 	}
 	
 	NSString *originalText = [dictionaryItem objectForKey:kOriginal];
@@ -141,7 +136,9 @@
 		dictionaryItem = [_filteredListContent objectAtIndex: indexPath.row];
 	} else {
 		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
-		cellWidth -= 40;
+		if (_showSectionIndex) {
+			cellWidth -= 40;
+		}
 	}
 	
 	[_cell setCellOriginal:[dictionaryItem objectForKey:kOriginal]

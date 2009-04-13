@@ -76,6 +76,10 @@
 	_translation.text = @"";
 }
 
+- (IBAction)addToFavourites:(id)sender {
+	[_favouritesDataSource addToFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+}
+
 - (void)loadNextDictionaryItem {
 	if (_actualDictionaryItem != nil) {
 		[_actualDictionaryItem release];

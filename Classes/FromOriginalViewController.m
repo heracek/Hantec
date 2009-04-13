@@ -12,7 +12,9 @@
 @implementation FromOriginalViewController
 
 - (void)awakeFromNib {
-	_isFromOriginalDict = YES;
+	NSString *dictFileName = @"dict";
+	_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:dictFileName ofType:@"plist"]] retain];
+	
 	[super awakeFromNib];
 }
 
