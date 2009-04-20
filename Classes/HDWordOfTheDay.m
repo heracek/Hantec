@@ -38,6 +38,9 @@
 	
 	_original.text = [_actualDictionaryItem valueForKey:kOriginal];
 	_translation.text = @"";
+	
+	_starOn = [UIImage imageNamed:@"star-on.png"];
+	_starOff = [UIImage imageNamed:@"star-off.png"];
 }
 
 
@@ -68,9 +71,9 @@
 
 - (void)setStateOfAddToFavouritesWithIsInFavourites:(BOOL)isInFavourites {
 	if (isInFavourites) {
-		_addToOrRemoveFromFavourites.alpha = 1;
+		[_addToOrRemoveFromFavourites setImage:_starOn forState:UIControlStateNormal];
 	} else {
-		_addToOrRemoveFromFavourites.alpha = 0.5;
+		[_addToOrRemoveFromFavourites setImage:_starOff forState:UIControlStateNormal];
 	}
 }
 

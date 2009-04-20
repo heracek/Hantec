@@ -19,6 +19,9 @@
 	IBOutlet NSObject<HFavouritesDataSource> *_favouritesDataSource;
 	
 	NSDictionary *_actualDictionaryItem;
+	
+	UIImage *_starOn;
+	UIImage *_starOff;
 }
 
 - (IBAction)showTranslationAction:(id)sender;
