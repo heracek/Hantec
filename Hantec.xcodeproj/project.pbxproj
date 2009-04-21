@@ -25,6 +25,7 @@
 		6985EF0A0F93C52E0006C9FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6985EF090F93C52E0006C9FE /* Default.png */; };
 		6985EF370F93CA020006C9FE /* oblibene.png in Resources */ = {isa = PBXBuildFile; fileRef = 6985EF360F93CA020006C9FE /* oblibene.png */; };
 		6985EF5E0F93E8520006C9FE /* nastaveni.png in Resources */ = {isa = PBXBuildFile; fileRef = 6985EF5D0F93E8520006C9FE /* nastaveni.png */; };
+		69BFA0750F9E660200F406B9 /* slovo-dne.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BFA0740F9E660200F406B9 /* slovo-dne.png */; };
 		69D32AEA0F61490600222632 /* z-hantecu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D32AE90F61490600222632 /* z-hantecu.png */; };
 		69D32AF90F6176EA00222632 /* do-hantecu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D32AF80F6176EA00222632 /* do-hantecu.png */; };
 		69D32B440F617E3F00222632 /* FromOriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D32B430F617E3F00222632 /* FromOriginalViewController.m */; };
@@ -60,6 +61,7 @@
 		6985EF090F93C52E0006C9FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6985EF360F93CA020006C9FE /* oblibene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oblibene.png; path = images/oblibene.png; sourceTree = "<group>"; };
 		6985EF5D0F93E8520006C9FE /* nastaveni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nastaveni.png; path = images/nastaveni.png; sourceTree = "<group>"; };
+		69BFA0740F9E660200F406B9 /* slovo-dne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slovo-dne.png"; path = "images/slovo-dne.png"; sourceTree = "<group>"; };
 		69D32AE90F61490600222632 /* z-hantecu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "z-hantecu.png"; path = "images/z-hantecu.png"; sourceTree = "<group>"; };
 		69D32AF80F6176EA00222632 /* do-hantecu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "do-hantecu.png"; path = "images/do-hantecu.png"; sourceTree = "<group>"; };
 		69D32B420F617E3F00222632 /* FromOriginalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromOriginalViewController.h; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		69D32AE70F6148C200222632 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				69BFA0740F9E660200F406B9 /* slovo-dne.png */,
 				690FDC500F9D25D4005CC5CE /* star-off.png */,
 				690FDC510F9D25D4005CC5CE /* star-on.png */,
 				69D32AF80F6176EA00222632 /* do-hantecu.png */,
@@ -252,6 +255,7 @@
 				6985EF5E0F93E8520006C9FE /* nastaveni.png in Resources */,
 				690FDC520F9D25D4005CC5CE /* star-off.png in Resources */,
 				690FDC530F9D25D4005CC5CE /* star-on.png in Resources */,
+				69BFA0750F9E660200F406B9 /* slovo-dne.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

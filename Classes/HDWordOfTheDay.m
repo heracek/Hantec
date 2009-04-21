@@ -32,15 +32,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	_starOn = [UIImage imageNamed:@"star-on.png"];
+	_starOff = [UIImage imageNamed:@"star-off.png"];
+	
 	if (_actualDictionaryItem == nil) {
 		[self loadNextDictionaryItem];
 	}
 	
 	_original.text = [_actualDictionaryItem valueForKey:kOriginal];
 	_translation.text = @"";
-	
-	_starOn = [UIImage imageNamed:@"star-on.png"];
-	_starOff = [UIImage imageNamed:@"star-off.png"];
 }
 
 
