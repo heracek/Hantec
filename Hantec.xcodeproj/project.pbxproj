@@ -19,6 +19,7 @@
 		690629680F9F945F00E16BE4 /* HSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690629670F9F945F00E16BE4 /* HSettingsController.m */; };
 		690929180FA1F2AB000F21E4 /* libmySettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 690929100FA1F262000F21E4 /* libmySettings.a */; };
 		690929330FA1F4CF000F21E4 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 690929320FA1F4CF000F21E4 /* Root.plist */; };
+		690929820FA2020B000F21E4 /* InfoSettingsCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 690929810FA2020B000F21E4 /* InfoSettingsCustomCell.m */; };
 		690FDC520F9D25D4005CC5CE /* star-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FDC500F9D25D4005CC5CE /* star-off.png */; };
 		690FDC530F9D25D4005CC5CE /* star-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FDC510F9D25D4005CC5CE /* star-on.png */; };
 		6949C65D0F5AD90A00BCAA1E /* dict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6949C65C0F5AD90A00BCAA1E /* dict.plist */; };
@@ -86,6 +87,8 @@
 		690929300FA1F480000F21E4 /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsCell.h; path = ../../repos/mysettings/Code/Classes/SettingsCell.h; sourceTree = SOURCE_ROOT; };
 		690929310FA1F480000F21E4 /* SettingsCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsCellProtocol.h; path = ../../repos/mysettings/Code/Classes/SettingsCellProtocol.h; sourceTree = SOURCE_ROOT; };
 		690929320FA1F4CF000F21E4 /* Root.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Root.plist; sourceTree = "<group>"; };
+		690929800FA2020B000F21E4 /* InfoSettingsCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoSettingsCustomCell.h; path = Classes/InfoSettingsCustomCell.h; sourceTree = "<group>"; };
+		690929810FA2020B000F21E4 /* InfoSettingsCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoSettingsCustomCell.m; path = Classes/InfoSettingsCustomCell.m; sourceTree = "<group>"; };
 		690FDC500F9D25D4005CC5CE /* star-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-off.png"; path = "images/star-off.png"; sourceTree = "<group>"; };
 		690FDC510F9D25D4005CC5CE /* star-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-on.png"; path = "images/star-on.png"; sourceTree = "<group>"; };
 		6949C65C0F5AD90A00BCAA1E /* dict.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = dict.plist; sourceTree = "<group>"; };
@@ -220,6 +223,8 @@
 				690929300FA1F480000F21E4 /* SettingsCell.h */,
 				690929310FA1F480000F21E4 /* SettingsCellProtocol.h */,
 				690929080FA1F262000F21E4 /* mySettings.xcodeproj */,
+				690929800FA2020B000F21E4 /* InfoSettingsCustomCell.h */,
+				690929810FA2020B000F21E4 /* InfoSettingsCustomCell.m */,
 			);
 			name = mySettings;
 			path = ..;
@@ -363,6 +368,7 @@
 				69054C8A0F88FD5B00E52EE3 /* HTabBarController.m in Sources */,
 				69E0E3790F9249B900F9BA99 /* FavouritesViewController.m in Sources */,
 				690629680F9F945F00E16BE4 /* HSettingsController.m in Sources */,
+				690929820FA2020B000F21E4 /* InfoSettingsCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

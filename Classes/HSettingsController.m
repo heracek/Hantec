@@ -13,7 +13,19 @@
 
 - (void)awakeFromNib {
 	NSString *plist = [[NSBundle mainBundle] pathForResource:@"Root" ofType:@"plist"];
+	
+	[[NSUserDefaults standardUserDefaults] setValue:[NSArray arrayWithObjects:
+													 @"Vytvořeno za základě www.hantec.cz",
+													 @"© 2009 Tomáš Horáček",
+													 nil] forKey:@"bottomSettingsTextInfo"];
+	
 	[self initWithConfigFile:plist];
 }
+
+- (void)viewWillDisappear:(BOOL)animated {
+	[super viewWillDisappear:animated];
+	[settingsdatasource save];
+}
+
 
 @end

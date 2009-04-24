@@ -27,6 +27,12 @@
 }
 */
 
+-(void)autoSetShowTranslationInWordOfTheDay {
+	NSLog(@"autoSetShowTranslationInWordOfTheDay");
+	
+	_showTranslationInWordOfTheDay = [[NSUserDefaults standardUserDefaults] boolForKey:SHOW_TRANSLATION_IN_WORD_OF_THE_DAY_KEY];
+	_showTranslation.hidden = _showTranslationInWordOfTheDay;
+}
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -39,8 +45,21 @@
 		[self loadNextDictionaryItem];
 	}
 	
+	[self autoSetShowTranslationInWordOfTheDay];
+	
 	_original.text = [_actualDictionaryItem valueForKey:kOriginal];
 	_translation.text = @"";
+	if (_showTranslationInWordOfTheDay) {
+		[self showTranslationAction:nil];
+	}
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	[self autoSetShowTranslationInWordOfTheDay];
+	if (_showTranslationInWordOfTheDay) {
+		[self showTranslationAction:nil];
+	}
 }
 
 
@@ -90,6 +109,9 @@
 	[self loadNextDictionaryItem];
 	_original.text = [_actualDictionaryItem valueForKey:kOriginal];
 	_translation.text = @"";
+	if (_showTranslationInWordOfTheDay) {
+		[self showTranslationAction:nil];
+	}
 }
 
 - (IBAction)addToOrRemoveFromFavourites:(id)sender {

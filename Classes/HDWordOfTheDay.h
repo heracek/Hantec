@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "RootViewController.h"
 
+#define SHOW_TRANSLATION_IN_WORD_OF_THE_DAY_KEY @"showTranslationInWordOfTheDay"
+
 @interface HDWordOfTheDay : UIViewController {
 	IBOutlet UILabel *_original;
 	IBOutlet UITextView *_translation;
@@ -19,6 +21,8 @@
 	IBOutlet NSObject<HFavouritesDataSource> *_favouritesDataSource;
 	
 	NSDictionary *_actualDictionaryItem;
+	
+	BOOL _showTranslationInWordOfTheDay;
 	
 	UIImage *_starOn;
 	UIImage *_starOff;

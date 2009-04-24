@@ -28,6 +28,21 @@
 			<key>Hidden</key>
 			<false/>
 		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Info</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Key</key>
+			<string>bottomSettingsTextInfo</string>
+			<key>PreferenceSpecifiers</key>
+			<dict>
+				<key>Type</key>
+				<string>Custom</string>
+				<key>CustomCell</key>
+				<string>InfoSettingsCustomCell</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
