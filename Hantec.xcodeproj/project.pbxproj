@@ -16,6 +16,9 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		69054C8A0F88FD5B00E52EE3 /* HTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69054C890F88FD5B00E52EE3 /* HTabBarController.m */; };
+		690629680F9F945F00E16BE4 /* HSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690629670F9F945F00E16BE4 /* HSettingsController.m */; };
+		690929180FA1F2AB000F21E4 /* libmySettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 690929100FA1F262000F21E4 /* libmySettings.a */; };
+		690929330FA1F4CF000F21E4 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 690929320FA1F4CF000F21E4 /* Root.plist */; };
 		690FDC520F9D25D4005CC5CE /* star-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FDC500F9D25D4005CC5CE /* star-off.png */; };
 		690FDC530F9D25D4005CC5CE /* star-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FDC510F9D25D4005CC5CE /* star-on.png */; };
 		6949C65D0F5AD90A00BCAA1E /* dict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6949C65C0F5AD90A00BCAA1E /* dict.plist */; };
@@ -36,6 +39,30 @@
 		69E0E37B0F924A7700F9BA99 /* empty-favourites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69E0E37A0F924A7700F9BA99 /* empty-favourites.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6909290D0FA1F262000F21E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 690929080FA1F262000F21E4 /* mySettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54 /* Hantec.app */;
+			remoteInfo = "mySettings TestApp";
+		};
+		6909290F0FA1F262000F21E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 690929080FA1F262000F21E4 /* mySettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA300E930F69C60200A2CC32 /* libmySettings.a */;
+			remoteInfo = mySettings;
+		};
+		690929260FA1F3B0000F21E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 690929080FA1F262000F21E4 /* mySettings.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4B7E290F69B82C00BC932F /* mySettings */;
+			remoteInfo = mySettings;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* HantecAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HantecAppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +78,14 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69054C880F88FD5B00E52EE3 /* HTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTabBarController.h; sourceTree = "<group>"; };
 		69054C890F88FD5B00E52EE3 /* HTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTabBarController.m; sourceTree = "<group>"; };
+		690629660F9F945F00E16BE4 /* HSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSettingsController.h; sourceTree = "<group>"; };
+		690629670F9F945F00E16BE4 /* HSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSettingsController.m; sourceTree = "<group>"; };
+		690929080FA1F262000F21E4 /* mySettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mySettings.xcodeproj; path = ../../repos/mysettings/mySettings.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6909292E0FA1F480000F21E4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../../repos/mysettings/Code/Classes/SettingsViewController.h; sourceTree = SOURCE_ROOT; };
+		6909292F0FA1F480000F21E4 /* SettingsMetadataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsMetadataSource.h; path = ../../repos/mysettings/Code/Classes/SettingsMetadataSource.h; sourceTree = SOURCE_ROOT; };
+		690929300FA1F480000F21E4 /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsCell.h; path = ../../repos/mysettings/Code/Classes/SettingsCell.h; sourceTree = SOURCE_ROOT; };
+		690929310FA1F480000F21E4 /* SettingsCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsCellProtocol.h; path = ../../repos/mysettings/Code/Classes/SettingsCellProtocol.h; sourceTree = SOURCE_ROOT; };
+		690929320FA1F4CF000F21E4 /* Root.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Root.plist; sourceTree = "<group>"; };
 		690FDC500F9D25D4005CC5CE /* star-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-off.png"; path = "images/star-off.png"; sourceTree = "<group>"; };
 		690FDC510F9D25D4005CC5CE /* star-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-on.png"; path = "images/star-on.png"; sourceTree = "<group>"; };
 		6949C65C0F5AD90A00BCAA1E /* dict.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = dict.plist; sourceTree = "<group>"; };
@@ -82,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690929180FA1F2AB000F21E4 /* libmySettings.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
@@ -94,6 +130,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				690929290FA1F465000F21E4 /* mySettings */,
 				69E0E3700F9248E700F9BA99 /* TableViewControllers */,
 				1D3623240D0F684500981E51 /* HantecAppDelegate.h */,
 				1D3623250D0F684500981E51 /* HantecAppDelegate.m */,
@@ -103,6 +140,8 @@
 				69DD23DD0F7D31A4007E9EE5 /* HDWordOfTheDay.m */,
 				69054C880F88FD5B00E52EE3 /* HTabBarController.h */,
 				69054C890F88FD5B00E52EE3 /* HTabBarController.m */,
+				690629660F9F945F00E16BE4 /* HSettingsController.h */,
+				690629670F9F945F00E16BE4 /* HSettingsController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -149,6 +188,7 @@
 				6949C65C0F5AD90A00BCAA1E /* dict.plist */,
 				69D32B730F62803100222632 /* dict-reverse.plist */,
 				69E0E37A0F924A7700F9BA99 /* empty-favourites.plist */,
+				690929320FA1F4CF000F21E4 /* Root.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -161,6 +201,28 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		690929090FA1F262000F21E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6909290E0FA1F262000F21E4 /* mySettings.app */,
+				690929100FA1F262000F21E4 /* libmySettings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		690929290FA1F465000F21E4 /* mySettings */ = {
+			isa = PBXGroup;
+			children = (
+				6909292E0FA1F480000F21E4 /* SettingsViewController.h */,
+				6909292F0FA1F480000F21E4 /* SettingsMetadataSource.h */,
+				690929300FA1F480000F21E4 /* SettingsCell.h */,
+				690929310FA1F480000F21E4 /* SettingsCellProtocol.h */,
+				690929080FA1F262000F21E4 /* mySettings.xcodeproj */,
+			);
+			name = mySettings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		69D32AE70F6148C200222632 /* images */ = {
@@ -206,6 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				690929270FA1F3B0000F21E4 /* PBXTargetDependency */,
 			);
 			name = Hantec;
 			productName = Hantec;
@@ -229,12 +292,35 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 690929090FA1F262000F21E4 /* Products */;
+					ProjectRef = 690929080FA1F262000F21E4 /* mySettings.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Hantec */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6909290E0FA1F262000F21E4 /* mySettings.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = mySettings.app;
+			remoteRef = 6909290D0FA1F262000F21E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		690929100FA1F262000F21E4 /* libmySettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmySettings.a;
+			remoteRef = 6909290F0FA1F262000F21E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -256,6 +342,7 @@
 				690FDC520F9D25D4005CC5CE /* star-off.png in Resources */,
 				690FDC530F9D25D4005CC5CE /* star-on.png in Resources */,
 				69BFA0750F9E660200F406B9 /* slovo-dne.png in Resources */,
+				690929330FA1F4CF000F21E4 /* Root.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +362,19 @@
 				69DD23DE0F7D31A4007E9EE5 /* HDWordOfTheDay.m in Sources */,
 				69054C8A0F88FD5B00E52EE3 /* HTabBarController.m in Sources */,
 				69E0E3790F9249B900F9BA99 /* FavouritesViewController.m in Sources */,
+				690629680F9F945F00E16BE4 /* HSettingsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		690929270FA1F3B0000F21E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mySettings;
+			targetProxy = 690929260FA1F3B0000F21E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {

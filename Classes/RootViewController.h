@@ -47,5 +47,4 @@
 @property (nonatomic, retain) UISearchBar *searchBar;
 @property (nonatomic, retain) UITabBar *tabBar;
 
-
 @end
