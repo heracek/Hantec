@@ -28,8 +28,6 @@
 */
 
 -(void)autoSetShowTranslationInWordOfTheDay {
-	NSLog(@"autoSetShowTranslationInWordOfTheDay");
-	
 	_showTranslationInWordOfTheDay = [[NSUserDefaults standardUserDefaults] boolForKey:SHOW_TRANSLATION_IN_WORD_OF_THE_DAY_KEY];
 	_showTranslation.hidden = _showTranslationInWordOfTheDay;
 }

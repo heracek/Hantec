@@ -45,21 +45,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 690929080FA1F262000F21E4 /* mySettings.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1D6058910D05DD3D006BFB54 /* Hantec.app */;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
 			remoteInfo = "mySettings TestApp";
 		};
 		6909290F0FA1F262000F21E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 690929080FA1F262000F21E4 /* mySettings.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BA300E930F69C60200A2CC32 /* libmySettings.a */;
+			remoteGlobalIDString = BA300E930F69C60200A2CC32;
 			remoteInfo = mySettings;
 		};
 		690929260FA1F3B0000F21E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 690929080FA1F262000F21E4 /* mySettings.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = BA4B7E290F69B82C00BC932F /* mySettings */;
+			remoteGlobalIDString = BA4B7E290F69B82C00BC932F;
 			remoteInfo = mySettings;
 		};
 /* End PBXContainerItemProxy section */
@@ -262,7 +262,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Hantec */ = {
+		1D6058900D05DD3D006BFB54 /* mySettings TestApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Hantec" */;
 			buildPhases = (
@@ -305,7 +305,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Hantec */,
+				1D6058900D05DD3D006BFB54 /* mySettings TestApp */,
 			);
 		};
 /* End PBXProject section */
