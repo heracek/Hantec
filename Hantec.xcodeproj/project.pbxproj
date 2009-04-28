@@ -38,6 +38,7 @@
 		69DD23DE0F7D31A4007E9EE5 /* HDWordOfTheDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD23DD0F7D31A4007E9EE5 /* HDWordOfTheDay.m */; };
 		69E0E3790F9249B900F9BA99 /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E0E3780F9249B900F9BA99 /* FavouritesViewController.m */; };
 		69E0E37B0F924A7700F9BA99 /* empty-favourites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69E0E37A0F924A7700F9BA99 /* empty-favourites.plist */; };
+		69ECB25B0FA790B500E660DA /* HNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECB25A0FA790B500E660DA /* HNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 		69E0E3770F9249B900F9BA99 /* FavouritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesViewController.h; sourceTree = "<group>"; };
 		69E0E3780F9249B900F9BA99 /* FavouritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesViewController.m; sourceTree = "<group>"; };
 		69E0E37A0F924A7700F9BA99 /* empty-favourites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "empty-favourites.plist"; sourceTree = "<group>"; };
+		69ECB2590FA790B500E660DA /* HNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNavigationController.h; sourceTree = "<group>"; };
+		69ECB25A0FA790B500E660DA /* HNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNavigationController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +148,8 @@
 				69054C890F88FD5B00E52EE3 /* HTabBarController.m */,
 				690629660F9F945F00E16BE4 /* HSettingsController.h */,
 				690629670F9F945F00E16BE4 /* HSettingsController.m */,
+				69ECB2590FA790B500E660DA /* HNavigationController.h */,
+				69ECB25A0FA790B500E660DA /* HNavigationController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -262,7 +267,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* mySettings TestApp */ = {
+		1D6058900D05DD3D006BFB54 /* Hantec */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Hantec" */;
 			buildPhases = (
@@ -305,7 +310,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* mySettings TestApp */,
+				1D6058900D05DD3D006BFB54 /* Hantec */,
 			);
 		};
 /* End PBXProject section */
@@ -369,6 +374,7 @@
 				69E0E3790F9249B900F9BA99 /* FavouritesViewController.m in Sources */,
 				690629680F9F945F00E16BE4 /* HSettingsController.m in Sources */,
 				690929820FA2020B000F21E4 /* InfoSettingsCustomCell.m in Sources */,
+				69ECB25B0FA790B500E660DA /* HNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

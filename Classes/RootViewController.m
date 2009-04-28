@@ -175,6 +175,15 @@
 	[UIView commitAnimations];
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	NSLog(@"{%d, %d}", indexPath.section, indexPath.row);
+	
+	UIViewController *wordViewController = [[UIViewController alloc] init];
+	
+	[_navigationController pushViewController:wordViewController animated:YES];
+	[wordViewController release];
+}
+
 #pragma mark UISearchBarDelegate
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {

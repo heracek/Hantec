@@ -34,6 +34,7 @@
 	IBOutlet UITabBar *_tabBar;
 	IBOutlet HDictionaryCell *_cell;
 	IBOutlet NSObject<HFavouritesDataSource> *_favouritesDataSource;
+	IBOutlet UINavigationController *_navigationController;
 	
 	NSIndexPath *_selectRowIndexPath;
 	

@@ -12,8 +12,12 @@
 @implementation FromOriginalViewController
 
 - (void)awakeFromNib {
+	NSLog(@"FromOriginalViewController - awakeFromNib");
+	
 	NSString *dictFileName = @"dict";
 	_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:dictFileName ofType:@"plist"]] retain];
+	
+	self.title = @"Z Hantecu";
 	
 	[super awakeFromNib];
 }
