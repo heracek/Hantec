@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "HDictionaryCell.h"
+@class HWordDetails;
 
 #define kSectionName @"sectionName"
 #define kSectionData @"sectionData"
@@ -35,6 +36,7 @@
 	IBOutlet HDictionaryCell *_cell;
 	IBOutlet NSObject<HFavouritesDataSource> *_favouritesDataSource;
 	IBOutlet UINavigationController *_navigationController;
+	IBOutlet HWordDetails* _detailsController;
 	
 	NSIndexPath *_selectRowIndexPath;
 	

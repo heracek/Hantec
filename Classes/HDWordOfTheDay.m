@@ -36,9 +36,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	_starOn = [UIImage imageNamed:@"star-on.png"];
-	_starOff = [UIImage imageNamed:@"star-off.png"];
-	
 	if (_actualDictionaryItem == nil) {
 		[self loadNextDictionaryItem];
 	}
@@ -86,19 +83,6 @@
     [super dealloc];
 }
 
-- (void)setStateOfAddToFavouritesWithIsInFavourites:(BOOL)isInFavourites {
-	if (isInFavourites) {
-		[_addToOrRemoveFromFavourites setImage:_starOn forState:UIControlStateNormal];
-	} else {
-		[_addToOrRemoveFromFavourites setImage:_starOff forState:UIControlStateNormal];
-	}
-}
-
-- (void)autosetStateOfAddToFavourites {
-	BOOL isInFavourites = [_favouritesDataSource isInFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
-	[self setStateOfAddToFavouritesWithIsInFavourites:isInFavourites];
-}
-
 - (IBAction)showTranslationAction:(id)sender {
 	_translation.text = [_actualDictionaryItem valueForKey:kTranslation];
 }
@@ -110,17 +94,6 @@
 	if (_showTranslationInWordOfTheDay) {
 		[self showTranslationAction:nil];
 	}
-}
-
-- (IBAction)addToOrRemoveFromFavourites:(id)sender {
-	BOOL isInFavourites = [_favouritesDataSource isInFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
-	if (isInFavourites) {
-		[_favouritesDataSource removeFromFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
-	} else {
-		[_favouritesDataSource addToFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
-	}
-	
-	[self setStateOfAddToFavouritesWithIsInFavourites: ! isInFavourites];
 }
 
 - (void)loadNextDictionaryItem {

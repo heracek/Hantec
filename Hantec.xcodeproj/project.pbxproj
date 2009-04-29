@@ -39,6 +39,7 @@
 		69E0E3790F9249B900F9BA99 /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E0E3780F9249B900F9BA99 /* FavouritesViewController.m */; };
 		69E0E37B0F924A7700F9BA99 /* empty-favourites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69E0E37A0F924A7700F9BA99 /* empty-favourites.plist */; };
 		69ECB25B0FA790B500E660DA /* HNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECB25A0FA790B500E660DA /* HNavigationController.m */; };
+		69ECB2DC0FA7C9BD00E660DA /* HWordDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECB2DB0FA7C9BD00E660DA /* HWordDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,8 @@
 		69E0E37A0F924A7700F9BA99 /* empty-favourites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "empty-favourites.plist"; sourceTree = "<group>"; };
 		69ECB2590FA790B500E660DA /* HNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNavigationController.h; sourceTree = "<group>"; };
 		69ECB25A0FA790B500E660DA /* HNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNavigationController.m; sourceTree = "<group>"; };
+		69ECB2DA0FA7C9BD00E660DA /* HWordDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWordDetails.h; sourceTree = "<group>"; };
+		69ECB2DB0FA7C9BD00E660DA /* HWordDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWordDetails.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,14 +145,16 @@
 				1D3623250D0F684500981E51 /* HantecAppDelegate.m */,
 				6949C77B0F5AEA8F00BCAA1E /* HDictionaryCell.h */,
 				6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */,
-				69DD23DC0F7D31A4007E9EE5 /* HDWordOfTheDay.h */,
-				69DD23DD0F7D31A4007E9EE5 /* HDWordOfTheDay.m */,
 				69054C880F88FD5B00E52EE3 /* HTabBarController.h */,
 				69054C890F88FD5B00E52EE3 /* HTabBarController.m */,
 				690629660F9F945F00E16BE4 /* HSettingsController.h */,
 				690629670F9F945F00E16BE4 /* HSettingsController.m */,
 				69ECB2590FA790B500E660DA /* HNavigationController.h */,
 				69ECB25A0FA790B500E660DA /* HNavigationController.m */,
+				69ECB2DA0FA7C9BD00E660DA /* HWordDetails.h */,
+				69ECB2DB0FA7C9BD00E660DA /* HWordDetails.m */,
+				69DD23DC0F7D31A4007E9EE5 /* HDWordOfTheDay.h */,
+				69DD23DD0F7D31A4007E9EE5 /* HDWordOfTheDay.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 				690629680F9F945F00E16BE4 /* HSettingsController.m in Sources */,
 				690929820FA2020B000F21E4 /* InfoSettingsCustomCell.m in Sources */,
 				69ECB25B0FA790B500E660DA /* HNavigationController.m in Sources */,
+				69ECB2DC0FA7C9BD00E660DA /* HWordDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

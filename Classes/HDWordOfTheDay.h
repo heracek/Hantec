@@ -8,29 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "RootViewController.h"
+#import "HWordDetails.h"
 
-#define SHOW_TRANSLATION_IN_WORD_OF_THE_DAY_KEY @"showTranslationInWordOfTheDay"
-
-@interface HDWordOfTheDay : UIViewController {
-	IBOutlet UILabel *_original;
-	IBOutlet UITextView *_translation;
+@interface HDWordOfTheDay : HWordDetails {
+	IBOutlet NSObject<HWordOfTheDayDataSource> *_wordOfTheDayDataSource;
 	IBOutlet UIButton *_showTranslation;
 	IBOutlet UIButton *_next;
-	IBOutlet UIButton *_addToOrRemoveFromFavourites;
-	IBOutlet NSObject<HWordOfTheDayDataSource> *_wordOfTheDayDataSource;
-	IBOutlet NSObject<HFavouritesDataSource> *_favouritesDataSource;
-	
-	NSDictionary *_actualDictionaryItem;
-	
-	BOOL _showTranslationInWordOfTheDay;
-	
-	UIImage *_starOn;
-	UIImage *_starOff;
 }
 
 - (IBAction)showTranslationAction:(id)sender;
 - (IBAction)nextWordAction:(id)sender;
-- (IBAction)addToOrRemoveFromFavourites:(id)sender;
 - (void)loadNextDictionaryItem;
 
 @end

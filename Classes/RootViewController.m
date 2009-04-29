@@ -9,7 +9,7 @@
 #import "RootViewController.h"
 #import "HantecAppDelegate.h"
 #import "HDictionaryCell.h"
-
+#import "HWordDetails.h"
 
 @implementation RootViewController
 
@@ -120,6 +120,14 @@
 	return sizeOfOriginal.height + sizeOfTranslation.height + 3 + additionaHeight;
 }
 
+- (NSDictionary *)getDictionaryItemForIndexPath:(NSIndexPath *)indexPath {
+	if (_useFilteredList) {
+		return [_filteredListContent objectAtIndex: indexPath.row];
+	} else {
+		return [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
+	}
+}
+
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {	
     static NSString *CellIdentifier = @"HDictionaryCell";
@@ -131,14 +139,9 @@
 		[[NSBundle mainBundle] loadNibNamed:@"HDictionaryCell" owner:self options:nil];
     }
 	
-    NSDictionary *dictionaryItem;
-	if (_useFilteredList) {
-		dictionaryItem = [_filteredListContent objectAtIndex: indexPath.row];
-	} else {
-		dictionaryItem = [[[_dataBySections objectAtIndex: indexPath.section] objectForKey:kSectionData] objectAtIndex: indexPath.row];
-		if (_showSectionIndex) {
-			cellWidth -= 40;
-		}
+    NSDictionary *dictionaryItem = [self getDictionaryItemForIndexPath:indexPath];
+	if ( ! _useFilteredList && _showSectionIndex) {
+		cellWidth -= 40;
 	}
 	
 	[_cell setCellOriginal:[dictionaryItem objectForKey:kOriginal]
@@ -178,10 +181,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	NSLog(@"{%d, %d}", indexPath.section, indexPath.row);
 	
-	UIViewController *wordViewController = [[UIViewController alloc] init];
+	[_detailsController setDictionaryItem:[self getDictionaryItemForIndexPath:indexPath]];
 	
-	[_navigationController pushViewController:wordViewController animated:YES];
-	[wordViewController release];
+	[_navigationController pushViewController:_detailsController animated:YES];
 }
 
 #pragma mark UISearchBarDelegate
