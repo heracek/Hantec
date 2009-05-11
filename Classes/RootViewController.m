@@ -170,7 +170,15 @@
 	
 	UITableView *tableView = self.tableView;
 	//[UIView beginAnimations:nil context:nil];
-	[tableView setIndexHidden:hide animated:YES];
+	
+	
+	
+	NSObject <NonPublicTableViewMethods> *noCompilerWarningTableView \
+		= (NSObject <NonPublicTableViewMethods> *)tableView;
+	[noCompilerWarningTableView setIndexHidden:hide animated:YES];
+	
+	
+	
 	//[UIView commitAnimations];
 	[UIView beginAnimations:nil context:nil];
 	[UIView setAnimationDuration:0.5];
@@ -181,7 +189,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	NSLog(@"{%d, %d}", indexPath.section, indexPath.row);
 	
-	[_detailsController setDictionaryItem:[self getDictionaryItemForIndexPath:indexPath]];
+	[_detailsController setDictionaryItem:[self getDictionaryItemForIndexPath:indexPath]
+					   isFromOriginalDict:_isFromOriginalDict];
 	
 	[_navigationController pushViewController:_detailsController animated:YES];
 }

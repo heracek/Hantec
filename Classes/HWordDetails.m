@@ -27,11 +27,11 @@
 }
 
 - (IBAction)addToOrRemoveFromFavourites:(id)sender {
-	BOOL isInFavourites = [_favouritesDataSource isInFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+	BOOL isInFavourites = [_favouritesDataSource isInFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:_isFromOriginalDict];
 	if (isInFavourites) {
-		[_favouritesDataSource removeFromFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+		[_favouritesDataSource removeFromFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:_isFromOriginalDict];
 	} else {
-		[_favouritesDataSource addToFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+		[_favouritesDataSource addToFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:_isFromOriginalDict];
 	}
 	
 	[self setStateOfAddToFavouritesWithIsInFavourites: ! isInFavourites];
@@ -46,12 +46,14 @@
 }
 
 - (void)autosetStateOfAddToFavourites {
-	BOOL isInFavourites = [_favouritesDataSource isInFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:YES];
+	BOOL isInFavourites = [_favouritesDataSource isInFavouritesWithDictionaryItem:_actualDictionaryItem AndIsOriginalDict:_isFromOriginalDict];
 	[self setStateOfAddToFavouritesWithIsInFavourites:isInFavourites];
 }
 
-- (void)setDictionaryItem:(NSDictionary *)dictionaryItem {
+- (void)setDictionaryItem:(NSDictionary *)dictionaryItem isFromOriginalDict:(BOOL)isFromOriginalDict {
 	_actualDictionaryItem = dictionaryItem;
+	_isFromOriginalDict = isFromOriginalDict;
+	
 	_original.text = [_actualDictionaryItem valueForKey:kOriginal];
 	_translation.text = [_actualDictionaryItem valueForKey:kTranslation];
 }

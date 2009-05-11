@@ -272,7 +272,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Hantec */ = {
+		1D6058900D05DD3D006BFB54 /* mySettings TestApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Hantec" */;
 			buildPhases = (
@@ -315,7 +315,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Hantec */,
+				1D6058900D05DD3D006BFB54 /* mySettings TestApp */,
 			);
 		};
 /* End PBXProject section */

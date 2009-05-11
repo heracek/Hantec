@@ -36,6 +36,8 @@
 	_sortingLocale = [[NSLocale alloc] initWithLocaleIdentifier:@"cs"];
 	[super awakeFromNib];
 	
+	self.title = @"Oblíbené";
+	
 	_showSectionIndex = NO;
 }
 

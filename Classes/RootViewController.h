@@ -27,6 +27,10 @@
 - (NSDictionary *)getWordOfTheDay;
 @end
 
+@protocol NonPublicTableViewMethods
+- (void)setIndexHidden:(BOOL)hidden animated:(BOOL)animated;
+@end
+
 
 @interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, HWordOfTheDayDataSource> {
 	BOOL _isFromOriginalDict;

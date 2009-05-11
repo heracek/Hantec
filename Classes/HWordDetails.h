@@ -12,6 +12,7 @@
 #define SHOW_TRANSLATION_IN_WORD_OF_THE_DAY_KEY @"showTranslationInWordOfTheDay"
 
 @interface HWordDetails : UIViewController {
+	BOOL _isFromOriginalDict;
 	IBOutlet UILabel *_original;
 	IBOutlet UITextView *_translation;
 	IBOutlet UIButton *_addToOrRemoveFromFavourites;
@@ -25,7 +26,7 @@
 	UIImage *_starOff;
 }
 
-- (void)setDictionaryItem:(NSDictionary *)dictionaryItem;
+- (void)setDictionaryItem:(NSDictionary *)dictionaryItem isFromOriginalDict:(BOOL)isFromOriginalDict;
 
 - (IBAction)addToOrRemoveFromFavourites:(id)sender;
 - (void)autosetStateOfAddToFavourites;

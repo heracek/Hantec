@@ -14,6 +14,9 @@
 - (void)awakeFromNib {
 	NSString *dictFileName = @"dict-reverse";
 	_dataBySections = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:dictFileName ofType:@"plist"]] retain];
+	_isFromOriginalDict = NO;
+	
+	self.title = @"Do Hantecu";
 	
 	[super awakeFromNib];
 }
