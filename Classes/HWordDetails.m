@@ -51,7 +51,10 @@
 }
 
 - (void)setDictionaryItem:(NSDictionary *)dictionaryItem isFromOriginalDict:(BOOL)isFromOriginalDict {
-	_actualDictionaryItem = dictionaryItem;
+	if (_actualDictionaryItem != nil) {
+		[_actualDictionaryItem release];
+	}
+	_actualDictionaryItem = [dictionaryItem retain];
 	_isFromOriginalDict = isFromOriginalDict;
 	
 	_original.text = [_actualDictionaryItem valueForKey:kOriginal];

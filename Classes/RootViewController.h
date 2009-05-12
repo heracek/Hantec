@@ -54,4 +54,6 @@
 @property (nonatomic, retain) UISearchBar *searchBar;
 @property (nonatomic, retain) UITabBar *tabBar;
 
+- (NSDictionary *)getDictionaryItemForIndexPath:(NSIndexPath *)indexPath;
+
 @end

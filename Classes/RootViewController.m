@@ -187,8 +187,6 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSLog(@"{%d, %d}", indexPath.section, indexPath.row);
-	
 	[_detailsController setDictionaryItem:[self getDictionaryItemForIndexPath:indexPath]
 					   isFromOriginalDict:_isFromOriginalDict];
 	

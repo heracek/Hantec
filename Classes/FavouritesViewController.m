@@ -6,7 +6,6 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import "RootViewController.h"
 #import "FavouritesViewController.h"
 
 
@@ -127,6 +126,19 @@
 	}
 	
 	return NO;
+}
+
+
+
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	NSLog(@"in fav {%d, %d}", indexPath.section, indexPath.row);
+	
+	[_detailsController setDictionaryItem:[self getDictionaryItemForIndexPath:indexPath]
+					   isFromOriginalDict:(indexPath.section == 0) ? YES : NO];
+	
+	[_navigationController pushViewController:_detailsController animated:YES];
 }
 
 @end
