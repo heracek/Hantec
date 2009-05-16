@@ -181,7 +181,7 @@ D
     do holpecu ~ dohromady
     dojet ~ sníst po někom zbytky
     dojížďák ~ zbytky jídla
-    Doktor Špína ~ brněnský somrák - známá postava
+    Doktor Špína ~ brněnský somrák (známá postava)
     dolcky ~ dolary
     domáknout se ~ dozvědět se, zjistit
     domášov ~ bydlení, jít domů
@@ -207,7 +207,7 @@ D
     džekyl ~ chlápek, detektiv, policista
     džignót ~ ukrást
     Džungla ~ osada pod Stránskou skálou v Líšni
-    džundr ~ v ýklenek mezi vchodem do domu a chodníkem
+    džundr ~ výklenek mezi vchodem do domu a chodníkem
     džusblues ~ pozdrav
     džuzna ~ jáma
     dˇ ~ děkuji
@@ -300,7 +300,7 @@ G
 
     gábl ~ jídlo
     Gampl ~ stánek na nám. Svobody ve tvaru houby
-    gampl ~ houba, nebo veřejné záchodky na nám. Svobody uzavřeny 1961 - bývalé místo srazů , měly tvar hříbku
+    gampl ~ houba, veřejné záchodky na nám. Svobody uzavřeny 1961 (měly tvar hříbku; bývalé místo srazů)
     gample ~ žampióny, houby
     ganek, ganěk ~ pavlač
     gebeňa ~ hlava
@@ -780,7 +780,7 @@ S
     šalina ~ tramvaj, elektřina
     Šanghaj ~ Divišova čtvrť
     šaškec ~ blázinec, nepořádek
-    šaukle ~ kolotoče,lunapark
+    šaukle ~ kolotoče, lunapark
     šavla ~ zvracení
     šestky ~ autobus č. 66
     ševelit ~ mluvit
@@ -879,7 +879,7 @@ T
     tyčka ~ zvracení, zvratky
     tympl ~ místo
 U
-    U Medvídka (u méďana) ~ bývalá brněnská fotografická provozovna na Joštové - místo častých srazů
+    U Medvídka (u méďana) ~ bývalá brněnská fotografická provozovna na Joštové (místo častých srazů)
     ufachčit ranu ~ udělat podraz
     úmak ~ výtvor
     ušit tunel ~ udělat podraz
@@ -904,7 +904,7 @@ V
     větrání mlíkáren ~ vyndání prsou (ukázání ženských prsů)
     věžák ~ vysoká sklenice na pivo (0,5l) bez ucha, vícepatrový úzký dům
     vidla ~ krádež
-    vingl ~ roh, uhelnik,L-profil
+    vingl ~ roh, uhelnik, L-profil
     Vincky ~ Vinohrady (brněnské sídliště)
     viset ~ dlužit
     vo tym žádná ~ to je bez řečí
@@ -923,7 +923,7 @@ V
     vtruknout ~ vstoupit, přijít, vtrhnout
     vybořit ~ pomilovat
     vyfajfčit ~ vyspat se
-    vyflusnót ~ vyplivnout,vypovědět službu
+    vyflusnót ~ vyplivnout, vypovědět službu
     vygómat ~ vymyslet
     vychrupčit se ~ vyspat se
     vyklátit ~ pomilovat

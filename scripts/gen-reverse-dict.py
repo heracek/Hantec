@@ -12,6 +12,55 @@ def encode_for_locale(u):
 def decode_to_utf(s_encoded_for_locale):
     return s_encoded_for_locale.decode('ISO8859-2').encode('utf-8')
 
+def sort_words_and_join_the_same_words_and_move_notes_to_traslations(dict_per_first_letters):
+    for first_letter in dict_per_first_letters.keys():
+        dict_per_first_letters[first_letter].sort(cmp=locale.strcoll, key=lambda x: x[0])
+        old_translations = dict_per_first_letters[first_letter]
+        
+        joined_translations = []
+        first_found_original = None
+        the_same_originals_translations = None
+        
+        for original, translation in old_translations:
+            if first_found_original == None:
+                first_found_original = original
+                the_same_originals_translations = [translation]
+                continue
+            
+            if original == first_found_original:
+                the_same_originals_translations.append(translation)
+            else:
+                the_same_originals_translations = [encode_for_locale(t) for t in the_same_originals_translations]
+                the_same_originals_translations.sort(cmp=locale.strcoll)
+                
+                orig = first_found_original
+                note = ''
+                if '(' in first_found_original and '(0,5l)' not in first_found_original:
+                    orig, note = first_found_original.split('(', 1)
+                    orig = orig.strip()
+                    note = '; (' + note.strip()
+                
+                joined_translations.append((orig, decode_to_utf(', '.join(the_same_originals_translations) + note)))
+                
+                first_found_original = original
+                the_same_originals_translations = [translation]
+        if first_found_original != None:
+            the_same_originals_translations = [encode_for_locale(t) for t in the_same_originals_translations]
+            the_same_originals_translations.sort(cmp=locale.strcoll)
+            
+            orig = first_found_original
+            note = ''
+            if '(' in first_found_original and '(0,5l)' not in first_found_original:
+                orig, note = first_found_original.split('(', 1)
+                orig = orig.strip()
+                note = ' (' + note.strip()
+            
+            joined_translations.append((orig, decode_to_utf(', '.join(the_same_originals_translations) + note)))
+            
+        
+        dict_per_first_letters[first_letter] = joined_translations
+                
+
 def main():
     f = open('../dict.txt')
     dict_per_first_letters = {}
@@ -19,28 +68,34 @@ def main():
         line = line.decode('utf-8')
         match = DICT_LINE_RE.match(line)
         if match:
-            original, translation = match.groups()
+            original, translations = match.groups()
             
-            first_letter = None
-            if translation.upper().startswith('CH'):
-                first_letter = 'CH'
-            else:
-                first_letter = translation.upper()[0]
+            for translation in translations.split(', '):
+                translation = translation.strip()
                 
-            dict_per_first_letters.setdefault(encode_for_locale(first_letter), []) \
-                .append((encode_for_locale(translation), original))
+                first_letter = None
+                if translation.upper().startswith('CH'):
+                    first_letter = 'CH'
+                else:
+                    first_letter = translation.upper()[0]
+                
+                dict_per_first_letters.setdefault(encode_for_locale(first_letter), []) \
+                    .append((encode_for_locale(translation), original))
         # else:
         #     print line.encode('utf-8'),
     
     sorted_first_letters = dict_per_first_letters.keys()
     sorted_first_letters.sort(cmp=locale.strcoll)
     
+    sort_words_and_join_the_same_words_and_move_notes_to_traslations(dict_per_first_letters)
+    
     for first_letter in sorted_first_letters:
         print decode_to_utf(first_letter)
-        dict_per_first_letters[first_letter].sort(cmp=locale.strcoll, key=lambda x: x[0])
+        
         for original, translation in dict_per_first_letters[first_letter]:
-            print '    %s ~ %s' % (decode_to_utf(original), translation.encode('utf-8'))
-            pass
+            print '    %s ~ %s' % (decode_to_utf(original), translation)
+            # if len(original) > 30:
+            #     print decode_to_utf(original)
 
 if __name__ == '__main__':
     main()

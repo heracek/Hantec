@@ -9,19 +9,19 @@
                 <key>orig</key>
                 <string>ahoj</string>
                 <key>trans</key>
-                <string>zdar</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>ahoj</string>
-                <key>trans</key>
-                <string>zdarec</string>
+                <string>zdar, zdarec</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>alimenty</string>
                 <key>trans</key>
                 <string>aloše</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>alkoholik</string>
+                <key>trans</key>
+                <string>fetingr, fetoš</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -45,37 +45,13 @@
                 <key>orig</key>
                 <string>autobus č. 77</string>
                 <key>trans</key>
-                <string>sedmera</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>autobus č. 77</string>
-                <key>trans</key>
-                <string>sedmičky</string>
+                <string>sedmera, sedmičky</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>automobil</string>
                 <key>trans</key>
-                <string>kára</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>automobil</string>
-                <key>trans</key>
-                <string>kočár</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>automobil</string>
-                <key>trans</key>
-                <string>vágen</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>automobil, havárie</string>
-                <key>trans</key>
-                <string>bórák</string>
+                <string>bórák, kára, kočár, vágen</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -84,6 +60,24 @@
     <dict>
         <key>sectionData</key>
         <array>
+            <dict>
+                <key>orig</key>
+                <string>bachař</string>
+                <key>trans</key>
+                <string>kez</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>balón</string>
+                <key>trans</key>
+                <string>cunda</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>bazar</string>
+                <key>trans</key>
+                <string>frc</string>
+            </dict>
             <dict>
                 <key>orig</key>
                 <string>bedna</string>
@@ -112,19 +106,13 @@
                 <key>orig</key>
                 <string>blázen</string>
                 <key>trans</key>
-                <string>kukajda</string>
+                <string>kukajda, pobóchanec, pošuk</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>blázinec, nepořádek</string>
+                <string>blázinec</string>
                 <key>trans</key>
-                <string>šaškec</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>blázinec, záchytka</string>
-                <key>trans</key>
-                <string>hotel Hilton</string>
+                <string>hotel Hilton, šaškec</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -134,9 +122,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>bochník (chleba)</string>
+                <string>bochník</string>
                 <key>trans</key>
-                <string>štricna</string>
+                <string>štricna; (chleba)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -146,13 +134,13 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>boty (polobotky)</string>
+                <string>boty</string>
                 <key>trans</key>
-                <string>šuflata</string>
+                <string>šuflata; (polobotky)</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>bouchnout, zmlátit, přidat rychlost</string>
+                <string>bouchnout</string>
                 <key>trans</key>
                 <string>vosolit</string>
             </dict>
@@ -160,37 +148,13 @@
                 <key>orig</key>
                 <string>boule</string>
                 <key>trans</key>
-                <string>grča</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>boule, kupka, lejno</string>
-                <key>trans</key>
-                <string>kobáč</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>boule, nadávka ženě</string>
-                <key>trans</key>
-                <string>hrča</string>
+                <string>grča, hrča, kobáč</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>brambory</string>
                 <key>trans</key>
-                <string>erteple</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>brambory</string>
-                <key>trans</key>
-                <string>krumle</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>brambory</string>
-                <key>trans</key>
-                <string>krumple</string>
+                <string>erteple, krumle, krumple</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -200,9 +164,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Brněnská přehrada (z německého Brückl)</string>
+                <string>Brněnská přehrada</string>
                 <key>trans</key>
-                <string>Prigl</string>
+                <string>Prigl; (z německého Brückl)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -212,21 +176,15 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>brněnský somrák - známá postava</string>
+                <string>brněnský somrák</string>
                 <key>trans</key>
-                <string>Doktor Špína</string>
+                <string>Doktor Špína; (známá postava)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>brýle</string>
                 <key>trans</key>
-                <string>čočky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>brýle</string>
-                <key>trans</key>
-                <string>čočmeny</string>
+                <string>čočky, čočmeny</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -238,25 +196,19 @@
                 <key>orig</key>
                 <string>břicho</string>
                 <key>trans</key>
-                <string>bauch</string>
+                <string>bauch, bauchec, vana</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>břicho</string>
+                <string>budova</string>
                 <key>trans</key>
-                <string>bauchec</string>
+                <string>betlém</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>břicho</string>
+                <string>bufet Padovec</string>
                 <key>trans</key>
-                <string>vana</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>bufet Padovec (naproti role (budova hlavního nádraží))</string>
-                <key>trans</key>
-                <string>Padovec</string>
+                <string>Padovec; (naproti role (budova hlavního nádraží))</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -266,9 +218,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>bydlení, jít domů</string>
+                <string>bydlení</string>
                 <key>trans</key>
-                <string>domášov</string>
+                <string>bévák, domášov</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -278,33 +230,21 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Bystrc (část Brna)</string>
+                <string>Bystrc</string>
                 <key>trans</key>
-                <string>bástr</string>
+                <string>bástr; (část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>byt</string>
                 <key>trans</key>
-                <string>kér</string>
+                <string>bévák, kér, kirch</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>byt</string>
+                <string>bývalá brněnská fotografická provozovna na Joštové</string>
                 <key>trans</key>
-                <string>kirch</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>byt, bydlení</string>
-                <key>trans</key>
-                <string>bévák</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>bývalá brněnská fotografická provozovna na Joštové - místo častých srazů</string>
-                <key>trans</key>
-                <string>U Medvídka (u méďana)</string>
+                <string>U Medvídka (u méďana) (místo častých srazů)</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -323,31 +263,7 @@
                 <key>orig</key>
                 <string>cigareta</string>
                 <key>trans</key>
-                <string>fókačka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>cigareta</string>
-                <key>trans</key>
-                <string>kóřka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>cigareta</string>
-                <key>trans</key>
-                <string>truskavec</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>cigareta</string>
-                <key>trans</key>
-                <string>válec</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>cigareta, nedopalek</string>
-                <key>trans</key>
-                <string>čvaňhák</string>
+                <string>čvaňhák, fókačka, kóřka, truskavec, válec</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -360,6 +276,24 @@
                 <string>cikán</string>
                 <key>trans</key>
                 <string>morgoš</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>cíl</string>
+                <key>trans</key>
+                <string>štaca, štace</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>cizopasnící v ochlupení</string>
+                <key>trans</key>
+                <string>filcky</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>cpát se</string>
+                <key>trans</key>
+                <string>futrovat</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -376,9 +310,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Černá pole (Část Brna)</string>
+                <string>Černá pole</string>
                 <key>trans</key>
-                <string>Blekfild</string>
+                <string>Blekfild; (Část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -388,15 +322,21 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>čerstvé</string>
+                <key>trans</key>
+                <string>novodur</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>červené víno</string>
                 <key>trans</key>
                 <string>červ</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>červený kostel na Joštové ulici (taky Cihlák)</string>
+                <string>červený kostel na Joštové ulici</string>
                 <key>trans</key>
-                <string>Červeňák</string>
+                <string>Červeňák; (taky Cihlák)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -415,19 +355,7 @@
                 <key>orig</key>
                 <string>darebák</string>
                 <key>trans</key>
-                <string>dacan</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>darebák</string>
-                <key>trans</key>
-                <string>sigr</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>darebák, lump</string>
-                <key>trans</key>
-                <string>ksindl</string>
+                <string>dacan, ksindl, sigr</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -443,15 +371,21 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>dát si (něco)</string>
+                <string>dát si</string>
                 <key>trans</key>
-                <string>písknout si</string>
+                <string>písknout si; (něco)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>dát tip</string>
                 <key>trans</key>
                 <string>hodit cund</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>dát všem</string>
+                <key>trans</key>
+                <string>házet do plácu</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -469,13 +403,7 @@
                 <key>orig</key>
                 <string>dědit</string>
                 <key>trans</key>
-                <string>erbit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>dědit</string>
-                <key>trans</key>
-                <string>erbovat</string>
+                <string>erbit, erbovat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -497,6 +425,18 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>demolice</string>
+                <key>trans</key>
+                <string>bóračka</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>detektiv</string>
+                <key>trans</key>
+                <string>džekyl</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>děti</string>
                 <key>trans</key>
                 <string>šropi</string>
@@ -505,73 +445,19 @@
                 <key>orig</key>
                 <string>děvčata</string>
                 <key>trans</key>
-                <string>hajfeci</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>děvčata</string>
-                <key>trans</key>
-                <string>hajfy</string>
+                <string>hajfeci, hajfy</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>děvče</string>
                 <key>trans</key>
-                <string>debrecinka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>děvče</string>
-                <key>trans</key>
-                <string>hajfa</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>děvče</string>
-                <key>trans</key>
-                <string>koc</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>děvče</string>
-                <key>trans</key>
-                <string>kocór</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>děvče</string>
-                <key>trans</key>
-                <string>koňa</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>děvče</string>
-                <key>trans</key>
-                <string>kó</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>děvče</string>
-                <key>trans</key>
-                <string>kůň</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>děvče</string>
-                <key>trans</key>
-                <string>kůža</string>
+                <string>debrecinka, hajfa, kó, koc, kocór, koňa, kůň, kůža</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>díra</string>
                 <key>trans</key>
-                <string>lochna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>díra, rýha , drážka</string>
-                <key>trans</key>
-                <string>šlic</string>
+                <string>lochna, šlic</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -583,31 +469,13 @@
                 <key>orig</key>
                 <string>dítě</string>
                 <key>trans</key>
-                <string>fagan</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>dítě</string>
-                <key>trans</key>
-                <string>svišť</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>dítě</string>
-                <key>trans</key>
-                <string>sysel</string>
+                <string>fagan, svišť, sysel</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>dívat se</string>
                 <key>trans</key>
-                <string>čubrnět</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>dívat se</string>
-                <key>trans</key>
-                <string>házet čůz</string>
+                <string>čubrnět, házet čůz</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -617,9 +485,15 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>dívka, mladá žena</string>
+                <string>dívka</string>
                 <key>trans</key>
                 <string>frajla</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>dlouhé vlasy</string>
+                <key>trans</key>
+                <string>deka, dekl</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -629,21 +503,21 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>do někoho mluvit, hrát nahlas</string>
+                <string>do něčeho</string>
+                <key>trans</key>
+                <string>klavírovat</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>do někoho mluvit</string>
                 <key>trans</key>
                 <string>vařit</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>dobré bydlení, pohoda</string>
+                <string>dobré bydlení</string>
                 <key>trans</key>
-                <string>vegáč</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>dobré bydlení, pohoda</string>
-                <key>trans</key>
-                <string>veget</string>
+                <string>vegáč, veget</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -655,13 +529,13 @@
                 <key>orig</key>
                 <string>dohromady</string>
                 <key>trans</key>
-                <string>do holpecu</string>
+                <string>do holpecu, holpec</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>dohromady</string>
+                <string>doklady</string>
                 <key>trans</key>
-                <string>holpec</string>
+                <string>noty</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -685,25 +559,13 @@
                 <key>orig</key>
                 <string>domluvit</string>
                 <key>trans</key>
-                <string>dohantýrovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>domluvit</string>
-                <key>trans</key>
-                <string>dohóknót</string>
+                <string>dohantýrovat, dohóknót</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>donést</string>
                 <key>trans</key>
-                <string>dotlačit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>donést</string>
-                <key>trans</key>
-                <string>dovalit</string>
+                <string>dotlačit, dovalit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -731,15 +593,27 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>dozorce, bachař</string>
+                <string>dozorce</string>
                 <key>trans</key>
                 <string>kez</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>dozvědět se, zjistit</string>
+                <string>dozvědět se</string>
                 <key>trans</key>
                 <string>domáknout se</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>drážka</string>
+                <key>trans</key>
+                <string>šlic</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>drobné mince</string>
+                <key>trans</key>
+                <string>mergle</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -749,7 +623,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>dům, budova</string>
+                <string>dům</string>
                 <key>trans</key>
                 <string>betlém</string>
             </dict>
@@ -757,19 +631,7 @@
                 <key>orig</key>
                 <string>důstojník</string>
                 <key>trans</key>
-                <string>gumák</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>důstojník</string>
-                <key>trans</key>
-                <string>lampas</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>důstojník</string>
-                <key>trans</key>
-                <string>lampasák</string>
+                <string>gumák, lampas, lampasák, lampión</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -779,15 +641,15 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>dýmka na marihuanu</string>
+                <string>duševně postižený člověk</string>
                 <key>trans</key>
-                <string>šlukna</string>
+                <string>guma</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>dýmka na marihuanu</string>
                 <key>trans</key>
-                <string>šlukovka</string>
+                <string>šlukna, šlukovka</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -798,13 +660,32 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>flákání, nicnedělání</string>
+                <string>elektřina</string>
+                <key>trans</key>
+                <string>šalina</string>
+            </dict>
+        </array>
+        <key>sectionName</key>
+        <string>E</string>
+    </dict>
+    <dict>
+        <key>sectionData</key>
+        <array>
+            <dict>
+                <key>orig</key>
+                <string>finta</string>
+                <key>trans</key>
+                <string>šmé, šméčko</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>flákání</string>
                 <key>trans</key>
                 <string>fléda</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>flákat se, vynechat směnu</string>
+                <string>flákat se</string>
                 <key>trans</key>
                 <string>bumlovat</string>
             </dict>
@@ -817,7 +698,7 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>garsoniéra, samostatná akce</string>
+                <string>garsoniéra</string>
                 <key>trans</key>
                 <string>sólovka</string>
             </dict>
@@ -825,19 +706,7 @@
                 <key>orig</key>
                 <string>guláš</string>
                 <key>trans</key>
-                <string>guldík</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>guláš</string>
-                <key>trans</key>
-                <string>gulin</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>guláš</string>
-                <key>trans</key>
-                <string>gulmen</string>
+                <string>guldík, gulin, gulmen</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -854,9 +723,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>havárie, demolice</string>
+                <string>havárie</string>
                 <key>trans</key>
-                <string>bóračka</string>
+                <string>bóračka, bórák</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -868,49 +737,7 @@
                 <key>orig</key>
                 <string>hlava</string>
                 <key>trans</key>
-                <string>budka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>hlava</string>
-                <key>trans</key>
-                <string>dózna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>hlava</string>
-                <key>trans</key>
-                <string>gebeňa</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>hlava</string>
-                <key>trans</key>
-                <string>glocna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>hlava</string>
-                <key>trans</key>
-                <string>kefa</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>hlava</string>
-                <key>trans</key>
-                <string>řepa</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>hlava</string>
-                <key>trans</key>
-                <string>štricla</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>hlava, pivo</string>
-                <key>trans</key>
-                <string>škopek</string>
+                <string>bedna, budka, dózna, gebeňa, glocna, kefa, řepa, škopek, štricla</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -922,19 +749,25 @@
                 <key>orig</key>
                 <string>hloupé řeči</string>
                 <key>trans</key>
-                <string>cancy</string>
+                <string>cancy, cány</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>hloupé řeči</string>
+                <string>hloupý</string>
                 <key>trans</key>
-                <string>cány</string>
+                <string>potróblé</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>hloupý řeči</string>
                 <key>trans</key>
                 <string>pindy</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>hluk</string>
+                <key>trans</key>
+                <string>brajgl, bugr</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -946,13 +779,7 @@
                 <key>orig</key>
                 <string>hodinky</string>
                 <key>trans</key>
-                <string>cibule</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>hodinky</string>
-                <key>trans</key>
-                <string>ráčmeny</string>
+                <string>cibule, ráčmeny</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -968,7 +795,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>holka, žena</string>
+                <string>holka</string>
                 <key>trans</key>
                 <string>babáč</string>
             </dict>
@@ -976,55 +803,7 @@
                 <key>orig</key>
                 <string>homosexuál</string>
                 <key>trans</key>
-                <string>béčko</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>homosexuál</string>
-                <key>trans</key>
-                <string>buk</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>homosexuál</string>
-                <key>trans</key>
-                <string>bukál</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>homosexuál</string>
-                <key>trans</key>
-                <string>bukva</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>homosexuál</string>
-                <key>trans</key>
-                <string>bukvica</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>homosexuál</string>
-                <key>trans</key>
-                <string>buzík</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>homosexuál</string>
-                <key>trans</key>
-                <string>buzna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>homosexuál</string>
-                <key>trans</key>
-                <string>buzuluk</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>homosexuál</string>
-                <key>trans</key>
-                <string>hoša</string>
+                <string>béčko, buk, bukál, bukva, bukvica, buzík, buzna, buzuluk, hoša</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1046,27 +825,33 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>houba, nebo veřejné záchodky na nám. Svobody uzavřeny 1961 - bývalé místo srazů , měly tvar hříbku</string>
+                <string>houba</string>
                 <key>trans</key>
                 <string>gampl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>hrad Špilberk</string>
+                <string>houby</string>
                 <key>trans</key>
-                <string>Špéna</string>
+                <string>gample</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>hrad Špilberk</string>
                 <key>trans</key>
-                <string>Špilas</string>
+                <string>Špéna, Špilas</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>hrát karty</string>
                 <key>trans</key>
                 <string>mastit kiby</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>hrát nahlas</string>
+                <key>trans</key>
+                <string>vařit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1089,7 +874,7 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>chápat, vědět</string>
+                <string>chápat</string>
                 <key>trans</key>
                 <string>gómat</string>
             </dict>
@@ -1097,17 +882,11 @@
                 <key>orig</key>
                 <string>chlap</string>
                 <key>trans</key>
-                <string>džek</string>
+                <string>džek, kábr</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>chlap</string>
-                <key>trans</key>
-                <string>kábr</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>chlápek, detektiv, policista</string>
+                <string>chlápek</string>
                 <key>trans</key>
                 <string>džekyl</string>
             </dict>
@@ -1115,23 +894,11 @@
                 <key>orig</key>
                 <string>chleba</string>
                 <key>trans</key>
-                <string>bimz</string>
+                <string>bimz, brzda, giňál</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>chleba</string>
-                <key>trans</key>
-                <string>brzda</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>chleba</string>
-                <key>trans</key>
-                <string>giňál</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>chlubit se, vytahovat se</string>
+                <string>chlubit se</string>
                 <key>trans</key>
                 <string>camrat se</string>
             </dict>
@@ -1143,9 +910,21 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>chodit do práce</string>
+                <key>trans</key>
+                <string>bóchat</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>chodník</string>
                 <key>trans</key>
                 <string>tratec</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>chodník)</string>
+                <key>trans</key>
+                <string>šlinda</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1167,13 +946,26 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>chytrý mazaný kluk (pochvalně)</string>
+                <string>chytrý mazaný kluk</string>
                 <key>trans</key>
-                <string>fišál</string>
+                <string>fišál (pochvalně)</string>
             </dict>
         </array>
         <key>sectionName</key>
         <string>CH</string>
+    </dict>
+    <dict>
+        <key>sectionData</key>
+        <array>
+            <dict>
+                <key>orig</key>
+                <string>ihned</string>
+                <key>trans</key>
+                <string>ze startu</string>
+            </dict>
+        </array>
+        <key>sectionName</key>
+        <string>I</string>
     </dict>
     <dict>
         <key>sectionData</key>
@@ -1210,7 +1002,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>jěště jednou, znovu</string>
+                <string>jěště jednou</string>
                 <key>trans</key>
                 <string>repete</string>
             </dict>
@@ -1218,85 +1010,31 @@
                 <key>orig</key>
                 <string>jet</string>
                 <key>trans</key>
-                <string>svištět</string>
+                <string>hrnót, razit, smegat, svištět</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>jet metrem</string>
                 <key>trans</key>
-                <string>hrabat krtkem</string>
+                <string>hrabat krtkem, hrnót krtkem</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>jet metrem</string>
+                <string>jet</string>
                 <key>trans</key>
-                <string>hrnót krtkem</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jet (rychle)</string>
-                <key>trans</key>
-                <string>kalit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jet, jít</string>
-                <key>trans</key>
-                <string>hrnót</string>
+                <string>kalit; (rychle)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>jídlo</string>
                 <key>trans</key>
-                <string>gábl</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jídlo</string>
-                <key>trans</key>
-                <string>gecnót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jídlo</string>
-                <key>trans</key>
-                <string>chálka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jídlo</string>
-                <key>trans</key>
-                <string>chalka</string>
+                <string>gábl, gecnót, chalka, chálka</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>jíst</string>
                 <key>trans</key>
-                <string>bagrovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jíst</string>
-                <key>trans</key>
-                <string>baštit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jíst</string>
-                <key>trans</key>
-                <string>dlabat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jíst</string>
-                <key>trans</key>
-                <string>chalovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jíst</string>
-                <key>trans</key>
-                <string>tlačit</string>
+                <string>bagrovat, baštit, dlabat, futrovat, chalovat, tlačit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1306,33 +1044,15 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>jíst, cpát se</string>
+                <string>jít</string>
                 <key>trans</key>
-                <string>futrovat</string>
+                <string>hrnót, klapat, razit, smegat, smykovat, sypat, štatlit</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>jít</string>
+                <string>jít domů</string>
                 <key>trans</key>
-                <string>klapat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jít</string>
-                <key>trans</key>
-                <string>smykovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jít</string>
-                <key>trans</key>
-                <string>sypat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jít</string>
-                <key>trans</key>
-                <string>štatlit</string>
+                <string>domášov</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1346,18 +1066,6 @@
                 <key>trans</key>
                 <string>hodit močku</string>
             </dict>
-            <dict>
-                <key>orig</key>
-                <string>jít, jet</string>
-                <key>trans</key>
-                <string>razit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jít, jet</string>
-                <key>trans</key>
-                <string>smegat</string>
-            </dict>
         </array>
         <key>sectionName</key>
         <string>J</string>
@@ -1369,25 +1077,13 @@
                 <key>orig</key>
                 <string>kalhoty</string>
                 <key>trans</key>
-                <string>hózny</string>
+                <string>hózny, róry</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>kalhoty</string>
+                <string>kalhoty z JEANSoviny</string>
                 <key>trans</key>
-                <string>róry</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>kalhoty z JEANSoviny (džíny)</string>
-                <key>trans</key>
-                <string>džanky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>kalhoty z JEANSoviny (džíny)</string>
-                <key>trans</key>
-                <string>džeksny</string>
+                <string>džanky, džeksny; (džíny)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1399,13 +1095,7 @@
                 <key>orig</key>
                 <string>kámen</string>
                 <key>trans</key>
-                <string>gryml</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>kámen</string>
-                <key>trans</key>
-                <string>šutr</string>
+                <string>gryml, šutr</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1423,13 +1113,7 @@
                 <key>orig</key>
                 <string>kapavka</string>
                 <key>trans</key>
-                <string>kapela</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>kapavka</string>
-                <key>trans</key>
-                <string>kapelník</string>
+                <string>kapela, kapelník</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1453,31 +1137,43 @@
                 <key>orig</key>
                 <string>kavárna</string>
                 <key>trans</key>
-                <string>kafábl</string>
+                <string>kafábl, kafec</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>kavárna</string>
+                <string>klička</string>
                 <key>trans</key>
-                <string>kafec</string>
+                <string>bógna</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>klid, pohoda</string>
+                <string>klid</string>
                 <key>trans</key>
                 <string>lebeda</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>klobouk</string>
+                <string>klít</string>
                 <key>trans</key>
-                <string>topr</string>
+                <string>hučet</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>klouzačka (namrzlá silnice, chodník)</string>
+                <string>klobouk</string>
                 <key>trans</key>
-                <string>šlinda</string>
+                <string>dekl, topr</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>klouzačka</string>
+                <key>trans</key>
+                <string>šlinda; (namrzlá silnice</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>kluk</string>
+                <key>trans</key>
+                <string>fógl; (malý)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1505,7 +1201,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>kolotoče,lunapark</string>
+                <string>kolotoče</string>
                 <key>trans</key>
                 <string>šaukle</string>
             </dict>
@@ -1513,13 +1209,7 @@
                 <key>orig</key>
                 <string>komunista</string>
                 <key>trans</key>
-                <string>komanč</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>komunista</string>
-                <key>trans</key>
-                <string>komár</string>
+                <string>komanč, komár</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1535,13 +1225,19 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>kontejner</string>
+                <key>trans</key>
+                <string>kontoš, kontyš</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>kopec</string>
                 <key>trans</key>
                 <string>bergl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>koruny, peníze</string>
+                <string>koruny</string>
                 <key>trans</key>
                 <string>ká</string>
             </dict>
@@ -1565,7 +1261,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>koupaliště v Králově poli, naproti KPS</string>
+                <string>koupaliště v Králově poli</string>
                 <key>trans</key>
                 <string>Kápeeska</string>
             </dict>
@@ -1573,13 +1269,13 @@
                 <key>orig</key>
                 <string>koupání</string>
                 <key>trans</key>
-                <string>cébračka</string>
+                <string>cébračka, cédačka</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>koupání</string>
+                <string>kouřit</string>
                 <key>trans</key>
-                <string>cédačka</string>
+                <string>hulit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1589,19 +1285,13 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>kouřit, rychle se pohybovat</string>
-                <key>trans</key>
-                <string>hulit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
                 <string>kousek</string>
                 <key>trans</key>
                 <string>štikl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>krabice, objemná bedna</string>
+                <string>krabice</string>
                 <key>trans</key>
                 <string>kisna</string>
             </dict>
@@ -1609,43 +1299,25 @@
                 <key>orig</key>
                 <string>krádež</string>
                 <key>trans</key>
-                <string>čórka</string>
+                <string>čórka, vidla</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>krádež</string>
+                <string>Královo Pole</string>
                 <key>trans</key>
-                <string>vidla</string>
+                <string>Kénik; (Část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Královo Pole (Část Brna)</string>
+                <string>krám</string>
                 <key>trans</key>
-                <string>Kénik</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>krám, nedodělek</string>
-                <key>trans</key>
-                <string>zgarb</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>krám, nekvalitní výrobek</string>
-                <key>trans</key>
-                <string>bazmek</string>
+                <string>bazmek, zgarb</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>krást</string>
                 <key>trans</key>
-                <string>čórovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>krást</string>
-                <key>trans</key>
-                <string>pajtlovat</string>
+                <string>čórovat, pajtlovat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1655,9 +1327,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Kraví hora (část Brna)</string>
+                <string>Kraví hora</string>
                 <key>trans</key>
-                <string>MonteBu</string>
+                <string>MonteBu; (část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1670,6 +1342,12 @@
                 <string>kufr</string>
                 <key>trans</key>
                 <string>haubna</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>kupka</string>
+                <key>trans</key>
+                <string>kobáč</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1694,25 +1372,13 @@
                 <key>orig</key>
                 <string>láhev</string>
                 <key>trans</key>
-                <string>bomba</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>láhev</string>
-                <key>trans</key>
-                <string>lampa</string>
+                <string>bomba, lampa, lampión</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>láhev červeného</string>
                 <key>trans</key>
                 <string>lampa červa</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>láhev, důstojník</string>
-                <key>trans</key>
-                <string>lampión</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1736,7 +1402,13 @@
                 <key>orig</key>
                 <string>legrace</string>
                 <key>trans</key>
-                <string>čurina</string>
+                <string>čurina, zvonek</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>lejno</string>
+                <key>trans</key>
+                <string>kobáč</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1746,13 +1418,13 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>levá, špatná, nanic</string>
+                <string>levá</string>
                 <key>trans</key>
                 <string>levandulová</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>levný, nekvalitní</string>
+                <string>levný</string>
                 <key>trans</key>
                 <string>lajvont</string>
             </dict>
@@ -1760,43 +1432,61 @@
                 <key>orig</key>
                 <string>lhát</string>
                 <key>trans</key>
-                <string>hópat</string>
+                <string>hópat, jet na někoho serpentiny</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>lhát, podvádět</string>
-                <key>trans</key>
-                <string>jet na někoho serpentiny</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>líbat se, mazlit se</string>
+                <string>líbat se</string>
                 <key>trans</key>
                 <string>cicmat se</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>lístek</string>
-                <key>trans</key>
-                <string>lupeň</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>list, listina</string>
+                <string>list</string>
                 <key>trans</key>
                 <string>canc</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Lužánky (brněnský park)</string>
+                <string>lístek</string>
                 <key>trans</key>
-                <string>Augec</string>
+                <string>flósek, lupeň</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>listina</string>
+                <key>trans</key>
+                <string>canc</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>lump</string>
+                <key>trans</key>
+                <string>ksindl</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>lunapark</string>
+                <key>trans</key>
+                <string>šaukle</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>Lužánky</string>
+                <key>trans</key>
+                <string>Augec; (brněnský park)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>lyže</string>
                 <key>trans</key>
                 <string>bretle</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>L-profil</string>
+                <key>trans</key>
+                <string>vingl</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -1807,7 +1497,7 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>mačkat, osahávat</string>
+                <string>mačkat</string>
                 <key>trans</key>
                 <string>dlachnit</string>
             </dict>
@@ -1815,37 +1505,19 @@
                 <key>orig</key>
                 <string>malé děvče</string>
                 <key>trans</key>
-                <string>žaba</string>
+                <string>žaba, žabka</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>malé děvče</string>
+                <string>Maloměřice</string>
                 <key>trans</key>
-                <string>žabka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>Maloměřice (část Brna)</string>
-                <key>trans</key>
-                <string>Majlont</string>
+                <string>Majlont; (část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>malý motocykl zn. "Pionýr"</string>
                 <key>trans</key>
-                <string>pekáč</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>malý motocykl zn. "Pionýr"</string>
-                <key>trans</key>
-                <string>pincek</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>malý motocykl zn. "Pionýr"</string>
-                <key>trans</key>
-                <string>pinďour</string>
+                <string>pekáč, pincek, pinďour</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1857,37 +1529,19 @@
                 <key>orig</key>
                 <string>mámič</string>
                 <key>trans</key>
-                <string>kajlař</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>mámič</string>
-                <key>trans</key>
-                <string>somrák</string>
+                <string>kajlař, somrák</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>mámit</string>
                 <key>trans</key>
-                <string>kajlovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>mámit</string>
-                <key>trans</key>
-                <string>somrovat</string>
+                <string>kajlovat, somrovat</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>marihuana</string>
                 <key>trans</key>
-                <string>tráva</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>marihuana</string>
-                <key>trans</key>
-                <string>zelí</string>
+                <string>tráva, zelí</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1897,21 +1551,27 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>meruňky, drobné mince</string>
+                <string>mazlit se</string>
+                <key>trans</key>
+                <string>cicmat se</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>meruňky</string>
                 <key>trans</key>
                 <string>mergle</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>měsíc (datum)</string>
+                <string>měsíc</string>
                 <key>trans</key>
-                <string>metr</string>
+                <string>metr; (datum)</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>město (jeho centrum)</string>
+                <string>město</string>
                 <key>trans</key>
-                <string>štatl</string>
+                <string>štatl; (jeho centrum)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1933,7 +1593,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>míč, balón</string>
+                <string>míč</string>
                 <key>trans</key>
                 <string>cunda</string>
             </dict>
@@ -1945,7 +1605,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>místnost, pokoj</string>
+                <string>místnost</string>
                 <key>trans</key>
                 <string>cimra</string>
             </dict>
@@ -1953,19 +1613,37 @@
                 <key>orig</key>
                 <string>místo</string>
                 <key>trans</key>
-                <string>flek</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>místo</string>
-                <key>trans</key>
-                <string>tympl</string>
+                <string>flek, tympl</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>místo na sezení</string>
                 <key>trans</key>
                 <string>židlochovice</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>mít havárii</string>
+                <key>trans</key>
+                <string>zramovat se</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>mít něco jiného</string>
+                <key>trans</key>
+                <string>boční šorfka, bokovka</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>mít práci</string>
+                <key>trans</key>
+                <string>bóchat</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>mladá žena</string>
+                <key>trans</key>
+                <string>frajla</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1983,19 +1661,13 @@
                 <key>orig</key>
                 <string>mluvit</string>
                 <key>trans</key>
-                <string>ševelit</string>
+                <string>hantýrovat, ševelit</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>mluvit do někoho, do něčeho</string>
+                <string>mluvit do někoho</string>
                 <key>trans</key>
                 <string>klavírovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>mluvit, rozprávět</string>
-                <key>trans</key>
-                <string>hantýrovat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2005,13 +1677,13 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Modřice (část Brna)</string>
+                <string>Modřice</string>
                 <key>trans</key>
-                <string>Blajkec</string>
+                <string>Blajkec; (část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>modřina pod okem, oko</string>
+                <string>modřina pod okem</string>
                 <key>trans</key>
                 <string>baterka</string>
             </dict>
@@ -2031,13 +1703,7 @@
                 <key>orig</key>
                 <string>motocykl PIONÝR</string>
                 <key>trans</key>
-                <string>fechtl</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>motocykl PIONÝR</string>
-                <key>trans</key>
-                <string>fichtl</string>
+                <string>fechtl, fichtl</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2057,6 +1723,12 @@
                 <key>trans</key>
                 <string>kómat</string>
             </dict>
+            <dict>
+                <key>orig</key>
+                <string>myšlenka</string>
+                <key>trans</key>
+                <string>šórfka</string>
+            </dict>
         </array>
         <key>sectionName</key>
         <string>M</string>
@@ -2072,13 +1744,19 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>nabourané auto, zničená věc</string>
+                <string>na něco se vykašlat</string>
+                <key>trans</key>
+                <string>hodit sranec</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>nabourané auto</string>
                 <key>trans</key>
                 <string>zbor</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>nadávat, klít</string>
+                <string>nadávat</string>
                 <key>trans</key>
                 <string>hučet</string>
             </dict>
@@ -2086,43 +1764,19 @@
                 <key>orig</key>
                 <string>nadávka</string>
                 <key>trans</key>
-                <string>platfusák</string>
+                <string>fuchtla, fuchtle, platfusák, pobóchanec, pošuk, potróblé, potróblenec, šuft</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>nadávka ženě</string>
+                <key>trans</key>
+                <string>hrča</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>nadávka</string>
                 <key>trans</key>
-                <string>potróblenec</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nadávka</string>
-                <key>trans</key>
-                <string>šuft</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nadávka (doprčic)</string>
-                <key>trans</key>
-                <string>vošastlich</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nadávka, blázen</string>
-                <key>trans</key>
-                <string>pobóchanec</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nadávka, blázen</string>
-                <key>trans</key>
-                <string>pošuk</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nadávka, hloupý</string>
-                <key>trans</key>
-                <string>potróblé</string>
+                <string>vošastlich; (doprčic)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2144,7 +1798,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>nafoukanej, naštvanej</string>
+                <string>nafoukanej</string>
                 <key>trans</key>
                 <string>nafučenej</string>
             </dict>
@@ -2168,9 +1822,21 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>namluvit si (děvče)</string>
+                <string>namluvit si</string>
                 <key>trans</key>
-                <string>zbalit</string>
+                <string>zbalit; (děvče)</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>nanic</string>
+                <key>trans</key>
+                <string>levandulová</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>napadat</string>
+                <key>trans</key>
+                <string>répat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2192,6 +1858,12 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>naproti KPS</string>
+                <key>trans</key>
+                <string>Kápeeska</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>narkomani</string>
                 <key>trans</key>
                 <string>fetoši</string>
@@ -2201,6 +1873,12 @@
                 <string>naschvál</string>
                 <key>trans</key>
                 <string>kapric</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>naštvanej</string>
+                <key>trans</key>
+                <string>nafučenej</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2216,37 +1894,61 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>nedodělek</string>
+                <key>trans</key>
+                <string>zgarb</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>nedopalek</string>
+                <key>trans</key>
+                <string>čvaňhák</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>někam něco dát</string>
+                <key>trans</key>
+                <string>fóknót</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>nekvalitní</string>
+                <key>trans</key>
+                <string>lajvont</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>nekvalitní výrobek</string>
+                <key>trans</key>
+                <string>bazmek</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>nelíbit se</string>
                 <key>trans</key>
                 <string>eklovat se</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>němec (vzniklo z DDR)</string>
+                <string>němec</string>
                 <key>trans</key>
-                <string>dederón</string>
+                <string>dederón; (vzniklo z DDR)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>nepořádek</string>
                 <key>trans</key>
-                <string>herberk</string>
+                <string>brajgl, herberk, mrdník, šaškec</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>nepořádek</string>
+                <string>nepříjemnost</string>
                 <key>trans</key>
-                <string>mrdník</string>
+                <string>malér</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>nepořádek, hluk</string>
-                <key>trans</key>
-                <string>brajgl</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nerozumět, nevědět, neuvidět</string>
+                <string>nerozumět</string>
                 <key>trans</key>
                 <string>negómnót</string>
             </dict>
@@ -2288,57 +1990,45 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>nevychovanec, vesničan</string>
+                <string>neuvidět</string>
+                <key>trans</key>
+                <string>negómnót</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>nevědět</string>
+                <key>trans</key>
+                <string>negómnót</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>nevychovanec</string>
                 <key>trans</key>
                 <string>balda</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>noha</string>
+                <string>nicnedělání</string>
                 <key>trans</key>
-                <string>fajka</string>
+                <string>fléda</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>noční úbor</string>
+                <key>trans</key>
+                <string>šláfrok</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>noha</string>
                 <key>trans</key>
-                <string>habrůvka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>noha</string>
-                <key>trans</key>
-                <string>haksna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>noha</string>
-                <key>trans</key>
-                <string>plótva</string>
+                <string>brko, fajka, habrůvka, haksna, plótva</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>nohy</string>
                 <key>trans</key>
-                <string>čapy</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nohy</string>
-                <key>trans</key>
-                <string>olšovky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nohy</string>
-                <key>trans</key>
-                <string>pastelky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nohy</string>
-                <key>trans</key>
-                <string>vanilky</string>
+                <string>čapy, olšovky, pastelky, vanilky</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2348,7 +2038,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>nové, čerstvé</string>
+                <string>nové</string>
                 <key>trans</key>
                 <string>novodur</string>
             </dict>
@@ -2373,7 +2063,20 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>obal, pouzdro</string>
+                <string>ňadra</string>
+                <key>trans</key>
+                <string>dudy</string>
+            </dict>
+        </array>
+        <key>sectionName</key>
+        <string>Ň</string>
+    </dict>
+    <dict>
+        <key>sectionData</key>
+        <array>
+            <dict>
+                <key>orig</key>
+                <string>obal</string>
                 <key>trans</key>
                 <string>futrál</string>
             </dict>
@@ -2387,19 +2090,19 @@
                 <key>orig</key>
                 <string>oběsit se</string>
                 <key>trans</key>
-                <string>dát si věšák</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>oběsit se</string>
-                <key>trans</key>
-                <string>hodit mašlu</string>
+                <string>dát si věšák, hodit mašlu</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>obchod</string>
                 <key>trans</key>
                 <string>kvelb</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>objemná bedna</string>
+                <key>trans</key>
+                <string>kisna</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2411,23 +2114,11 @@
                 <key>orig</key>
                 <string>obličej</string>
                 <key>trans</key>
-                <string>ciferník</string>
+                <string>ciferník, ksicht, sandál</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>obličej</string>
-                <key>trans</key>
-                <string>sandál</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>obličej, tvář</string>
-                <key>trans</key>
-                <string>ksicht</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>obracet se, převalovat se</string>
+                <string>obracet se</string>
                 <key>trans</key>
                 <string>hemžit se</string>
             </dict>
@@ -2447,43 +2138,19 @@
                 <key>orig</key>
                 <string>oči</string>
                 <key>trans</key>
-                <string>augle</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>oči</string>
-                <key>trans</key>
-                <string>baterky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>oči</string>
-                <key>trans</key>
-                <string>jodovky</string>
+                <string>augle, baterky, jodovky</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>odborník</string>
                 <key>trans</key>
-                <string>fachman</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>odborník</string>
-                <key>trans</key>
-                <string>fachmon</string>
+                <string>fachman, fachmon</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>odejít</string>
                 <key>trans</key>
-                <string>hlásit loď</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>odejít, utéct</string>
-                <key>trans</key>
-                <string>balit kramle</string>
+                <string>balit kramle, hlásit loď</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2513,19 +2180,25 @@
                 <key>orig</key>
                 <string>oheň</string>
                 <key>trans</key>
-                <string>fajer</string>
+                <string>fajer, fajrák</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>oheň</string>
+                <string>ohyb</string>
                 <key>trans</key>
-                <string>fajrák</string>
+                <string>bógna</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>okno</string>
                 <key>trans</key>
                 <string>fenstr</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>oko</string>
+                <key>trans</key>
+                <string>baterka</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2543,13 +2216,7 @@
                 <key>orig</key>
                 <string>opalovat se</string>
                 <key>trans</key>
-                <string>chytat bronz</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>opalovat se</string>
-                <key>trans</key>
-                <string>lapat bronz</string>
+                <string>chytat bronz, lapat bronz</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2559,7 +2226,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>opít se, pomnět se</string>
+                <string>opít se</string>
                 <key>trans</key>
                 <string>nakóřit se</string>
             </dict>
@@ -2585,19 +2252,31 @@
                 <key>orig</key>
                 <string>osahávat</string>
                 <key>trans</key>
-                <string>filcovat</string>
+                <string>dlachnit, filcovat</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>oslava, pijatika</string>
+                <string>oslava</string>
                 <key>trans</key>
                 <string>fet</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>ostuda</string>
+                <key>trans</key>
+                <string>kartáč, kartágo</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>otevřít deštník</string>
                 <key>trans</key>
                 <string>vyvalit klendu</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>oznámení</string>
+                <key>trans</key>
+                <string>befel</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -2620,7 +2299,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>parta, skupina</string>
+                <string>parta</string>
                 <key>trans</key>
                 <string>sajtna</string>
             </dict>
@@ -2640,103 +2319,13 @@
                 <key>orig</key>
                 <string>peněženka</string>
                 <key>trans</key>
-                <string>flek</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peněženka</string>
-                <key>trans</key>
-                <string>šrajtofla</string>
+                <string>flek, šrajtofla</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>peníze</string>
                 <key>trans</key>
-                <string>bakule</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>háky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>chechtáky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>chechtáče</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>kačáky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>kačeny</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>krópy</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>krupica</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>love</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>lováče</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>pašky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>rantále</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>šupy</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>tintili</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>peníze</string>
-                <key>trans</key>
-                <string>vrany</string>
+                <string>bakule, háky, chechtáče, chechtáky, ká, kačáky, kačeny, kachle, krópy, krupica, lováče, love, pašky, rantále, šupy, tintili, vrany</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2764,31 +2353,25 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>piják, alkoholik</string>
+                <string>piják</string>
                 <key>trans</key>
-                <string>fetingr</string>
+                <string>fetingr, fetoš</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>piják, alkoholik</string>
+                <string>pijatika</string>
                 <key>trans</key>
-                <string>fetoš</string>
+                <string>fet, glgačka</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pijatika, pití</string>
+                <string>Pisárky</string>
                 <key>trans</key>
-                <string>glgačka</string>
+                <string>Šrajbec; (část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Pisárky (část Brna)</string>
-                <key>trans</key>
-                <string>Šrajbec</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>písně, řeči</string>
+                <string>písně</string>
                 <key>trans</key>
                 <string>šlehy</string>
             </dict>
@@ -2800,81 +2383,51 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pít</string>
+                <string>pistole</string>
                 <key>trans</key>
-                <string>glgat</string>
+                <string>bóchačka</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pít</string>
                 <key>trans</key>
-                <string>chlemtat</string>
+                <string>glgat, chlemtat</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pít pivo</string>
                 <key>trans</key>
-                <string>čechrovat</string>
+                <string>čechrovat, čechrovat bahno, kalit škopky</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pít pivo</string>
+                <string>pití</string>
                 <key>trans</key>
-                <string>čechrovat bahno</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pít pivo</string>
-                <key>trans</key>
-                <string>kalit škopky</string>
+                <string>glgačka</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pitka</string>
                 <key>trans</key>
-                <string>pařba</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pitka</string>
-                <key>trans</key>
-                <string>spářka</string>
+                <string>pařba, spářka</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pivo</string>
                 <key>trans</key>
-                <string>bahno</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pivo</string>
-                <key>trans</key>
-                <string>čechr</string>
+                <string>bahno, čechr, škopek</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pivo 10%</string>
                 <key>trans</key>
-                <string>desatero</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pivo 10%</string>
-                <key>trans</key>
-                <string>desítka</string>
+                <string>desatero, desítka</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pivo 12%</string>
                 <key>trans</key>
-                <string>dvanáctka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pivo 12%</string>
-                <key>trans</key>
-                <string>plnotučný</string>
+                <string>dvanáctka, plnotučný</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2886,19 +2439,7 @@
                 <key>orig</key>
                 <string>platit</string>
                 <key>trans</key>
-                <string>cálovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>platit</string>
-                <key>trans</key>
-                <string>cólčit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>platit</string>
-                <key>trans</key>
-                <string>kanagom lepička</string>
+                <string>cálovat, cólčit, kanagom lepička</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2914,117 +2455,57 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pod rukou, mít něco jiného</string>
+                <string>pod rukou</string>
                 <key>trans</key>
-                <string>bokovka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pod rukou, mít něco jiného</string>
-                <key>trans</key>
-                <string>boční šorfka</string>
+                <string>boční šorfka, bokovka</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>podfuk</string>
                 <key>trans</key>
-                <string>habaďůra</string>
+                <string>habaďůra, křiva válka, tunel</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>podfuk</string>
-                <key>trans</key>
-                <string>tunel</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podívat se</string>
-                <key>trans</key>
-                <string>hodit čučku</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podívat se</string>
-                <key>trans</key>
-                <string>hodit čuz</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podívat se</string>
-                <key>trans</key>
-                <string>hodit kukačku</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podívat se</string>
-                <key>trans</key>
-                <string>hodit voko</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podívat se</string>
-                <key>trans</key>
-                <string>hodit špizunk</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podívat se</string>
-                <key>trans</key>
-                <string>špiznót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podívat se</string>
-                <key>trans</key>
-                <string>zašmírovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podraz</string>
-                <key>trans</key>
-                <string>podělávka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>podrazník, podfukář</string>
+                <string>podfukář</string>
                 <key>trans</key>
                 <string>křivé</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>podraz, finta</string>
+                <string>podívat se</string>
                 <key>trans</key>
-                <string>šmé</string>
+                <string>hodit čučku, hodit čuz, hodit kukačku, hodit špizunk, hodit voko, špiznót, zašmírovat</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>podraz, finta</string>
+                <string>podraz</string>
                 <key>trans</key>
-                <string>šméčko</string>
+                <string>křiva válka, podělávka, šmé, šméčko, šórfka</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>podraz, myšlenka, trik</string>
+                <string>podrazník</string>
                 <key>trans</key>
-                <string>šórfka</string>
+                <string>křivé</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>podraz, podfuk</string>
+                <string>podvádět</string>
                 <key>trans</key>
-                <string>křiva válka</string>
+                <string>fikslovat, jet na někoho serpentiny</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>podvodník</string>
+                <key>trans</key>
+                <string>levingstón</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pohlavní úd</string>
                 <key>trans</key>
-                <string>balda</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pohlavní úd, slámka, noha</string>
-                <key>trans</key>
-                <string>brko</string>
+                <string>balda, brko</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3040,33 +2521,45 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pochybná žena, nadávka</string>
+                <string>pohoda</string>
                 <key>trans</key>
-                <string>fuchtla</string>
+                <string>lebeda, vegáč, veget</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pochybná žena, nadávka</string>
+                <string>pochopit</string>
                 <key>trans</key>
-                <string>fuchtle</string>
+                <string>zgómnót</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pokárání, ostuda</string>
+                <string>pochybná žena</string>
                 <key>trans</key>
-                <string>kartáč</string>
+                <string>fuchtla, fuchtle</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pokárání, ostuda</string>
+                <string>pokárání</string>
                 <key>trans</key>
-                <string>kartágo</string>
+                <string>kartáč, kartágo</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>poklop, víko, dlouhé vlasy, klobouk</string>
+                <string>poklop</string>
                 <key>trans</key>
                 <string>dekl</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>pokoj</string>
+                <key>trans</key>
+                <string>cimra</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>pokuta</string>
+                <key>trans</key>
+                <string>flastr</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3090,61 +2583,19 @@
                 <key>orig</key>
                 <string>policie</string>
                 <key>trans</key>
-                <string>hémoni</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>policie</string>
-                <key>trans</key>
-                <string>mlíkaři</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>policie</string>
-                <key>trans</key>
-                <string>šilci</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>policie</string>
-                <key>trans</key>
-                <string>véška</string>
+                <string>hémoni, mlíkaři, šilci, véška</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>policista</string>
                 <key>trans</key>
-                <string>filc</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>policista</string>
-                <key>trans</key>
-                <string>hémon</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>policista, špión</string>
-                <key>trans</key>
-                <string>fízl</string>
+                <string>džekyl, filc, fízl, hémon</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>policisté</string>
                 <key>trans</key>
-                <string>bengy</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>policisté</string>
-                <key>trans</key>
-                <string>filci</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>policisté, cizopasnící v ochlupení</string>
-                <key>trans</key>
-                <string>filcky</string>
+                <string>bengy, filci, filcky</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3162,19 +2613,13 @@
                 <key>orig</key>
                 <string>pomilovat</string>
                 <key>trans</key>
-                <string>vybořit</string>
+                <string>vybořit, vyklátit, vykropit hrobku</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pomilovat</string>
+                <string>pomnět se</string>
                 <key>trans</key>
-                <string>vyklátit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pomilovat</string>
-                <key>trans</key>
-                <string>vykropit hrobku</string>
+                <string>nakóřit se</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3192,25 +2637,13 @@
                 <key>orig</key>
                 <string>ponětí</string>
                 <key>trans</key>
-                <string>šajn</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>ponětí</string>
-                <key>trans</key>
-                <string>šajna</string>
+                <string>šajn, šajna</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>ponožka</string>
                 <key>trans</key>
-                <string>fuska</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>ponožka</string>
-                <key>trans</key>
-                <string>fusekla</string>
+                <string>fusekla, fuska</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3220,21 +2653,21 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>popelnice, kontejner</string>
+                <string>popelnice</string>
                 <key>trans</key>
-                <string>kontoš</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>popelnice, kontejner</string>
-                <key>trans</key>
-                <string>kontyš</string>
+                <string>kontoš, kontyš</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>popelník</string>
                 <key>trans</key>
                 <string>pudřenka</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>poplašit</string>
+                <key>trans</key>
+                <string>dohókat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3274,129 +2707,69 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pošťuchovat, napadat</string>
+                <string>pošťuchovat</string>
                 <key>trans</key>
                 <string>répat</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>potvrzení</string>
+                <string>potrestat</string>
                 <key>trans</key>
-                <string>cetl</string>
+                <string>zkásnót</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>potvrzení</string>
                 <key>trans</key>
-                <string>ferbl</string>
+                <string>cetl, ferbl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>potvrzení nečeho, oznámení, příkaz</string>
+                <string>potvrzení nečeho</string>
                 <key>trans</key>
                 <string>befel</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pozdrav</string>
+                <string>pouta</string>
                 <key>trans</key>
-                <string>čau</string>
+                <string>klepeta</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>pouzdro</string>
+                <key>trans</key>
+                <string>futrál</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>pozastavení</string>
+                <key>trans</key>
+                <string>štaca, štace</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pozdrav</string>
                 <key>trans</key>
-                <string>čauec</string>
+                <string>čau, čauec, džusblues, savana hokna</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pozdrav</string>
+                <string>poznat</string>
                 <key>trans</key>
-                <string>džusblues</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pozdrav</string>
-                <key>trans</key>
-                <string>savana hokna</string>
+                <string>gómnót</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>práce</string>
                 <key>trans</key>
-                <string>facha</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>práce</string>
-                <key>trans</key>
-                <string>fachačka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>práce</string>
-                <key>trans</key>
-                <string>fachna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>práce</string>
-                <key>trans</key>
-                <string>háček</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>práce</string>
-                <key>trans</key>
-                <string>hák</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>práce</string>
-                <key>trans</key>
-                <string>hokna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>práce, pistole</string>
-                <key>trans</key>
-                <string>bóchačka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>práce, zaměstnání</string>
-                <key>trans</key>
-                <string>rachota</string>
+                <string>bóchačka, facha, fachačka, fachna, háček, hák, hokna, rachota</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>pracovat</string>
                 <key>trans</key>
-                <string>bušit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pracovat</string>
-                <key>trans</key>
-                <string>fachčit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pracovat</string>
-                <key>trans</key>
-                <string>hoknit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pracovat</string>
-                <key>trans</key>
-                <string>klepat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pracovat, chodit do práce, mít práci</string>
-                <key>trans</key>
-                <string>bóchat</string>
+                <string>bóchat, bušit, fachčit, hoknit, klepat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3448,7 +2821,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>promarnit, utratit</string>
+                <string>promarnit</string>
                 <key>trans</key>
                 <string>prodrbat</string>
             </dict>
@@ -3462,13 +2835,7 @@
                 <key>orig</key>
                 <string>provokovat</string>
                 <key>trans</key>
-                <string>hecovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>provokovat</string>
-                <key>trans</key>
-                <string>štengrovat</string>
+                <string>hecovat, štengrovat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3480,19 +2847,13 @@
                 <key>orig</key>
                 <string>prsa</string>
                 <key>trans</key>
-                <string>dvorce</string>
+                <string>dudy, dvorce</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>prsa (ňadra)</string>
+                <string>prsa</string>
                 <key>trans</key>
-                <string>bresty</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>prsa, ňadra</string>
-                <key>trans</key>
-                <string>dudy</string>
+                <string>bresty; (ňadra)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3502,7 +2863,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>průšvih, nepříjemnost</string>
+                <string>průšvih</string>
                 <key>trans</key>
                 <string>malér</string>
             </dict>
@@ -3510,7 +2871,19 @@
                 <key>orig</key>
                 <string>pryč</string>
                 <key>trans</key>
-                <string>pali</string>
+                <string>aus, pali</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>přebytečný</string>
+                <key>trans</key>
+                <string>plonkovní</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>převalovat se</string>
+                <key>trans</key>
+                <string>hemžit se</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3526,39 +2899,51 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>přijít</string>
+                <string>přidat rychlost</string>
                 <key>trans</key>
-                <string>naklapat</string>
+                <string>vosolit</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pták, kluk (malý)</string>
+                <string>přijít</string>
+                <key>trans</key>
+                <string>naklapat, vtruknout</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>příkaz</string>
+                <key>trans</key>
+                <string>befel</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>připravovat ústup</string>
+                <key>trans</key>
+                <string>dekovat se (to)</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>pták</string>
                 <key>trans</key>
                 <string>fógl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>půllitr na pivo (težký skleněný s uchem - nikoli sklenice tzv. věžák)</string>
+                <string>půllitr na pivo</string>
                 <key>trans</key>
-                <string>krygl</string>
+                <string>krygl; (težký skleněný s uchem - nikoli sklenice tzv. věžák)</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pumpa, tisícikoruna</string>
+                <string>pumpa</string>
                 <key>trans</key>
                 <string>fecna</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pumpovat (duši)</string>
+                <string>pumpovat</string>
                 <key>trans</key>
-                <string>fecat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>pumpovat (duši)</string>
-                <key>trans</key>
-                <string>fecovat</string>
+                <string>fecat, fecovat; (duši)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3568,7 +2953,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>pyžamo, noční úbor</string>
+                <string>pyžamo</string>
                 <key>trans</key>
                 <string>šláfrok</string>
             </dict>
@@ -3587,7 +2972,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>rachot, hluk</string>
+                <string>rachot</string>
                 <key>trans</key>
                 <string>bugr</string>
             </dict>
@@ -3595,37 +2980,7 @@
                 <key>orig</key>
                 <string>rána</string>
                 <key>trans</key>
-                <string>dacka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>rána</string>
-                <key>trans</key>
-                <string>duna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>rána</string>
-                <key>trans</key>
-                <string>herda</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>rána</string>
-                <key>trans</key>
-                <string>prda</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>rána</string>
-                <key>trans</key>
-                <string>řacha</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>rána</string>
-                <key>trans</key>
-                <string>šupa</string>
+                <string>dacka, duna, herda, prda, řacha, šupa</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3641,9 +2996,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Riviéra (koupaliště na Svratce)</string>
+                <string>Riviéra</string>
                 <key>trans</key>
-                <string>Rivec</string>
+                <string>Rivec; (koupaliště na Svratce)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3655,13 +3010,7 @@
                 <key>orig</key>
                 <string>roh</string>
                 <key>trans</key>
-                <string>ekl</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>roh, uhelnik,L-profil</string>
-                <key>trans</key>
-                <string>vingl</string>
+                <string>ekl, vingl</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3679,13 +3028,7 @@
                 <key>orig</key>
                 <string>rovně</string>
                 <key>trans</key>
-                <string>rovnoběžka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>rovně</string>
-                <key>trans</key>
-                <string>rovnoběh</string>
+                <string>rovnoběh, rovnoběžka</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3695,21 +3038,15 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>ruce</string>
+                <string>rozprávět</string>
                 <key>trans</key>
-                <string>kolky</string>
+                <string>hantýrovat</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>ruce</string>
                 <key>trans</key>
-                <string>perutě</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>ruce, pouta</string>
-                <key>trans</key>
-                <string>klepeta</string>
+                <string>klepeta, kolky, perutě</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3721,13 +3058,7 @@
                 <key>orig</key>
                 <string>rvačka</string>
                 <key>trans</key>
-                <string>mixna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>rvačka</string>
-                <key>trans</key>
-                <string>mlata</string>
+                <string>mixna, mlata</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3737,9 +3068,21 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>rýha</string>
+                <key>trans</key>
+                <string>šlic</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>rychle</string>
                 <key>trans</key>
                 <string>pila</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>rychle se pohybovat</string>
+                <key>trans</key>
+                <string>hulit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3768,13 +3111,19 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>řeči</string>
+                <key>trans</key>
+                <string>šlehy</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>říct</string>
                 <key>trans</key>
                 <string>pípnout</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>řidičský průkaz, doklady</string>
+                <string>řidičský průkaz</string>
                 <key>trans</key>
                 <string>noty</string>
             </dict>
@@ -3788,13 +3137,7 @@
                 <key>orig</key>
                 <string>říkat</string>
                 <key>trans</key>
-                <string>hlásit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>říkat, dát všem</string>
-                <key>trans</key>
-                <string>házet do plácu</string>
+                <string>házet do plácu, hlásit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3829,7 +3172,13 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>samotný, přebytečný</string>
+                <string>samostatná akce</string>
+                <key>trans</key>
+                <string>sólovka</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>samotný</string>
                 <key>trans</key>
                 <string>plonkovní</string>
             </dict>
@@ -3841,21 +3190,21 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>sdělit</string>
+                <string>sbalit holku</string>
                 <key>trans</key>
-                <string>hóknót</string>
+                <string>klofnót</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>sdělit</string>
                 <key>trans</key>
-                <string>hóknót válku</string>
+                <string>hóknót, hóknót válku</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>sebrat</string>
                 <key>trans</key>
-                <string>kásnót</string>
+                <string>kásnót, klofnót</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3867,13 +3216,7 @@
                 <key>orig</key>
                 <string>sednout si</string>
                 <key>trans</key>
-                <string>hodit sicnu</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>sednout si</string>
-                <key>trans</key>
-                <string>vyklesnót</string>
+                <string>hodit sicnu, vyklesnót</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3907,7 +3250,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>schovat, zavřít do vězení</string>
+                <string>schovat</string>
                 <key>trans</key>
                 <string>zašít</string>
             </dict>
@@ -3931,9 +3274,15 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>skřín, zásobník na nápoje</string>
+                <string>skřín</string>
                 <key>trans</key>
                 <string>kastl</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>skupina</string>
+                <key>trans</key>
+                <string>sajtna</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3945,31 +3294,19 @@
                 <key>orig</key>
                 <string>skvrna na spodním prádle</string>
                 <key>trans</key>
-                <string>hnědka</string>
+                <string>hnědka, kaštec</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>skvrna na spodním prádle</string>
+                <string>slámka</string>
                 <key>trans</key>
-                <string>kaštec</string>
+                <string>brko</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>sledovat</string>
                 <key>trans</key>
-                <string>špiclovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>sledovat, podvádět</string>
-                <key>trans</key>
-                <string>fikslovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>sledovat, znát</string>
-                <key>trans</key>
-                <string>mít v merku</string>
+                <string>fikslovat, mít v merku, špiclovat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -3981,25 +3318,13 @@
                 <key>orig</key>
                 <string>slunce</string>
                 <key>trans</key>
-                <string>oskar</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>slunce</string>
-                <key>trans</key>
-                <string>pecen</string>
+                <string>oskar, pecen</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>slunce pálí</string>
                 <key>trans</key>
-                <string>zoncna rumpluje</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>slunce pálí</string>
-                <key>trans</key>
-                <string>zoncna vaří</string>
+                <string>zoncna rumpluje, zoncna vaří</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4011,13 +3336,7 @@
                 <key>orig</key>
                 <string>smát se</string>
                 <key>trans</key>
-                <string>lochčit se</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>smát se</string>
-                <key>trans</key>
-                <string>pecnit</string>
+                <string>lochčit se, pecnit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4029,13 +3348,7 @@
                 <key>orig</key>
                 <string>smrad</string>
                 <key>trans</key>
-                <string>rychna</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>smrad</string>
-                <key>trans</key>
-                <string>štyngec</string>
+                <string>rychna, štyngec</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4063,6 +3376,12 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>soukromá oslava</string>
+                <key>trans</key>
+                <string>čoch</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>soulož</string>
                 <key>trans</key>
                 <string>sekačka</string>
@@ -4071,13 +3390,7 @@
                 <key>orig</key>
                 <string>souložit</string>
                 <key>trans</key>
-                <string>sekat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>souložit</string>
-                <key>trans</key>
-                <string>šukat</string>
+                <string>sekat, šukat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4095,37 +3408,7 @@
                 <key>orig</key>
                 <string>spát</string>
                 <key>trans</key>
-                <string>durchčit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>spát</string>
-                <key>trans</key>
-                <string>fajfčit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>spát</string>
-                <key>trans</key>
-                <string>gróňat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>spát</string>
-                <key>trans</key>
-                <string>grónčit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>spát</string>
-                <key>trans</key>
-                <string>kysat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>spát</string>
-                <key>trans</key>
-                <string>šlofčit</string>
+                <string>durchčit, fajfčit, gróňat, grónčit, kysat, šlofčit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4171,6 +3454,12 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>srazit k zemi</string>
+                <key>trans</key>
+                <string>zkásnót</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>srdce</string>
                 <key>trans</key>
                 <string>hercna</string>
@@ -4189,9 +3478,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Staré Brno (část Brna)</string>
+                <string>Staré Brno</string>
                 <key>trans</key>
-                <string>Oltec</string>
+                <string>Oltec; (část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4207,21 +3496,15 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>stokoruna</string>
-                <key>trans</key>
-                <string>hradčany</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>stokoruna, zima</string>
-                <key>trans</key>
-                <string>kilián</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>sto, stokoruna</string>
+                <string>sto</string>
                 <key>trans</key>
                 <string>kilo</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>stokoruna</string>
+                <key>trans</key>
+                <string>hradčany, kilián, kilo</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4245,19 +3528,7 @@
                 <key>orig</key>
                 <string>svatba</string>
                 <key>trans</key>
-                <string>gólka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>svatba</string>
-                <key>trans</key>
-                <string>grilka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>svatba</string>
-                <key>trans</key>
-                <string>gólka</string>
+                <string>gólka, gólka, grilka</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -4292,6 +3563,12 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>špatná</string>
+                <key>trans</key>
+                <string>levandulová</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>špatná práce</string>
                 <key>trans</key>
                 <string>hakl krén</string>
@@ -4312,19 +3589,19 @@
                 <key>orig</key>
                 <string>špatný</string>
                 <key>trans</key>
-                <string>krén</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>špatný</string>
-                <key>trans</key>
-                <string>pasový</string>
+                <string>krén, pasový</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>špatný prsty</string>
                 <key>trans</key>
                 <string>kramlavý kolky</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>špión</string>
+                <key>trans</key>
+                <string>fízl</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -4379,13 +3656,7 @@
                 <key>orig</key>
                 <string>televizor</string>
                 <key>trans</key>
-                <string>idiotbox</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>televizor, hlava</string>
-                <key>trans</key>
-                <string>bedna</string>
+                <string>bedna, idiotbox</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4413,6 +3684,18 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>tiket</string>
+                <key>trans</key>
+                <string>flósek</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>tip</string>
+                <key>trans</key>
+                <string>cund</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>tisíc</string>
                 <key>trans</key>
                 <string>tauzn</string>
@@ -4421,31 +3704,13 @@
                 <key>orig</key>
                 <string>tisíc korun</string>
                 <key>trans</key>
-                <string>litr</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>tisíc korun</string>
-                <key>trans</key>
-                <string>tác</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>tisíc korun</string>
-                <key>trans</key>
-                <string>talíř</string>
+                <string>litr, tác, talíř</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>tisícikoruna</string>
                 <key>trans</key>
-                <string>hadr</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>tisícikoruna</string>
-                <key>trans</key>
-                <string>tauzna</string>
+                <string>fecna, hadr, tauzna</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4463,35 +3728,35 @@
                 <key>orig</key>
                 <string>tramvaj</string>
                 <key>trans</key>
-                <string>šmirgl</string>
+                <string>šalina, šmirgl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>tramvaj, elektřina</string>
-                <key>trans</key>
-                <string>šalina</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>trest, pokuta</string>
+                <string>trest</string>
                 <key>trans</key>
                 <string>flastr</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>trolejbus</string>
+                <string>trik</string>
                 <key>trans</key>
-                <string>trajf</string>
+                <string>šórfka</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>trolejbus</string>
                 <key>trans</key>
-                <string>trajfl</string>
+                <string>trajf, trajfl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>třást, třepat</string>
+                <string>třást</string>
+                <key>trans</key>
+                <string>casnovat</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>třepat</string>
                 <key>trans</key>
                 <string>casnovat</string>
             </dict>
@@ -4500,6 +3765,12 @@
                 <string>tušení</string>
                 <key>trans</key>
                 <string>tucha</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>tvář</string>
+                <key>trans</key>
+                <string>ksicht</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -4512,49 +3783,25 @@
                 <key>orig</key>
                 <string>učit se</string>
                 <key>trans</key>
-                <string>biflovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>učit se</string>
-                <key>trans</key>
-                <string>šrotit se</string>
+                <string>biflovat, šrotit se</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>udání</string>
                 <key>trans</key>
-                <string>bomz</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>udání</string>
-                <key>trans</key>
-                <string>bonz</string>
+                <string>bomz, bonz</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>udavač</string>
                 <key>trans</key>
-                <string>bomzák</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>udavač</string>
-                <key>trans</key>
-                <string>bonzák</string>
+                <string>bomzák, bonzák</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>udávat</string>
                 <key>trans</key>
-                <string>bomzovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>udávat</string>
-                <key>trans</key>
-                <string>bonzovat</string>
+                <string>bomzovat, bonzovat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4572,13 +3819,13 @@
                 <key>orig</key>
                 <string>udělat podraz</string>
                 <key>trans</key>
-                <string>ufachčit ranu</string>
+                <string>ufachčit ranu, ušit tunel</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>udělat podraz</string>
+                <string>uhelnik</string>
                 <key>trans</key>
-                <string>ušit tunel</string>
+                <string>vingl</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4590,25 +3837,7 @@
                 <key>orig</key>
                 <string>ukrást</string>
                 <key>trans</key>
-                <string>čórnout</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>ukrást</string>
-                <key>trans</key>
-                <string>džignót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>ukrást</string>
-                <key>trans</key>
-                <string>šlohnót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>ukrást, sebrat, sbalit holku</string>
-                <key>trans</key>
-                <string>klofnót</string>
+                <string>čórnout, džignót, klofnót, šlohnót</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4620,13 +3849,7 @@
                 <key>orig</key>
                 <string>umřít</string>
                 <key>trans</key>
-                <string>zagrebovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>umřít</string>
-                <key>trans</key>
-                <string>zkalit</string>
+                <string>zagrebovat, zkalit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4638,13 +3861,7 @@
                 <key>orig</key>
                 <string>určitě</string>
                 <key>trans</key>
-                <string>nabeton</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>určitě</string>
-                <key>trans</key>
-                <string>na tuty</string>
+                <string>na tuty, nabeton</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4656,49 +3873,31 @@
                 <key>orig</key>
                 <string>utéct</string>
                 <key>trans</key>
-                <string>vzít kramle</string>
+                <string>balit kramle, bočmen, fóknót, vypařit se, vzít kramle</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>utéct, někam něco dát</string>
+                <string>utécu</string>
                 <key>trans</key>
-                <string>fóknót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>utéct, zmizet</string>
-                <key>trans</key>
-                <string>vypařit se</string>
+                <string>bok; (např. rap kliku a bok! - chytl za kliku a odešel)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>utíkat</string>
                 <key>trans</key>
-                <string>brát glajze</string>
+                <string>brát glajze, dekovat se (to)</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>utíkat, připravovat ústup</string>
+                <string>utratit</string>
                 <key>trans</key>
-                <string>dekovat se (to)</string>
+                <string>prodrbat</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>uvidět</string>
                 <key>trans</key>
-                <string>zbliknót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>uvidět, poznat</string>
-                <key>trans</key>
-                <string>gómnót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>uvidět, zjistit, pochopit</string>
-                <key>trans</key>
-                <string>zgómnót</string>
+                <string>gómnót, zbliknót, zgómnót</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -4709,21 +3908,15 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>účet, zadek, záda (kříž)</string>
+                <string>účet</string>
                 <key>trans</key>
-                <string>cemr</string>
+                <string>cech, cemr</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>úkrást</string>
                 <key>trans</key>
-                <string>čajznout</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>úkrást</string>
-                <key>trans</key>
-                <string>čmajznout</string>
+                <string>čajznout, čmajznout</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4745,7 +3938,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>útrata, účet</string>
+                <string>útrata</string>
                 <key>trans</key>
                 <string>cech</string>
             </dict>
@@ -4756,12 +3949,6 @@
     <dict>
         <key>sectionData</key>
         <array>
-            <dict>
-                <key>orig</key>
-                <string>v ýklenek mezi vchodem do domu a chodníkem</string>
-                <key>trans</key>
-                <string>džundr</string>
-            </dict>
             <dict>
                 <key>orig</key>
                 <string>varlata</string>
@@ -4776,19 +3963,25 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>vdávat se</string>
+                <key>trans</key>
+                <string>grilovat se</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>věci</string>
                 <key>trans</key>
                 <string>cajky</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vědět, znát</string>
+                <string>vědět</string>
                 <key>trans</key>
-                <string>gómat války</string>
+                <string>gómat, gómat války</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vědomost, znalost</string>
+                <string>vědomost</string>
                 <key>trans</key>
                 <string>ánunk</string>
             </dict>
@@ -4796,13 +3989,7 @@
                 <key>orig</key>
                 <string>vedro</string>
                 <key>trans</key>
-                <string>hic</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>vedro</string>
-                <key>trans</key>
-                <string>hicna</string>
+                <string>hic, hicna</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4812,15 +3999,21 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>ven</string>
+                <key>trans</key>
+                <string>aus</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>venkovan</string>
                 <key>trans</key>
                 <string>hřbet</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>ven, pryč</string>
+                <string>veřejné záchodky na nám. Svobody uzavřeny 1961</string>
                 <key>trans</key>
-                <string>aus</string>
+                <string>gampl; (měly tvar hříbku; bývalé místo srazů)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4830,7 +4023,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vesnická zábava, soukromá oslava</string>
+                <string>vesnická zábava</string>
                 <key>trans</key>
                 <string>čoch</string>
             </dict>
@@ -4838,7 +4031,7 @@
                 <key>orig</key>
                 <string>vesničan</string>
                 <key>trans</key>
-                <string>lonťák</string>
+                <string>balda, lonťák</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4868,41 +4061,35 @@
                 <key>orig</key>
                 <string>vězení</string>
                 <key>trans</key>
-                <string>kameň</string>
+                <string>kameň, krym, šutr</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vězení</string>
+                <string>vícepatrový úzký dům</string>
                 <key>trans</key>
-                <string>krym</string>
+                <string>věžák</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vězení</string>
+                <string>víko</string>
                 <key>trans</key>
-                <string>šutr</string>
+                <string>dekl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Vinohrady (brněnské sídliště)</string>
+                <string>Vinohrady</string>
                 <key>trans</key>
-                <string>Vincky</string>
+                <string>Vincky; (brněnské sídliště)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>vlasy</string>
                 <key>trans</key>
-                <string>harizony</string>
+                <string>hára, harizony</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vlasy</string>
-                <key>trans</key>
-                <string>hára</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>vlevo , podvodník</string>
+                <string>vlevo</string>
                 <key>trans</key>
                 <string>levingstón</string>
             </dict>
@@ -4910,17 +4097,11 @@
                 <key>orig</key>
                 <string>voda</string>
                 <key>trans</key>
-                <string>vasr</string>
+                <string>vasr, vasrůvka</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>voda</string>
-                <key>trans</key>
-                <string>vasrůvka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>voják z povolání, duševně postižený člověk</string>
+                <string>voják z povolání</string>
                 <key>trans</key>
                 <string>guma</string>
             </dict>
@@ -4938,19 +4119,13 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vstoupit, přijít, vtrhnout</string>
+                <string>vstoupit</string>
                 <key>trans</key>
-                <string>vtruknout</string>
+                <string>ftruknót, vtruknout</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vstoupit, vtrhnout</string>
-                <key>trans</key>
-                <string>ftruknót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>vstupenka, lístek, tiket</string>
+                <string>vstupenka</string>
                 <key>trans</key>
                 <string>flósek</string>
             </dict>
@@ -4964,13 +4139,13 @@
                 <key>orig</key>
                 <string>vtip</string>
                 <key>trans</key>
-                <string>frk</string>
+                <string>frk, zvonek</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vtip, legrace</string>
+                <string>vtrhnout</string>
                 <key>trans</key>
-                <string>zvonek</string>
+                <string>ftruknót, vtruknout</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4994,31 +4169,13 @@
                 <key>orig</key>
                 <string>výborný</string>
                 <key>trans</key>
-                <string>betelný</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>výborný</string>
-                <key>trans</key>
-                <string>betálný</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>výborný</string>
-                <key>trans</key>
-                <string>špica</string>
+                <string>betálný, betelný, špica</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>vyčerpán</string>
                 <key>trans</key>
-                <string>grogy</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>vyčerpán</string>
-                <key>trans</key>
-                <string>hyn</string>
+                <string>grogy, hyn</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5034,25 +4191,25 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vykašlat se na něco</string>
+                <string>výkal</string>
                 <key>trans</key>
-                <string>hodit bobek</string>
+                <string>kláda</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>vykašlat se na něco</string>
                 <key>trans</key>
-                <string>hodit kakáč</string>
+                <string>hodit bobek, hodit bógnu, hodit kakáč</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vykašlat se na něco, zatočit</string>
+                <string>výklenek mezi vchodem do domu a chodníkem</string>
                 <key>trans</key>
-                <string>hodit bógnu</string>
+                <string>džundr</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vykonat velkou potřebu, na něco se vykašlat</string>
+                <string>vykonat velkou potřebu</string>
                 <key>trans</key>
                 <string>hodit sranec</string>
             </dict>
@@ -5070,21 +4227,21 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vyndání prsou (ukázání ženských prsů)</string>
+                <string>vyndání prsou</string>
                 <key>trans</key>
-                <string>větrání mlíkáren</string>
+                <string>větrání mlíkáren; (ukázání ženských prsů)</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>vynechat směnu</string>
+                <key>trans</key>
+                <string>bumlovat</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>vypít</string>
                 <key>trans</key>
-                <string>vypařit</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>vypít</string>
-                <key>trans</key>
-                <string>vyžahnót</string>
+                <string>vypařit, vyžahnót</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5094,19 +4251,25 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vyplašit, poplašit</string>
+                <string>vyplašit</string>
                 <key>trans</key>
                 <string>dohókat</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vyplivnout,vypovědět službu</string>
+                <string>vyplivnout</string>
                 <key>trans</key>
                 <string>vyflusnót</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vysoká sklenice na pivo (0,5l) bez ucha, vícepatrový úzký dům</string>
+                <string>vypovědět službu</string>
+                <key>trans</key>
+                <string>vyflusnót</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>vysoká sklenice na pivo (0,5l) bez ucha</string>
                 <key>trans</key>
                 <string>věžák</string>
             </dict>
@@ -5118,9 +4281,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vysoký bezpracný příjem peněz (stálý)</string>
+                <string>vysoký bezpracný příjem peněz</string>
                 <key>trans</key>
-                <string>dukátomet</string>
+                <string>dukátomet; (stálý)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5132,17 +4295,17 @@
                 <key>orig</key>
                 <string>vyspat se</string>
                 <key>trans</key>
-                <string>vyfajfčit</string>
+                <string>vyfajfčit, vychrupčit se</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vyspat se</string>
+                <string>vytahovat se</string>
                 <key>trans</key>
-                <string>vychrupčit se</string>
+                <string>camrat se</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vytratit se, utéct</string>
+                <string>vytratit se</string>
                 <key>trans</key>
                 <string>bočmen</string>
             </dict>
@@ -5166,7 +4329,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>vzít, zbít, srazit k zemi, potrestat</string>
+                <string>vzít</string>
                 <key>trans</key>
                 <string>zkásnót</string>
             </dict>
@@ -5179,9 +4342,9 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>Wilsonův les (park pod Masarykovou čtvrtí - bývalou Úřednickou čtvrtí)</string>
+                <string>Wilsonův les</string>
                 <key>trans</key>
-                <string>Kchajzec</string>
+                <string>Kchajzec (park pod Masarykovou čtvrtí - bývalou Úřednickou čtvrtí)</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -5192,39 +4355,21 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>zadarmo</string>
+                <string>záda</string>
                 <key>trans</key>
-                <string>grátis</string>
+                <string>cemr; (kříž)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>zadarmo</string>
                 <key>trans</key>
-                <string>zadara</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zadarmo</string>
-                <key>trans</key>
-                <string>zadarmiko</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zadarmo</string>
-                <key>trans</key>
-                <string>zadax</string>
+                <string>grátis, zadara, zadarmiko, zadax</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>zadek</string>
                 <key>trans</key>
-                <string>gébiš</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zadek, peníze</string>
-                <key>trans</key>
-                <string>kachle</string>
+                <string>cemr, gébiš, kachle</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5240,7 +4385,13 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>záloha, zástava</string>
+                <string>záchytka</string>
+                <key>trans</key>
+                <string>hotel Hilton</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>záloha</string>
                 <key>trans</key>
                 <string>foršus</string>
             </dict>
@@ -5252,21 +4403,27 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>zaměstnání</string>
+                <key>trans</key>
+                <string>rachota</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>zanedbaná vodní nádrž</string>
                 <key>trans</key>
                 <string>žabák</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zapálit</string>
+                <string>zápach</string>
                 <key>trans</key>
-                <string>hodit blesk</string>
+                <string>deka</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>zapálit</string>
                 <key>trans</key>
-                <string>oplodnit</string>
+                <string>hodit blesk, oplodnit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5284,41 +4441,23 @@
                 <key>orig</key>
                 <string>zaplatit</string>
                 <key>trans</key>
-                <string>cvaknót</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zaplatit</string>
-                <key>trans</key>
-                <string>zacólovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zaplatit</string>
-                <key>trans</key>
-                <string>zacálovat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zaplatit</string>
-                <key>trans</key>
-                <string>zacvakat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zaplatit</string>
-                <key>trans</key>
-                <string>zalepit</string>
+                <string>cvaknót, zacálovat, zacólovat, zacvakat, zalepit</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>zásobník na nápoje</string>
                 <key>trans</key>
-                <string>basa</string>
+                <string>basa, kastl</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zastavárna, bazar</string>
+                <string>zástava</string>
+                <key>trans</key>
+                <string>foršus</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>zastavárna</string>
                 <key>trans</key>
                 <string>frc</string>
             </dict>
@@ -5330,25 +4469,19 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zastávka, cíl, pozastavení</string>
+                <string>zastávka</string>
                 <key>trans</key>
-                <string>štaca</string>
+                <string>štaca, štace</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zastávka, cíl, pozastavení</string>
-                <key>trans</key>
-                <string>štace</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zatáčka, ohyb, klička</string>
+                <string>zatáčka</string>
                 <key>trans</key>
                 <string>bógna</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zatažená obloha, zápach, dlouhé vlasy</string>
+                <string>zatažená obloha</string>
                 <key>trans</key>
                 <string>deka</string>
             </dict>
@@ -5366,15 +4499,21 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zatočit (zahnout za roh)</string>
+                <string>zatočit</string>
                 <key>trans</key>
-                <string>zaeklovat</string>
+                <string>hodit bógnu</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zavináč (ryba)</string>
+                <string>zatočit</string>
                 <key>trans</key>
-                <string>zavino</string>
+                <string>zaeklovat; (zahnout za roh)</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>zavináč</string>
+                <key>trans</key>
+                <string>zavino; (ryba)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5396,9 +4535,15 @@
             </dict>
             <dict>
                 <key>orig</key>
+                <string>zavřít do vězení</string>
+                <key>trans</key>
+                <string>zašít</string>
+            </dict>
+            <dict>
+                <key>orig</key>
                 <string>zbít</string>
                 <key>trans</key>
-                <string>zpeckovat</string>
+                <string>zkásnót, zpeckovat</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5408,7 +4553,7 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>ze začátku, ihned</string>
+                <string>ze začátku</string>
                 <key>trans</key>
                 <string>ze startu</string>
             </dict>
@@ -5416,13 +4561,7 @@
                 <key>orig</key>
                 <string>zemřít</string>
                 <key>trans</key>
-                <string>natáhnout brka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zemřít</string>
-                <key>trans</key>
-                <string>zgebnót</string>
+                <string>natáhnout brka, zgebnót</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5434,43 +4573,13 @@
                 <key>orig</key>
                 <string>zima</string>
                 <key>trans</key>
-                <string>kaltna</string>
+                <string>kaltna, kila, kilián, kilka, kláda, klendra, kosa, kruta</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zima</string>
+                <string>zjistit</string>
                 <key>trans</key>
-                <string>kila</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zima</string>
-                <key>trans</key>
-                <string>kilka</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zima</string>
-                <key>trans</key>
-                <string>klendra</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zima</string>
-                <key>trans</key>
-                <string>kosa</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zima</string>
-                <key>trans</key>
-                <string>kruta</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zima, výkal</string>
-                <key>trans</key>
-                <string>kláda</string>
+                <string>domáknout se, zgómnót</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5494,13 +4603,7 @@
                 <key>orig</key>
                 <string>zloděj</string>
                 <key>trans</key>
-                <string>čórmen</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zloděj</string>
-                <key>trans</key>
-                <string>čórkař</string>
+                <string>čórkař, čórmen</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5516,15 +4619,39 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zmizet, utécu (např. rap kliku a bok! - chytl za kliku a odešel)</string>
+                <string>zmizet</string>
                 <key>trans</key>
-                <string>bok</string>
+                <string>bok, vypařit se</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>zmlátit</string>
+                <key>trans</key>
+                <string>vosolit</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>znalost</string>
+                <key>trans</key>
+                <string>ánunk</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>znát</string>
                 <key>trans</key>
-                <string>kóřit</string>
+                <string>gómat války, kóřit, mít v merku</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>zničená věc</string>
+                <key>trans</key>
+                <string>zbor</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>znovu</string>
+                <key>trans</key>
+                <string>repete</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5534,13 +4661,13 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zpráva, tip</string>
+                <string>zpráva</string>
                 <key>trans</key>
                 <string>cund</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zřídit se, mít havárii</string>
+                <string>zřídit se</string>
                 <key>trans</key>
                 <string>zramovat se</string>
             </dict>
@@ -5554,17 +4681,11 @@
                 <key>orig</key>
                 <string>zvracení</string>
                 <key>trans</key>
-                <string>kosa</string>
+                <string>kosa, šavla, tyčka</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>zvracení</string>
-                <key>trans</key>
-                <string>šavla</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zvracení, zvratky</string>
+                <string>zvratky</string>
                 <key>trans</key>
                 <string>tyčka</string>
             </dict>
@@ -5577,9 +4698,9 @@
         <array>
             <dict>
                 <key>orig</key>
-                <string>Žabovřesky (část Brna)</string>
+                <string>Žabovřesky</string>
                 <key>trans</key>
-                <string>žabiny</string>
+                <string>žabiny; (část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5589,27 +4710,27 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>žampióny, houby</string>
+                <string>žampióny</string>
                 <key>trans</key>
                 <string>gample</string>
             </dict>
             <dict>
                 <key>orig</key>
-                <string>žena s malým poprsím ("plochá")</string>
+                <string>žena</string>
                 <key>trans</key>
-                <string>fošna</string>
+                <string>babáč</string>
+            </dict>
+            <dict>
+                <key>orig</key>
+                <string>žena s malým poprsím</string>
+                <key>trans</key>
+                <string>fošna; ("plochá")</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>ženit se</string>
                 <key>trans</key>
-                <string>gólovat se</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>ženit se, vdávat se</string>
-                <key>trans</key>
-                <string>grilovat se</string>
+                <string>gólovat se, grilovat se</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5639,13 +4760,7 @@
                 <key>orig</key>
                 <string>žít</string>
                 <key>trans</key>
-                <string>dejchat</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>žít</string>
-                <key>trans</key>
-                <string>vegetit</string>
+                <string>dejchat, vegetit</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5655,15 +4770,9 @@
             </dict>
             <dict>
                 <key>orig</key>
-                <string>Žlutý kopec (část Brna)</string>
+                <string>Žlutý kopec</string>
                 <key>trans</key>
-                <string>Gelbec</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>Žlutý kopec (část Brna)</string>
-                <key>trans</key>
-                <string>žluťák</string>
+                <string>Gelbec, žluťák; (část Brna)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -5695,19 +4804,7 @@
                 <key>orig</key>
                 <string>500Kč</string>
                 <key>trans</key>
-                <string>pětibába</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>500Kč</string>
-                <key>trans</key>
-                <string>pětikvalt</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>500Kč</string>
-                <key>trans</key>
-                <string>pětikilo</string>
+                <string>pětibába, pětikilo, pětikvalt</string>
             </dict>
         </array>
         <key>sectionName</key>
