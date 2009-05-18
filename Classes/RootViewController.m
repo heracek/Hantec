@@ -180,8 +180,8 @@
 	
 	
 	//[UIView commitAnimations];
-	[UIView beginAnimations:nil context:nil];
-	[UIView setAnimationDuration:0.5];
+	[UIView beginAnimations:nil context:@"hideIndexAndMoveTableUp"];
+	[UIView setAnimationDuration:(hide) ? 2.7 : 0.3];
 	self.tableView.frame = rect;
 	[UIView commitAnimations];
 }
