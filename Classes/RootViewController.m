@@ -175,6 +175,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	[self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
 	[_detailsController setDictionaryItem:[self getDictionaryItemForIndexPath:indexPath]
 					   isFromOriginalDict:_isFromOriginalDict];
 	

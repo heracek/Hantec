@@ -7,7 +7,7 @@
 //
 
 #import "FavouritesViewController.h"
-
+#import "HWordDetails.h"
 
 @implementation FavouritesViewController
 
@@ -128,12 +128,8 @@
 	return NO;
 }
 
-
-
-
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSLog(@"in fav {%d, %d}", indexPath.section, indexPath.row);
+	[self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
 	[_detailsController setDictionaryItem:[self getDictionaryItemForIndexPath:indexPath]
 					   isFromOriginalDict:(indexPath.section == 0) ? YES : NO];
