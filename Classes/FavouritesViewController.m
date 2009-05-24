@@ -79,7 +79,7 @@
 	[self.tableView reloadData];
 }
 
-- (void)removeFromFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict {
+- (void)removeFromFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict andReload:(BOOL)reload {
 	NSMutableDictionary *section = [_dataBySections objectAtIndex:(isOriginalDict) ? 0 : 1];
 	NSMutableArray *sectionData = [section objectForKey:kSectionData];
 	
@@ -100,7 +100,13 @@
 	}
 	
 	[self saveFavouritesToFile];
-	[self.tableView reloadData];
+	if (reload) {
+		[self.tableView reloadData];
+	}
+}
+
+- (void)removeFromFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict {
+	[self removeFromFavouritesWithDictionaryItem:dictItem AndIsOriginalDict:isOriginalDict andReload:YES];
 }
 
 - (BOOL)isInFavouritesWithDictionaryItem:(NSDictionary *)dictItem AndIsOriginalDict:(BOOL) isOriginalDict {
@@ -135,6 +141,32 @@
 					   isFromOriginalDict:(indexPath.section == 0) ? YES : NO];
 	
 	[_navigationController pushViewController:_detailsController animated:YES];
+}
+
+#pragma mark -
+#pragma mark Editing
+
+- (void)deleteFavouriteAtIndexPath:(NSIndexPath *)indexPath {
+	NSDictionary * dictItem = [self getDictionaryItemForIndexPath:indexPath];
+	NSLog(@"%@", [dictItem objectForKey:kOriginal]);
+	[_favouritesDataSource removeFromFavouritesWithDictionaryItem:dictItem
+												AndIsOriginalDict:(indexPath.section == 0) ? YES : NO
+														andReload:NO];
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+	switch (editingStyle) {
+		case UITableViewCellEditingStyleDelete:
+			NSLog(@"numberOfRowsInSection: %d", [self tableView:self.tableView numberOfRowsInSection:indexPath.section]);
+			[self deleteFavouriteAtIndexPath:indexPath];
+			NSLog(@"numberOfRowsInSection: %d", [self tableView:self.tableView numberOfRowsInSection:indexPath.section]);
+			
+			[self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] 
+			 withRowAnimation:UITableViewRowAnimationRight];
+			break;
+		default:
+			break;
+	}
 }
 
 @end

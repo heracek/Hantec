@@ -130,13 +130,7 @@
                 <key>orig</key>
                 <string>boty</string>
                 <key>trans</key>
-                <string>šlupky</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>boty</string>
-                <key>trans</key>
-                <string>šuflata; (polobotky)</string>
+                <string>šlupky, šuflata; (polobotky)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -244,7 +238,7 @@
                 <key>orig</key>
                 <string>bývalá brněnská fotografická provozovna na Joštové</string>
                 <key>trans</key>
-                <string>U Medvídka (u méďana) (místo častých srazů)</string>
+                <string>U Medvídka (u méďana); (místo častých srazů)</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -948,7 +942,7 @@
                 <key>orig</key>
                 <string>chytrý mazaný kluk</string>
                 <key>trans</key>
-                <string>fišál (pochvalně)</string>
+                <string>fišál; (pochvalně)</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -1010,19 +1004,13 @@
                 <key>orig</key>
                 <string>jet</string>
                 <key>trans</key>
-                <string>hrnót, razit, smegat, svištět</string>
+                <string>hrnót, kalit, razit, smegat, svištět; (rychle)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>jet metrem</string>
                 <key>trans</key>
                 <string>hrabat krtkem, hrnót krtkem</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>jet</string>
-                <key>trans</key>
-                <string>kalit; (rychle)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -1764,19 +1752,13 @@
                 <key>orig</key>
                 <string>nadávka</string>
                 <key>trans</key>
-                <string>fuchtla, fuchtle, platfusák, pobóchanec, pošuk, potróblé, potróblenec, šuft</string>
+                <string>fuchtla, fuchtle, platfusák, pobóchanec, pošuk, potróblé, potróblenec, šuft, vošastlich; (doprčic)</string>
             </dict>
             <dict>
                 <key>orig</key>
                 <string>nadávka ženě</string>
                 <key>trans</key>
                 <string>hrča</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>nadávka</string>
-                <key>trans</key>
-                <string>vošastlich; (doprčic)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -2847,13 +2829,7 @@
                 <key>orig</key>
                 <string>prsa</string>
                 <key>trans</key>
-                <string>dudy, dvorce</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>prsa</string>
-                <key>trans</key>
-                <string>bresty; (ňadra)</string>
+                <string>bresty, dudy, dvorce; (ňadra)</string>
             </dict>
             <dict>
                 <key>orig</key>
@@ -4344,7 +4320,7 @@
                 <key>orig</key>
                 <string>Wilsonův les</string>
                 <key>trans</key>
-                <string>Kchajzec (park pod Masarykovou čtvrtí - bývalou Úřednickou čtvrtí)</string>
+                <string>Kchajzec; (park pod Masarykovou čtvrtí - bývalou Úřednickou čtvrtí)</string>
             </dict>
         </array>
         <key>sectionName</key>
@@ -4501,13 +4477,7 @@
                 <key>orig</key>
                 <string>zatočit</string>
                 <key>trans</key>
-                <string>hodit bógnu</string>
-            </dict>
-            <dict>
-                <key>orig</key>
-                <string>zatočit</string>
-                <key>trans</key>
-                <string>zaeklovat; (zahnout za roh)</string>
+                <string>hodit bógnu, zaeklovat; (zahnout za roh)</string>
             </dict>
             <dict>
                 <key>orig</key>
