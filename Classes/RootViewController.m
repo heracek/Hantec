@@ -86,7 +86,14 @@
 	NSMutableArray *sections = [[NSMutableArray alloc] initWithCapacity:[_dataBySections count]];
 	
 	for (NSDictionary *sectionDict in _dataBySections) {
-		[sections addObject:[sectionDict objectForKey:kSectionName]];
+		NSString *sectionName = [sectionDict objectForKey:kSectionName];
+		int intValue = [sectionName intValue];
+		
+		if (intValue != 0 || ([sectionName length] >= 1 && [sectionName characterAtIndex:0] == '0')){
+			[sections addObject:@"#"];
+			break;
+		}
+		[sections addObject:sectionName];
 	}
 	
 	return [sections autorelease];
