@@ -149,9 +149,17 @@
 - (void)deleteFavouriteAtIndexPath:(NSIndexPath *)indexPath {
 	NSDictionary * dictItem = [self getDictionaryItemForIndexPath:indexPath];
 	NSLog(@"%@", [dictItem objectForKey:kOriginal]);
-	[_favouritesDataSource removeFromFavouritesWithDictionaryItem:dictItem
-												AndIsOriginalDict:(indexPath.section == 0) ? YES : NO
-														andReload:NO];
+	[self removeFromFavouritesWithDictionaryItem:dictItem
+							   AndIsOriginalDict:(indexPath.section == 0) ? YES : NO
+									   andReload:NO];
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+	if (_useFilteredList) {
+		return NO;
+	}
+	
+	return YES;
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
