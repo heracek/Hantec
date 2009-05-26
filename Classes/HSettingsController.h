@@ -10,7 +10,8 @@
 #import "SettingsViewController.h"
 
 @interface HSettingsController : SettingsViewController {
-	
+	UIView *_footerView;
+	UILabel *_footerLabel;
 }
 
 @end

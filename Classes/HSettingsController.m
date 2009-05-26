@@ -43,6 +43,31 @@
 	 ] forKey:@"bottomSettingsTextInfo"];
 	
 	[self initWithConfigFile:plist];
+	
+	CGRect newFrame = CGRectMake(0, 0, 320, 20);
+	_footerLabel = [[UILabel alloc] initWithFrame:newFrame];
+	_footerLabel.text = @"iHantec v1.0";
+	_footerLabel.textAlignment = UITextAlignmentCenter;
+	_footerLabel.opaque = NO;
+	_footerLabel.backgroundColor = [UIColor clearColor];
+	_footerLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
+	_footerLabel.font = [UIFont boldSystemFontOfSize:12];
+	_footerLabel.textColor = [UIColor grayColor];
+	_footerLabel.shadowColor = [UIColor whiteColor];
+	_footerLabel.shadowOffset = CGSizeMake(0, 1);
+	
+	_footerView = [[UIView alloc] initWithFrame:newFrame];
+	_footerView.backgroundColor = [UIColor clearColor];
+	[_footerView addSubview:_footerLabel];
+	
+}
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	
+	CGRect newFrame = CGRectMake(0.0, 0.0, self.tableView.bounds.size.width, _footerView.frame.size.height);
+    _footerView.frame = newFrame;
+    self.tableView.tableFooterView = _footerView;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
