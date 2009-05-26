@@ -30,7 +30,7 @@
 }
 
 - (void)awakeFromNib {
-	_dataBySections = [self getFavoritesDataBySectiosFromFile];
+	_dataBySections = [[self getFavoritesDataBySectiosFromFile] retain];
 	_favouritesDataSource = self;
 	_sortingLocale = [[NSLocale alloc] initWithLocaleIdentifier:@"cs"];
 	[super awakeFromNib];

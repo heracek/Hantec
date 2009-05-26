@@ -35,28 +35,12 @@
 	_translation.frame = translationRect;
 	_original.text = originalText;
 	_translation.text = translationText;
-	
-	UIColor *color;
-	if (isEven) {
-//		color = [UIColor colorWithRed:0xEE / 256.
-//								green:0xF3 / 256.
-//								 blue:0xFD / 256.
-//								alpha:1.0];
-		color = [UIColor colorWithRed:0xBF / 256.
-								green:0xBF / 256.
-								 blue:0xBF / 256.
-								alpha:1.0];
-	} else {
-		color = [UIColor colorWithRed:0xDF / 256.
-								green:0xDF / 256.
-								 blue:0xDF / 256.
-								alpha:1.0];
-	}
-	
+		
 	CustomCellBackgroundView *backgroundView = (CustomCellBackgroundView *)self.backgroundView;
-	[backgroundView setFillColor: color];
 	[backgroundView setNeedsDisplay];
 }
+
+
 
 - (void)dealloc {
     [super dealloc];
@@ -67,21 +51,27 @@
 
 @implementation CustomCellBackgroundView
 
-@synthesize fillColor = _fillColor;
+static UIImage *customCellBackgroundImage = nil;
+
++ (void)initialize {
+	if(self == [CustomCellBackgroundView class]) {
+		customCellBackgroundImage = [UIImage imageNamed:@"cell-bg.png"];
+	}
+}
 
 - (BOOL) isOpaque {
     return NO;
 }
 
-- (void)drawRect:(CGRect)rect {
-    CGContextRef c = UIGraphicsGetCurrentContext();
-    CGContextSetFillColorWithColor(c, [_fillColor CGColor]);
-	CGContextFillRect(c, rect);
-}
-
-- (void)dealloc {
-    [_fillColor release];
-    [super dealloc];
+- (void)drawRect:(CGRect)r {
+	CGContextRef c = UIGraphicsGetCurrentContext();
+	
+	[customCellBackgroundImage drawInRect:r];
+	
+	CGContextSetGrayStrokeColor(c, 0.375, 1);
+	CGContextMoveToPoint(c, r.origin.x, r.origin.y + r.size.height);
+	CGContextAddLineToPoint(c, r.origin.x + r.size.width, r.origin.y + r.size.height);
+	CGContextStrokePath(c);
 }
 
 @end

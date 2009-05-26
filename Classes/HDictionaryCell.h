@@ -19,8 +19,7 @@
 
 
 @interface CustomCellBackgroundView : UIView {
-    UIColor *_fillColor;
+	
 }
-@property(nonatomic, retain) UIColor *fillColor;
 
 @end
