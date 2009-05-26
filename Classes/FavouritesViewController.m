@@ -148,7 +148,6 @@
 
 - (void)deleteFavouriteAtIndexPath:(NSIndexPath *)indexPath {
 	NSDictionary * dictItem = [self getDictionaryItemForIndexPath:indexPath];
-	NSLog(@"%@", [dictItem objectForKey:kOriginal]);
 	[self removeFromFavouritesWithDictionaryItem:dictItem
 							   AndIsOriginalDict:(indexPath.section == 0) ? YES : NO
 									   andReload:NO];
@@ -165,9 +164,7 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
 	switch (editingStyle) {
 		case UITableViewCellEditingStyleDelete:
-			NSLog(@"numberOfRowsInSection: %d", [self tableView:self.tableView numberOfRowsInSection:indexPath.section]);
 			[self deleteFavouriteAtIndexPath:indexPath];
-			NSLog(@"numberOfRowsInSection: %d", [self tableView:self.tableView numberOfRowsInSection:indexPath.section]);
 			
 			[self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] 
 			 withRowAnimation:UITableViewRowAnimationRight];
