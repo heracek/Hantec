@@ -15,6 +15,9 @@
 	NSObject *value;
 	NSDictionary *configuration;
 	NSMutableDictionary *changedsettings;
+	NSString *_url;
 }
+
+@property (retain, nonatomic) NSString *url;
 
 @end

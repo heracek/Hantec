@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* HantecAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HantecAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
@@ -26,9 +24,12 @@
 		6949C77D0F5AEA8F00BCAA1E /* HDictionaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */; };
 		6949C77F0F5AEAF200BCAA1E /* HDictionaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */; };
 		6949C8650F5B27A000BCAA1E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6949C8640F5B27A000BCAA1E /* Icon.png */; };
+		69779A840FCB2B9F00F55645 /* HSettingsMetadataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 69779A830FCB2B9F00F55645 /* HSettingsMetadataSource.m */; };
 		6985EF0A0F93C52E0006C9FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6985EF090F93C52E0006C9FE /* Default.png */; };
 		6985EF370F93CA020006C9FE /* oblibene.png in Resources */ = {isa = PBXBuildFile; fileRef = 6985EF360F93CA020006C9FE /* oblibene.png */; };
 		6985EF5E0F93E8520006C9FE /* nastaveni.png in Resources */ = {isa = PBXBuildFile; fileRef = 6985EF5D0F93E8520006C9FE /* nastaveni.png */; };
+		69AB45340FCC8912007291B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AB45310FCC8912007291B1 /* CoreGraphics.framework */; };
+		69AB45350FCC8912007291B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AB45320FCC8912007291B1 /* Foundation.framework */; };
 		69BFA0750F9E660200F406B9 /* slovo-dne.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BFA0740F9E660200F406B9 /* slovo-dne.png */; };
 		69D32AEA0F61490600222632 /* z-hantecu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D32AE90F61490600222632 /* z-hantecu.png */; };
 		69D32AF90F6176EA00222632 /* do-hantecu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D32AF80F6176EA00222632 /* do-hantecu.png */; };
@@ -76,12 +77,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* HantecAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HantecAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* HantecAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HantecAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Hantec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hantec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		28A0AAE50D9B0CCF005BE974 /* Hantec_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hantec_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -107,9 +106,13 @@
 		6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDictionaryCell.m; sourceTree = "<group>"; };
 		6949C77E0F5AEAF200BCAA1E /* HDictionaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HDictionaryCell.xib; sourceTree = "<group>"; };
 		6949C8640F5B27A000BCAA1E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		69779A820FCB2B9F00F55645 /* HSettingsMetadataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSettingsMetadataSource.h; sourceTree = "<group>"; };
+		69779A830FCB2B9F00F55645 /* HSettingsMetadataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSettingsMetadataSource.m; sourceTree = "<group>"; };
 		6985EF090F93C52E0006C9FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6985EF360F93CA020006C9FE /* oblibene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oblibene.png; path = images/oblibene.png; sourceTree = "<group>"; };
 		6985EF5D0F93E8520006C9FE /* nastaveni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nastaveni.png; path = images/nastaveni.png; sourceTree = "<group>"; };
+		69AB45310FCC8912007291B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69AB45320FCC8912007291B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69BFA0740F9E660200F406B9 /* slovo-dne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slovo-dne.png"; path = "images/slovo-dne.png"; sourceTree = "<group>"; };
 		69D32AE90F61490600222632 /* z-hantecu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "z-hantecu.png"; path = "images/z-hantecu.png"; sourceTree = "<group>"; };
 		69D32AF80F6176EA00222632 /* do-hantecu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "do-hantecu.png"; path = "images/do-hantecu.png"; sourceTree = "<group>"; };
@@ -145,9 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				690929180FA1F2AB000F21E4 /* libmySettings.a in Frameworks */,
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				69AB45340FCC8912007291B1 /* CoreGraphics.framework in Frameworks */,
+				69AB45350FCC8912007291B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +168,8 @@
 				6949C77C0F5AEA8F00BCAA1E /* HDictionaryCell.m */,
 				69054C880F88FD5B00E52EE3 /* HTabBarController.h */,
 				69054C890F88FD5B00E52EE3 /* HTabBarController.m */,
+				69779A820FCB2B9F00F55645 /* HSettingsMetadataSource.h */,
+				69779A830FCB2B9F00F55645 /* HSettingsMetadataSource.m */,
 				690629660F9F945F00E16BE4 /* HSettingsController.h */,
 				690629670F9F945F00E16BE4 /* HSettingsController.m */,
 				69ECB2590FA790B500E660DA /* HNavigationController.h */,
@@ -229,8 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
-				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				69AB45320FCC8912007291B1 /* Foundation.framework */,
+				69AB45310FCC8912007291B1 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -426,6 +431,7 @@
 				690929820FA2020B000F21E4 /* InfoSettingsCustomCell.m in Sources */,
 				69ECB25B0FA790B500E660DA /* HNavigationController.m in Sources */,
 				69ECB2DC0FA7C9BD00E660DA /* HWordDetails.m in Sources */,
+				69779A840FCB2B9F00F55645 /* HSettingsMetadataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

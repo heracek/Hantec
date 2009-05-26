@@ -253,6 +253,10 @@
 		totalNumOfWords += [[section objectForKey:kSectionData] count];
 	}
 	
+	if (totalNumOfWords <= 0) {
+		return [NSDictionary dictionary];
+	}
+	
 	NSInteger absoluteIndexOfWordOfTheDay = arc4random() % totalNumOfWords;
 	NSInteger wordsPassed = 0;
 	for (NSDictionary *section in _dataBySections) {

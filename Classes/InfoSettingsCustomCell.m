@@ -11,6 +11,8 @@
 
 @implementation InfoSettingsCustomCell
 
+@synthesize url = _url;
+
 @synthesize configuration, value, changedsettings;
 
 - (id)initWithReuseIdentifier:(NSString *)reuseIdentifier {
@@ -33,7 +35,7 @@
 	[label release];
 }
 
-- (void) layoutSubviews {
+- (void)layoutSubviews {
 	[super layoutSubviews];
 	
 	CGRect titleframe = label.frame;
@@ -44,17 +46,17 @@
 	
 	label.frame = titleframe;
 }
-/*
- - (void) setConfiguration:(NSDictionary *)config {
- configuration = config;
- label.text = [configuration objectForKey:@"Title"];
- 
- }
- */
 
-- (void) setValue:(NSObject *)newvalue {
-	value = newvalue;
+- (void)setConfiguration:(NSDictionary *)config {
+	configuration = config;
+}
+
+- (void)setValue:(NSObject *)_config {
+	NSArray *config = (NSArray *)_config;
+	
+	value = [[config objectAtIndex:0] retain];
 	label.text = (NSString *) value;
+	self.url = [config objectAtIndex:1];
 }
 
 @end

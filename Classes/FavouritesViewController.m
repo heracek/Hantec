@@ -26,7 +26,7 @@
         }
     }
 	
-	return [[NSMutableArray alloc] initWithContentsOfFile:_pathToUserCopyOfPlist];
+	return [[[NSMutableArray alloc] initWithContentsOfFile:_pathToUserCopyOfPlist] autorelease];
 }
 
 - (void)awakeFromNib {
